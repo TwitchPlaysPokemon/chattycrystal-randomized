@@ -1,6 +1,6 @@
-# Pokémon Chatty Crystal
+# Pokémon Randomized Chatty Crystal
 
-Welcome to TPP's latest anniversary ROM hack! This game features another comeback of the chatty mechanic, where part
+Welcome to TPP's 2021 anniversary ROM hack randomized for 2022! This game features another comeback of the chatty mechanic, where part
 of the game's text is taken from TPP's stream chat. There are likewise some special moves controlled by the chat as
 well. Notwithstanding, the game is fully playable without access to a stream.
 
