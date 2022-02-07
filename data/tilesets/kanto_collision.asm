@@ -201,3 +201,28 @@
 	tilecoll FLOOR, FLOOR, WARP_CARPET_DOWN, WARP_CARPET_DOWN ; c8
 	tilecoll FLOOR, FLOOR, WARP_CARPET_DOWN, WARP_CARPET_DOWN ; c9
 	tilecoll WALL, WALL, WALL, WALL ; ca
+	tilecoll WALL, WALL, WALL, WALL ; cb
+	tilecoll ICE, ICE, ICE, ICE ; cc
+	tilecoll ICE, ICE, ICE, ICE ; cd
+	tilecoll ICE, ICE, ICE, ICE ; ce
+	tilecoll ICE, ICE, ICE, ICE ; cf
+	tilecoll ICE, ICE, ICE, ICE ; d0
+	tilecoll ICE, ICE, ICE, ICE ; d1
+	tilecoll ICE, ICE, ICE, ICE ; d2
+	tilecoll ICE, ICE, ICE, ICE ; d3
+	tilecoll WALL, ICE, WALL, ICE ; d4
+	tilecoll ICE, WALL, ICE, WALL ; d5
+	tilecoll WALL, ICE, WALL, ICE ; d6
+	tilecoll ICE, WALL, ICE, WALL ; d7
+	tilecoll WALL, ICE, WALL, WALL ; d8
+	tilecoll ICE, WALL, WALL, WALL ; d9
+	tilecoll WALL, WALL, ICE, ICE ; da
+	tilecoll ICE, ICE, WALL, WALL ; db
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; dc
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; dd
+	tilecoll ICE, ICE, ICE, WATER ; de
+	tilecoll WATER, ICE, ICE, ICE ; df
+	tilecoll ICE, ICE, ICE, WATER ; e0
+	tilecoll FLOOR, FLOOR, WARP_CARPET_DOWN, WARP_CARPET_DOWN ; e1
+	tilecoll WALL, WALL, WALL, WALL ; e2
+	tilecoll WALL, WALL, WALL, WALL ; e3
