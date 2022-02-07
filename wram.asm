@@ -191,7 +191,7 @@ wTempObjectCopyX:: db
 wTempObjectCopyY:: db
 wTempObjectCopyRadius:: db
 
-	ds 1
+wForceEncounter:: db
 
 wTileDown::  db
 wTileUp::    db

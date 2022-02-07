@@ -416,6 +416,8 @@ UsedSurfScript:
 	waitbutton
 	closetext
 
+	callasm .fishing_hole_encounters
+
 	readmem wBuffer2
 	writevar VAR_MOVEMENT
 
@@ -424,7 +426,23 @@ UsedSurfScript:
 ; step into the water (slow_step DIR, step_end)
 	special SurfStartStep
 	applymovement PLAYER, wMovementBuffer
+	callasm .encounter
 	end
+
+.fishing_hole_encounters:
+	ld a, [wPlayerStandingTile]
+	cp COLL_ICE
+	ret nz
+	ld a, 1
+	ld [wForceEncounter], a
+	ret
+
+.encounter
+	ld a, [wForceEncounter]
+	and a
+	ret z
+	farcall RandomEncounter
+	ret
 
 UsedSurfText:
 	text_far _UsedSurfText
