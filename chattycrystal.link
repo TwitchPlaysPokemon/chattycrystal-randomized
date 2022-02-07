@@ -73,6 +73,7 @@ ROMX $15
 	"Tileset Data 13"
 ROMX $16
 	"Map Scripts 2"
+	"Tileset Data 16"
 ROMX $17
 	"Enemy Trainer Parties 1"
 	"Map Scripts 24"

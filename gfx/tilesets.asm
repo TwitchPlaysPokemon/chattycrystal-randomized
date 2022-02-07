@@ -36,15 +36,6 @@ INCBIN "data/tilesets/ice_path_metatiles.bin"
 TilesetIcePathColl:
 INCLUDE "data/tilesets/ice_path_collision.asm"
 
-TilesetPlayersRoomGFX:
-INCBIN "gfx/tilesets/players_room.2bpp.lz"
-
-TilesetPlayersRoomMeta:
-INCBIN "data/tilesets/players_room_metatiles.bin"
-
-TilesetPlayersRoomColl:
-INCLUDE "data/tilesets/players_room_collision.asm"
-
 
 SECTION "Tileset Data 2", ROMX
 
@@ -367,6 +358,7 @@ SECTION "Tileset Data 13", ROMX
 TilesetTraditionalHouseGFX:
 INCBIN "gfx/tilesets/traditional_house.2bpp.lz"
 
+
 SECTION "Tileset Data 14", ROMX
 
 TilesetSafariGFX:
@@ -396,3 +388,15 @@ TilesetKabutoWordRoomGFX:
 TilesetOmanyteWordRoomGFX:
 TilesetAerodactylWordRoomGFX:
 INCBIN "gfx/tilesets/aerodactyl_word_room.2bpp.lz"
+
+
+SECTION "Tileset Data 16", ROMX
+
+TilesetPlayersRoomGFX:
+INCBIN "gfx/tilesets/players_room.2bpp.lz"
+
+TilesetPlayersRoomMeta:
+INCBIN "data/tilesets/players_room_metatiles.bin"
+
+TilesetPlayersRoomColl:
+INCLUDE "data/tilesets/players_room_collision.asm"

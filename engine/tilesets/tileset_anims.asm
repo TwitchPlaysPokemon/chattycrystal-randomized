@@ -43,7 +43,7 @@ TilesetSafariAnim:
 	dw NULL,  WaitTileAnimation
 	dw NULL,  AnimateWaterPalette
 	dw NULL,  WaitTileAnimation
-	dw NULL,  AnimateFlowerTile
+	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
 	dw NULL,  StandingTileFrame8
@@ -56,7 +56,7 @@ TilesetParkAnim:
 	dw NULL,  WaitTileAnimation
 	dw NULL,  AnimateWaterPalette
 	dw NULL,  WaitTileAnimation
-	dw NULL,  AnimateFlowerTile
+	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
 	dw NULL,  StandingTileFrame8
@@ -70,7 +70,7 @@ TilesetForestAnim:
 	dw NULL,  WaitTileAnimation
 	dw NULL,  ForestTreeLeftAnimation2
 	dw NULL,  ForestTreeRightAnimation2
-	dw NULL,  AnimateFlowerTile
+	dw NULL,  WaitTileAnimation
 	dw vTiles2 tile $14, AnimateWaterTile
 	dw NULL,  AnimateWaterPalette
 	dw NULL,  StandingTileFrame8
@@ -82,7 +82,7 @@ TilesetJohtoAnim:
 	dw NULL,  WaitTileAnimation
 	dw NULL,  AnimateWaterPalette
 	dw NULL,  WaitTileAnimation
-	dw NULL,  AnimateFlowerTile
+	dw NULL,  WaitTileAnimation
 	dw WhirlpoolFrames1, AnimateWhirlpoolTile
 	dw WhirlpoolFrames2, AnimateWhirlpoolTile
 	dw WhirlpoolFrames3, AnimateWhirlpoolTile
@@ -571,44 +571,6 @@ GetForestTreeFrame:
 .even
 	xor a
 	ret
-
-AnimateFlowerTile:
-; No parameters.
-
-; Save sp in bc (see WriteTile).
-	ld hl, sp+0
-	ld b, h
-	ld c, l
-
-; Alternate tile graphic every other frame
-	ld a, [wTileAnimationTimer]
-	and %10
-
-; CGB has different color mappings for flowers.
-	ld e, a
-	ldh a, [hCGB]
-	and a
-	jr z, .not_color
-	ld a, 1
-.not_color
-	add e
-
-	swap a
-	ld e, a
-	ld d, 0
-	ld hl, FlowerTileFrames
-	add hl, de
-	ld sp, hl
-
-	ld hl, vTiles2 tile $03
-
-	jp WriteTile
-
-FlowerTileFrames:
-	INCBIN "gfx/tilesets/flower/dmg_1.2bpp"
-	INCBIN "gfx/tilesets/flower/cgb_1.2bpp"
-	INCBIN "gfx/tilesets/flower/dmg_2.2bpp"
-	INCBIN "gfx/tilesets/flower/cgb_2.2bpp"
 
 LavaBubbleAnim1:
 ; Splash in the bottom-right corner of the fountain.

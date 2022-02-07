@@ -126,4 +126,21 @@
 	tilecoll WALL, WALL, WALL, WALL ; 7d
 	tilecoll WALL, WALL, WALL, WALL ; 7e
 	tilecoll WALL, WALL, WALL, WALL ; 7f
-	tilecoll WATER, WATER, WATER, WATER ; 80
+	tilecoll ICE, ICE, ICE, ICE ; 80
+	tilecoll ICE, ICE, ICE, ICE ; 81
+	tilecoll ICE, ICE, ICE, ICE ; 82
+	tilecoll ICE, ICE, ICE, ICE ; 83
+	tilecoll ICE, ICE, ICE, ICE ; 84
+	tilecoll ICE, ICE, ICE, ICE ; 85
+	tilecoll ICE, ICE, ICE, ICE ; 86
+	tilecoll ICE, ICE, ICE, ICE ; 87
+	tilecoll ICE, ICE, ICE, WATER ; 88
+	tilecoll WATER, ICE, ICE, ICE ; 89
+	tilecoll ICE, ICE, ICE, WATER ; 8a
+	tilecoll ICE, ICE, WATER, ICE ; 8b
+	tilecoll ICE, WATER, ICE, ICE ; 8c
+	tilecoll ICE, ICE, WATER, ICE ; 8d
+	tilecoll ICE, ICE, ICE, WATER ; 8e
+	tilecoll ICE, WATER, WATER, ICE ; 8f
+	tilecoll ICE, ICE, WATER, ICE ; 90
+	tilecoll WATER, WATER, WATER, WATER ; 91
