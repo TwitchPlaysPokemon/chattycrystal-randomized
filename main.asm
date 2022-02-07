@@ -102,11 +102,6 @@ INCLUDE "engine/battle/misc.asm"
 INCLUDE "engine/events/special_mons.asm"
 
 
-SECTION "Roofs", ROMX
-
-INCLUDE "engine/tilesets/mapgroup_roofs.asm"
-
-
 SECTION "Clock Reset", ROMX
 
 INCLUDE "engine/rtc/restart_clock.asm"
