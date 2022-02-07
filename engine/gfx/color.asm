@@ -961,6 +961,8 @@ LoadMapPals:
 	; Which palette group is based on whether we're outside or inside
 	ld a, [wEnvironment]
 	and 7
+	cp DUNGEON
+	jr z, .dungeon
 	ld e, a
 	ld d, 0
 	ld hl, EnvironmentColorsPointers
@@ -1026,6 +1028,18 @@ LoadMapPals:
 	ld a, BANK(wOBPals1)
 	jp FarCopyWRAM
 
+.dungeon
+	ld hl, DungeonPals
+	ld a, [wTimeOfDayPal]
+	maskbits NUM_DAYTIMES
+	ld bc, 8 palettes
+	call AddNTimes
+	ld de, wBGPals1
+	ld bc, 8 palettes
+	ld a, BANK(wBGPals1)
+	call FarCopyWRAM
+	jr .got_pals
+
 INCLUDE "data/maps/environment_colors.asm"
 
 PartyMenuBGMobilePalette:
@@ -1039,6 +1053,9 @@ INCLUDE "gfx/tilesets/bg_tiles.pal"
 
 MapObjectPals::
 INCLUDE "gfx/overworld/npc_sprites.pal"
+
+DungeonPals:
+INCLUDE "gfx/tilesets/dungeon.pal"
 
 DiplomaPalettes:
 INCLUDE "gfx/diploma/diploma.pal"

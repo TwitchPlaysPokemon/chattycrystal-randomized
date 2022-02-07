@@ -14,6 +14,10 @@ LoadSpecialMapPalette:
 	jr z, .mansion_mobile
 	cp TILESET_PKMN_MANSION
 	jr z, .pkmn_mansion
+	cp TILESET_LAB
+	jr z, .indoor_nite
+	cp TILESET_ELITE_FOUR_ROOM
+	jr z, .indoor_nite
 	jr .do_nothing
 
 .pokecom_2f
@@ -55,6 +59,15 @@ LoadSpecialMapPalette:
 	cp NITE_F
 	jr nz, .do_nothing
 	call LoadPkmnMansionPalette
+	scf
+	ret
+
+.indoor_nite
+	ld a, [wTimeOfDayPal]
+	maskbits NUM_DAYTIMES
+	cp PALETTE_NITE
+	jr nz, .do_nothing
+	call LoadIndoorNitePalette
 	scf
 	ret
 
@@ -156,3 +169,14 @@ LoadPkmnMansionPalette:
 
 PkmnMansionPalette:
 INCLUDE "gfx/tilesets/pkmn_mansion.pal"
+
+LoadIndoorNitePalette:
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, IndoorNitePalette
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	ret
+
+IndoorNitePalette:
+INCLUDE "gfx/tilesets/indoor_nite.pal"
