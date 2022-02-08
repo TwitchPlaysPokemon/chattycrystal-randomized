@@ -144,3 +144,5 @@
 	tilecoll ICE, WATER, WATER, ICE ; 8f
 	tilecoll ICE, ICE, WATER, ICE ; 90
 	tilecoll WATER, WATER, WATER, WATER ; 91
+	tilecoll ICE, WALL, WATER, WALL ; 92
+	tilecoll WALL, WATER, WALL, WATER ; 93
