@@ -801,6 +801,8 @@ dig_incave:
 	jr z, .incave
 	cp DUNGEON
 	jr z, .incave
+	cp ISOLATED
+	jr z, .incave
 .fail
 	ld a, $2
 	ret

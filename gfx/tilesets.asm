@@ -400,3 +400,15 @@ INCBIN "data/tilesets/players_room_metatiles.bin"
 
 TilesetPlayersRoomColl:
 INCLUDE "data/tilesets/players_room_collision.asm"
+
+
+SECTION "Tileset Data 17", ROMX
+
+TilesetSilverCaveGFX:
+INCBIN "gfx/tilesets/silver_cave.2bpp.lz"
+
+TilesetSilverCaveMeta:
+INCBIN "data/tilesets/silver_cave_metatiles.bin"
+
+TilesetSilverCaveColl:
+INCLUDE "data/tilesets/silver_cave_collision.asm"

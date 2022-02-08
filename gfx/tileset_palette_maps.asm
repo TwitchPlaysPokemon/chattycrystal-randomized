@@ -121,3 +121,6 @@ TilesetKabutoWordRoomPalMap:
 TilesetOmanyteWordRoomPalMap:
 TilesetAerodactylWordRoomPalMap:
 INCLUDE "gfx/tilesets/ho_oh_word_room_palette_map.asm"
+
+TilesetSilverCavePalMap:
+INCLUDE "gfx/tilesets/silver_cave_palette_map.asm"

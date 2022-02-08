@@ -1113,6 +1113,8 @@ CanUseSweetScent::
 	jr z, .ice_check
 	cp DUNGEON
 	jr z, .ice_check
+	cp ISOLATED
+	jr z, .ice_check
 	farcall CheckGrassCollision
 	jr nc, .no
 

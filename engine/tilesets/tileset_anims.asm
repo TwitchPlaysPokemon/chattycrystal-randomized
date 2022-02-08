@@ -218,6 +218,7 @@ TilesetMuseumAnim:
 TilesetKantoForestAnim:
 TilesetPkmnMansionAnim:
 TilesetCemeteryAnim:
+TilesetSilverCaveAnim:
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation

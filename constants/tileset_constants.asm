@@ -41,6 +41,7 @@
 	const TILESET_SAFARI               ; 27
 	const TILESET_PKMN_MANSION         ; 28
 	const TILESET_CEMETERY             ; 29
+	const TILESET_SILVER_CAVE          ; 2a
 
 ; bg palette values (see gfx/tilesets/*_palette_map.asm)
 ; TilesetBGPalette indexes (see gfx/tilesets/bg_tiles.pal)

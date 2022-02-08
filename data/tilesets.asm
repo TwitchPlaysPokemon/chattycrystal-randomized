@@ -54,3 +54,4 @@ Tilesets::
 	tileset TilesetSafari
 	tileset TilesetPkmnMansion
 	tileset TilesetCemetery
+	tileset TilesetSilverCave

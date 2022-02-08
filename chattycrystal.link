@@ -127,6 +127,7 @@ ROMX $29
 	"Songs 8"
 ROMX $2a
 	"Map Blocks 1"
+	"Tileset Data 17"
 ROMX $2b
 	"Map Blocks 2"
 	"Songs 10"

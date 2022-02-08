@@ -11,8 +11,8 @@ SilverCaveRoom3_MapScripts:
 .RuinWall:
 	checkevent EVENT_RED_IN_MT_SILVER
 	iffalse .CloseWall
-	changeblock 9, 7, 98
-	changeblock 10, 7, 99
+	changeblock 9, 7, 22
+	changeblock 10, 7, 23
 .CloseWall
 	return
 
@@ -42,8 +42,8 @@ Red:
 	pause 30
 	earthquake 50
 	playsound SFX_STRENGTH
-	changeblock 9, 7, 98
-	changeblock 10, 7, 99
+	changeblock 9, 7, 22
+	changeblock 10, 7, 23
 	reloadmappart
 	waitsfx
 	special PlayMapMusic
