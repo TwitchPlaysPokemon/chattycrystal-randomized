@@ -634,8 +634,10 @@ _CGB_TrainerCard:
 	ld a, KRIS
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
-	ld hl, .leader_sprite_palette
+rept 6
+	ld hl, .leader_palette
 	call LoadPalette_White_Col1_Col2_Black
+endr
 	ld a, PREDEFPAL_CGB_BADGE
 	call GetPredefPal
 	call LoadHLPaletteIntoDE
@@ -659,50 +661,57 @@ _CGB_TrainerCard:
 	ld a, 1 ; kris
 .got_gender2
 	call FillBoxCGB
-	; top-right corner still uses the border's palette
+	; top-right corner still uses the border's opposite-gender palette
 	hlcoord 18, 1, wAttrMap
-	ld [hl], $1
+	ld a, [wPlayerGender]
+	and a
+	ld a, 1 ; kris
+	jr z, .got_gender3
+	xor a
+.got_gender3
+	ld [hl], a
+	; each leader uses the same generic palette
 	hlcoord 2, 11, wAttrMap
 	lb bc, 2, 4
-	ld a, b
+	ld a, 2 ; first
 	call FillBoxCGB
 	hlcoord 6, 11, wAttrMap
 	lb bc, 2, 4
+	ld a, 2 ; second
 	call FillBoxCGB
 	hlcoord 10, 11, wAttrMap
 	lb bc, 2, 4
+	ld a, 2 ; third
 	call FillBoxCGB
 	hlcoord 14, 11, wAttrMap
 	lb bc, 2, 4
+	ld a, 2 ; fourth
 	call FillBoxCGB
 	hlcoord 2, 14, wAttrMap
 	lb bc, 2, 4
+	ld a, 2 ; fifth
 	call FillBoxCGB
 	hlcoord 6, 14, wAttrMap
 	lb bc, 2, 4
+	ld a, 2 ; sixth
 	call FillBoxCGB
 	hlcoord 10, 14, wAttrMap
 	lb bc, 2, 4
+	ld a, 2 ; seventh
 	call FillBoxCGB
 	hlcoord 14, 14, wAttrMap
 	lb bc, 2, 4
+	ld a, 2 ; eighth
 	call FillBoxCGB
-	ld a, [wPlayerGender]
-	and a
-	jr z, .got_gender4
-	ld a, 1
-.got_gender4
-	hlcoord 18, 1, wAttrMap
-	ld [hl], a
 	call ApplyAttrMap
 	call ApplyPals
 	ld a, 1
 	ldh [hCGBPalUpdate], a
 	ret
 
-.leader_sprite_palette
-	RGB 21, 21, 21
-	RGB 10, 10, 10
+.leader_palette
+	RGB 30, 22, 17
+	RGB 16, 14, 19
 
 _CGB_MoveList:
 	ld de, wBGPals1

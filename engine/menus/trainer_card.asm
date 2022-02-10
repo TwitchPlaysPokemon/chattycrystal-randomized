@@ -66,10 +66,12 @@ TrainerCard:
 
 	call EnableLCD
 	call WaitBGMap
+
 	ld b, SCGB_TRAINER_CARD
 	call GetSGBLayout
 	call SetPalettes
 	call WaitBGMap
+
 	ld hl, wJumptableIndex
 	xor a ; TRAINERCARDSTATE_PAGE1_LOADGFX
 	ld [hli], a ; wJumptableIndex
@@ -134,6 +136,12 @@ TrainerCard_Page2_LoadGFX:
 	ld d, 6
 	call TrainerCard_InitBorder
 	call WaitBGMap
+
+	ld b, SCGB_TRAINER_CARD
+	call GetSGBLayout
+	call SetPalettes
+	call WaitBGMap
+
 	ld de, LeaderGFX
 	ld hl, vTiles2 tile $29
 	lb bc, BANK(LeaderGFX), 86
@@ -152,10 +160,13 @@ TrainerCard_Page2_Joypad:
 	ld hl, hJoyLast
 	ld a, [hl]
 	and A_BUTTON
-	jr nz, .Quit
+	jr nz, .pressed_a
 	ld a, [hl]
 	and D_LEFT
 	jr nz, .d_left
+	ld a, [hl]
+	and D_RIGHT
+	jr nz, .d_right
 	ret
 
 .d_left
@@ -163,7 +174,23 @@ TrainerCard_Page2_Joypad:
 	ld [wJumptableIndex], a
 	ret
 
-.Quit:
+.d_right
+	ld a, [wKantoBadges]
+	and a
+	ret z
+	ld a, TRAINERCARDSTATE_PAGE3_LOADGFX
+	ld [wJumptableIndex], a
+	ret
+
+.pressed_a
+	ld a, [wKantoBadges]
+	and a
+	jr z, .quit
+	ld a, TRAINERCARDSTATE_PAGE3_LOADGFX
+	ld [wJumptableIndex], a
+	ret
+
+.quit
 	ld a, TRAINERCARDSTATE_QUIT
 	ld [wJumptableIndex], a
 	ret
@@ -174,6 +201,12 @@ TrainerCard_Page3_LoadGFX:
 	ld d, 6
 	call TrainerCard_InitBorder
 	call WaitBGMap
+
+	ld b, SCGB_TRAINER_CARD
+	call GetSGBLayout
+	call SetPalettes
+	call WaitBGMap
+
 	ld de, LeaderGFX2
 	ld hl, vTiles2 tile $29
 	lb bc, BANK(LeaderGFX2), 86
@@ -187,9 +220,12 @@ TrainerCard_Page3_LoadGFX:
 	ret
 
 TrainerCard_Page3_Joypad:
-	ld hl, TrainerCard_JohtoBadgesOAM
+	ld hl, TrainerCard_KantoBadgesOAM
 	call TrainerCard_Page2_3_AnimateBadges
 	ld hl, hJoyLast
+	ld a, [hl]
+	and A_BUTTON
+	jr nz, .pressed_a
 	ld a, [hl]
 	and D_LEFT
 	jr nz, .left
@@ -205,6 +241,11 @@ TrainerCard_Page3_Joypad:
 
 .right
 	ld a, TRAINERCARDSTATE_PAGE1_LOADGFX
+	ld [wJumptableIndex], a
+	ret
+
+.pressed_a
+	ld a, TRAINERCARDSTATE_QUIT
 	ld [wJumptableIndex], a
 	ret
 
@@ -592,11 +633,55 @@ TrainerCard_JohtoBadgesOAM:
 	db $1c,            $20, $24, $20 | (1 << 7)
 	db $1c | (1 << 7), $20, $24, $20 | (1 << 7)
 
+TrainerCard_KantoBadgesOAM:
+	dw wKantoBadges
+
+	; Boulderbadge
+	db $68, $18, 0
+	db $00, $20, $24, $20 | (1 << 7)
+	db $00, $20, $24, $20 | (1 << 7)
+
+	; Cascadebadge
+	db $68, $38, 0
+	db $04, $20, $24, $20 | (1 << 7)
+	db $04, $20, $24, $20 | (1 << 7)
+
+	; Thunderbadge
+	db $68, $58, 0
+	db $08, $20, $24, $20 | (1 << 7)
+	db $08, $20, $24, $20 | (1 << 7)
+
+	; Rainbowbadge
+	db $68, $78, 0
+	db $0c, $20, $24, $20 | (1 << 7)
+	db $0c, $20, $24, $20 | (1 << 7)
+
+	; Marshbadge
+	db $80, $18, 0
+	db $10, $20, $24, $20 | (1 << 7)
+	db $10, $20, $24, $20 | (1 << 7)
+
+	; Soulbadge
+	db $80, $38, 0
+	db $14, $20, $24, $20 | (1 << 7)
+	db $14, $20, $24, $20 | (1 << 7)
+
+	; Volcanobadge
+	db $80, $58, 0
+	db $18, $20, $24, $20 | (1 << 7)
+	db $18, $20, $24, $20 | (1 << 7)
+
+	; Earthbadge
+	; X-flips on alternate cycles.
+	db $80, $78, 0
+	db $1c,            $20, $24, $20 | (1 << 7)
+	db $1c | (1 << 7), $20, $24, $20 | (1 << 7)
+
 CardStatusGFX: INCBIN "gfx/trainer_card/card_status.2bpp"
 
 LeaderGFX:  INCBIN "gfx/trainer_card/leaders.2bpp"
-LeaderGFX2: INCBIN "gfx/trainer_card/leaders.2bpp"
+LeaderGFX2: INCBIN "gfx/trainer_card/leaders2.2bpp"
 BadgeGFX:   INCBIN "gfx/trainer_card/badges.2bpp"
-BadgeGFX2:  INCBIN "gfx/trainer_card/badges.2bpp"
+BadgeGFX2:  INCBIN "gfx/trainer_card/badges2.2bpp"
 
 CardRightCornerGFX: INCBIN "gfx/trainer_card/card_right_corner.2bpp"
