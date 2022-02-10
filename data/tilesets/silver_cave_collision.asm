@@ -34,3 +34,7 @@
 	tilecoll WALL, WALL, WALL, WALL ; 21
 	tilecoll WALL, UP_WALL, WALL, FLOOR ; 22
 	tilecoll UP_WALL, WALL, FLOOR, WALL ; 23
+	tilecoll WALL, WALL, WALL, WALL ; 24
+	tilecoll WALL, WALL, WALL, WALL ; 25
+	tilecoll WALL, WALL, WALL, WALL ; 26
+	tilecoll WALL, WALL, WALL, WALL ; 27
