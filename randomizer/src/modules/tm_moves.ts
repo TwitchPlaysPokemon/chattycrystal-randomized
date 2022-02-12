@@ -16,7 +16,7 @@ export default class TMMovesRandomizer implements RandoModule {
 
         console.log("Randomizing TMs and Move Tutors");
 
-        let availableMoves = moveConstants.slice(1).filter(m => m != "STRUGGLE" && m != "CHATTY_HP");
+        let availableMoves = moveConstants.slice(1).filter(m => m != "STRUGGLE" && m != "CHATTY_HP" && m != "CHATTER");
 
         const replaceMoves = (moveList:string[]) => moveList.map(oldMove => {
             if (oldMove == "ROCK_SMASH")
