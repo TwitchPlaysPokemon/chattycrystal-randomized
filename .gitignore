@@ -60,3 +60,8 @@ gfx/pokemon/*/frames.asm
 controller/trainer_name_map
 controller/target
 chattycrystal.ss1
+
+#Randomizer generated files
+randomizer/bin/*
+randomizer/node_modules/*
+randomizer/dump.json

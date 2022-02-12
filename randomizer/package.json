@@ -1,0 +1,32 @@
+{
+  "name": "chattycrystal-randomizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "randomize.js",
+  "directories": {
+    "lib": "lib",
+    "bin": "bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TwitchPlaysPokemon/chattycrystal-randomized.git"
+  },
+  "author": "M4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TwitchPlaysPokemon/chattycrystal-randomized/issues"
+  },
+  "homepage": "https://github.com/TwitchPlaysPokemon/chattycrystal-randomized#readme",
+  "devDependencies": {
+    "@types/diff": "^5.0.2",
+    "@types/node": "^15.12.2",
+    "diff": "^5.0.0",
+    "typescript": "^4.3.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "randomize": "node ./bin/randomize.js",
+    "test": "tsc; node ./bin/test.js",
+    "dump": "tsc; node ./bin/dump.js > dump.json; cat dump.json"
+  }
+}
