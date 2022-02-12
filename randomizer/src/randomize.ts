@@ -1,7 +1,11 @@
+import TMMovesRandomizer from "./modules/tm_moves";
+
 const modules: RandoModule[] = [
+    new TMMovesRandomizer(),
 ];
 
 const command = (process.argv[2] || "").toLowerCase();
+process.chdir("..");
 
 (function () {
     if (command) {
