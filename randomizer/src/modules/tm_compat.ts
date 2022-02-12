@@ -14,6 +14,8 @@ export default class TMCompatRandomizer implements RandoModule {
         baseStatParsers.forEach(p => p.data.tmhms.forEach(tm => availableTMs.includes(tm) ? null : availableTMs.push(tm)));
         availableTMs = availableTMs.filter(tm => !immutableTMs.includes(tm));
         
+        console.log("Randomizing TM compatibility...");
+
         baseStatParsers.forEach(p=> {
             const replacements = [...availableTMs];
             const data = p.data;
@@ -27,6 +29,8 @@ export default class TMCompatRandomizer implements RandoModule {
             })
             p.data = data;
         });
+
+        console.log("Finished.")
     }
 
 }
