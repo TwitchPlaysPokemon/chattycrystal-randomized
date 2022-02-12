@@ -19,7 +19,7 @@ FishGroups:
 	fishgroup 50 percent + 1, .WhirlIslands_Old,     .WhirlIslands_Good,     .WhirlIslands_Super
 	fishgroup 50 percent + 1, .Qwilfish_Old,         .Qwilfish_Good,         .Qwilfish_Super
 	fishgroup 50 percent + 1, .Remoraid_Old,         .Remoraid_Good,         .Remoraid_Super
-	fishgroup 50 percent + 1, .Qwilfish_NoSwarm_Old, .Qwilfish_NoSwarm_Good, .Qwilfish_NoSwarm_Super
+	fishgroup 50 percent + 1, .Qwilfish_Old,         .Qwilfish_Good,         .Qwilfish_Super
 
 .Shore_Old:
 	dbbw  70 percent + 1, 15, MAGIKARP
@@ -171,18 +171,15 @@ FishGroups:
 	dbbw  90 percent + 1, 65, KINGLER
 	dbbw 100 percent,     65, SEADRA
 
-.Qwilfish_NoSwarm_Old:
 .Qwilfish_Old:
 	dbbw  70 percent + 1, 15, MAGIKARP
 	dbbw  85 percent + 1, 15, MAGIKARP
 	dbbw 100 percent,     15, TENTACOOL
-.Qwilfish_NoSwarm_Good:
 .Qwilfish_Good:
 	dbbw  35 percent,     35, MAGIKARP
 	dbbw  70 percent,     35, TENTACOOL
 	dbbw  90 percent + 1, 35, TENTACOOL
 	dbbw 100 percent,     20, TIME_GROUP
-.Qwilfish_NoSwarm_Super:
 .Qwilfish_Super:
 	dbbw  40 percent,     65, TENTACOOL
 	dbbw  70 percent,     21, TIME_GROUP
