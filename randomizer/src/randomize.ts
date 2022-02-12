@@ -1,7 +1,9 @@
+import TMCompatRandomizer from "./modules/tm_compat";
 import TMMovesRandomizer from "./modules/tm_moves";
 
 const modules: RandoModule[] = [
     new TMMovesRandomizer(),
+    new TMCompatRandomizer(),
 ];
 
 const command = (process.argv[2] || "").toLowerCase();
