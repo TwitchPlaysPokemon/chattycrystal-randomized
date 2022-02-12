@@ -97,9 +97,9 @@ FishGroups:
 	dbbw 100 percent,     65, DRAGONAIR
 
 .Qwilfish_Swarm_Old:
-	dbbw  70 percent + 1,  15, MAGIKARP
-	dbbw  85 percent + 1,  15, MAGIKARP
-	dbbw 100 percent,      15, QWILFISH
+	dbbw  70 percent + 1, 15, MAGIKARP
+	dbbw  85 percent + 1, 15, MAGIKARP
+	dbbw 100 percent,     15, QWILFISH
 .Qwilfish_Swarm_Good:
 	dbbw  35 percent,     35, MAGIKARP
 	dbbw  70 percent,     35, QWILFISH
