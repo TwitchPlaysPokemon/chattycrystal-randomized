@@ -2,12 +2,14 @@ import EvolutionRandomizer from "./modules/evos";
 import LearnsetRandomizer from "./modules/moves";
 import TMCompatRandomizer from "./modules/tm_compat";
 import TMMovesRandomizer from "./modules/tm_moves";
+import WildRandomizer from "./modules/wilds";
 
 const modules: RandoModule[] = [
     new TMMovesRandomizer(),
     new TMCompatRandomizer(),
     new LearnsetRandomizer(),
     new EvolutionRandomizer(),
+    new WildRandomizer(),
 ];
 
 const command = (process.argv[2] || "").toLowerCase();
