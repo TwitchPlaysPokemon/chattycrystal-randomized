@@ -13,7 +13,7 @@ import { PickCascade, Shuffle } from "../utils/pick";
 
 export default class LearnsetRandomizer implements RandoModule {
     command = "learnsets"
-    helpText = "Randomizes pokemon learnsets. Replaces non-attacks with non-attacks and STAB with STAB.";
+    helpText = "Randomizes pokemon learnsets. Replaces non-attacks with non-attacks and STAB with STAB. Tries to keep attacks to within 40 power.";
     operation() {
         const moveConstants = new MoveConstantsParser("constants/move_constants.asm").data;
 
@@ -34,7 +34,7 @@ export default class LearnsetRandomizer implements RandoModule {
             console.log(pokeConstants[i]);
             const monStats = monStatsLookup[i];
 
-            const attacks = Shuffle(mon.attacks.map(atk => atk.move.split(' ').shift())).map(atk => {
+            const attacks = /*Shuffle*/(mon.attacks.map(atk => atk.move.split(' ').shift())).map(atk => {
                 const oldMoveInfo = moveLookup[atk];
                 const isStab = (m: Move) => m.doesDamage && (m.type == monStats.type1 || m.type == monStats.type2);
                 const shouldBeStab = isStab(oldMoveInfo);
@@ -42,6 +42,7 @@ export default class LearnsetRandomizer implements RandoModule {
                 const newMove = PickCascade(availableMoves,
                     m => moveLookup[m].doesDamage == oldMoveInfo.doesDamage, // replace non-attack with non-attack
                     m => !shouldBeStab || isStab(moveLookup[m]), // replace STAB with STAB
+                    m => Math.abs(moveLookup[m].power - oldMoveInfo.power) < 40,
                     m => m != atk // don't pick same move
                 );
                 return newMove || atk;
