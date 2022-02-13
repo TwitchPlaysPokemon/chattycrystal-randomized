@@ -1,3 +1,4 @@
+import ChatterEmotesRandomizer from "./modules/emotes";
 import EvolutionRandomizer from "./modules/evos";
 import LearnsetRandomizer from "./modules/moves";
 import TMCompatRandomizer from "./modules/tm_compat";
@@ -11,7 +12,8 @@ const modules: RandoModule[] = [
     new LearnsetRandomizer(),
     new EvolutionRandomizer(),
     new WildRandomizer(),
-    new TrainerRandomizer()
+    new TrainerRandomizer(),
+    new ChatterEmotesRandomizer()
 ];
 
 const command = (process.argv[2] || "").toLowerCase();
