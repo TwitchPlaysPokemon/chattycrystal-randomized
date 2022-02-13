@@ -14,7 +14,7 @@
 	dn EGG_BUG, EGG_BUG ; egg groups
 
 	; tm/hm learnset
-	tmhm HIDDEN_POWER, PROTECT
+	tmhm THUNDER_WAVE, STEEL_WING
 
 	ds BASE_PADDING_SIZE ; padding
 	assert (@ - :-) == BASE_DATA_SIZE ; end

@@ -14,7 +14,7 @@
 	dn EGG_MINERAL, EGG_MINERAL ; egg groups
 
 	; tm/hm learnset
-	tmhm HEADBUTT, IRON_HEAD
+	tmhm SHADOW_BALL, ICE_PUNCH
 
 	ds BASE_PADDING_SIZE ; padding
 	assert (@ - :-) == BASE_DATA_SIZE ; end
