@@ -22,206 +22,206 @@ FishGroups:
 	fishgroup 50 percent + 1, .Qwilfish_Old,         .Qwilfish_Good,         .Qwilfish_Super
 
 .Shore_Old:
-	dbbw  70 percent + 1, 15, MAGIKARP
-	dbbw  85 percent + 1, 15, MAGIKARP
-	dbbw 100 percent,     15, KRABBY
+	dbbw  70 percent + 1, 15, TYROGUE
+	dbbw  85 percent + 1, 15, POOCHYENA
+	dbbw 100 percent,     15, MAGBY
 .Shore_Good:
-	dbbw  35 percent,     35, MAGIKARP
-	dbbw  70 percent,     35, FEEBAS
-	dbbw  90 percent + 1, 35, CLAUNCHER
+	dbbw  35 percent,     35, BIDOOF
+	dbbw  70 percent,     35, METAPOD
+	dbbw  90 percent + 1, 35, PHANPY
 	dbbw 100 percent,      0, TIME_GROUP
 .Shore_Super:
-	dbbw  40 percent,     65, KINGLER
+	dbbw  40 percent,     65, KROOKODILE
 	dbbw  70 percent,      1, TIME_GROUP
-	dbbw  90 percent + 1, 65, CLAWITZER
-	dbbw 100 percent,     65, MILOTIC
+	dbbw  90 percent + 1, 65, LOPUNNY
+	dbbw 100 percent,     65, ZAPDOS
 
 .Ocean_Old:
-	dbbw  70 percent + 1, 15, MAGIKARP
-	dbbw  85 percent + 1, 15, MAGIKARP
-	dbbw 100 percent,     15, TENTACOOL
+	dbbw  70 percent + 1, 15, ZIGZAGOON
+	dbbw  85 percent + 1, 15, SLUGMA
+	dbbw 100 percent,     15, CHINCHOU
 .Ocean_Good:
-	dbbw  35 percent,     35, FEEBAS
-	dbbw  70 percent,     35, CHINCHOU
-	dbbw  90 percent + 1, 35, WAILMER
+	dbbw  35 percent,     35, SPINARAK
+	dbbw  70 percent,     35, LAMPENT
+	dbbw  90 percent + 1, 35, LILEEP
 	dbbw 100 percent,      2, TIME_GROUP
 .Ocean_Super:
 	dbbw  40 percent,      3, TIME_GROUP
-	dbbw  70 percent,     65, LANTURN
-	dbbw  90 percent + 1, 65, WAILORD
-	dbbw 100 percent,     65, MILOTIC
+	dbbw  70 percent,     65, PINSIR
+	dbbw  90 percent + 1, 65, WALREIN
+	dbbw 100 percent,     65, TOXICROAK
 
 .Lake_Old:
-	dbbw  70 percent + 1, 15, MAGIKARP
-	dbbw  85 percent + 1, 15, MAGIKARP
-	dbbw 100 percent,     15, GOLDEEN
+	dbbw  70 percent + 1, 15, SWINUB
+	dbbw  85 percent + 1, 15, MAKUHITA
+	dbbw 100 percent,     15, VENONAT
 .Lake_Good:
-	dbbw  35 percent,     35, MAGIKARP
-	dbbw  70 percent,     35, FEEBAS
-	dbbw  90 percent + 1, 35, GOLDEEN
+	dbbw  35 percent,     35, SPINARAK
+	dbbw  70 percent,     35, SUNKERN
+	dbbw  90 percent + 1, 35, LAMPENT
 	dbbw 100 percent,      4, TIME_GROUP
 .Lake_Super:
-	dbbw  40 percent,     65, GOLDEEN
+	dbbw  40 percent,     65, KRABBY
 	dbbw  70 percent,      5, TIME_GROUP
-	dbbw  90 percent + 1, 65, SEAKING
-	dbbw 100 percent,     65, MILOTIC
+	dbbw  90 percent + 1, 65, GIRAFARIG
+	dbbw 100 percent,     65, INFERNAPE
 
 .Pond_Old:
-	dbbw  70 percent + 1, 15, MAGIKARP
-	dbbw  85 percent + 1, 15, MAGIKARP
-	dbbw 100 percent,     15, POLIWAG
+	dbbw  70 percent + 1, 15, TYROGUE
+	dbbw  85 percent + 1, 15, SUNKERN
+	dbbw 100 percent,     15, MACHOP
 .Pond_Good:
-	dbbw  35 percent,     35, MAGIKARP
-	dbbw  70 percent,     35, POLIWAG
-	dbbw  90 percent + 1, 35, POLIWAG
+	dbbw  35 percent,     35, KAKUNA
+	dbbw  70 percent,     35, NIDORAN_F
+	dbbw  90 percent + 1, 35, LITWICK
 	dbbw 100 percent,      6, TIME_GROUP
 .Pond_Super:
-	dbbw  40 percent,     65, POLIWAG
+	dbbw  40 percent,     65, DRATINI
 	dbbw  70 percent,      7, TIME_GROUP
-	dbbw  90 percent + 1, 65, MAGIKARP
-	dbbw 100 percent,     65, POLIWAG
+	dbbw  90 percent + 1, 65, SWINUB
+	dbbw 100 percent,     65, LARVITAR
 
 .Dratini_Old:
-	dbbw  70 percent + 1, 15, MAGIKARP
-	dbbw  85 percent + 1, 15, MAGIKARP
-	dbbw 100 percent,     15, MAGIKARP
+	dbbw  70 percent + 1, 15, BIDOOF
+	dbbw  85 percent + 1, 15, TYROGUE
+	dbbw 100 percent,     15, FEEBAS
 .Dratini_Good:
-	dbbw  35 percent,     35, MAGIKARP
-	dbbw  70 percent,     35, MAGIKARP
-	dbbw  90 percent + 1, 35, MAGIKARP
+	dbbw  35 percent,     35, BURMY
+	dbbw  70 percent,     35, MARILL
+	dbbw  90 percent + 1, 35, SUNKERN
 	dbbw 100 percent,      8, TIME_GROUP
 .Dratini_Super:
-	dbbw  40 percent,     65, MAGIKARP
+	dbbw  40 percent,     65, METAPOD
 	dbbw  70 percent,      9, TIME_GROUP
-	dbbw  90 percent + 1, 65, MAGIKARP
-	dbbw 100 percent,     65, DRAGONAIR
+	dbbw  90 percent + 1, 65, MAKUHITA
+	dbbw 100 percent,     65, IVYSAUR
 
 .Qwilfish_Swarm_Old:
-	dbbw  70 percent + 1, 15, MAGIKARP
-	dbbw  85 percent + 1, 15, MAGIKARP
-	dbbw 100 percent,     15, QWILFISH
+	dbbw  70 percent + 1, 15, WOOPER
+	dbbw  85 percent + 1, 15, KAKUNA
+	dbbw 100 percent,     15, GLIGAR
 .Qwilfish_Swarm_Good:
-	dbbw  35 percent,     35, MAGIKARP
-	dbbw  70 percent,     35, QWILFISH
-	dbbw  90 percent + 1, 35, QWILFISH
+	dbbw  35 percent,     35, TOGEPI
+	dbbw  70 percent,     35, SANDSLASH
+	dbbw  90 percent + 1, 35, MIGHTYENA
 	dbbw 100 percent,     10, TIME_GROUP
 .Qwilfish_Swarm_Super:
-	dbbw  40 percent,     65, QWILFISH
+	dbbw  40 percent,     65, CLEFABLE
 	dbbw  70 percent,     11, TIME_GROUP
-	dbbw  90 percent + 1, 65, QWILFISH
-	dbbw 100 percent,     65, QWILFISH
+	dbbw  90 percent + 1, 65, MAGCARGO
+	dbbw 100 percent,     65, TANGELA
 
 .Remoraid_Swarm_Old:
-	dbbw  70 percent + 1, 15, MAGIKARP
-	dbbw  85 percent + 1, 15, MAGIKARP
-	dbbw 100 percent,     15, REMORAID
+	dbbw  70 percent + 1, 15, BIDOOF
+	dbbw  85 percent + 1, 15, POOCHYENA
+	dbbw 100 percent,     15, BONSLY
 .Remoraid_Swarm_Good:
-	dbbw  35 percent,     35, MAGIKARP
-	dbbw  70 percent,     35, REMORAID
-	dbbw  90 percent + 1, 35, REMORAID
+	dbbw  35 percent,     35, FEEBAS
+	dbbw  70 percent,     35, STARYU
+	dbbw  90 percent + 1, 35, PIKACHU
 	dbbw 100 percent,     12, TIME_GROUP
 .Remoraid_Swarm_Super:
-	dbbw  40 percent,     65, REMORAID
+	dbbw  40 percent,     65, CUTIEFLY
 	dbbw  70 percent,     13, TIME_GROUP
-	dbbw  90 percent + 1, 65, REMORAID
-	dbbw 100 percent,     65, REMORAID
+	dbbw  90 percent + 1, 65, GRIMER
+	dbbw 100 percent,     65, MARILL
 
 .Gyarados_Old:
-	dbbw  70 percent + 1, 15, MAGIKARP
-	dbbw  85 percent + 1, 15, MAGIKARP
-	dbbw 100 percent,     15, MAGIKARP
+	dbbw  70 percent + 1, 15, BIDOOF
+	dbbw  85 percent + 1, 15, SENTRET
+	dbbw 100 percent,     15, SENTRET
 .Gyarados_Good:
-	dbbw  35 percent,     35, MAGIKARP
-	dbbw  70 percent,     35, MAGIKARP
-	dbbw  90 percent + 1, 35, MAGIKARP
+	dbbw  35 percent,     35, SPINARAK
+	dbbw  70 percent,     35, SWINUB
+	dbbw  90 percent + 1, 35, MAKUHITA
 	dbbw 100 percent,     14, TIME_GROUP
 .Gyarados_Super:
-	dbbw  40 percent,     65, MAGIKARP
+	dbbw  40 percent,     65, FEEBAS
 	dbbw  70 percent,     15, TIME_GROUP
-	dbbw  90 percent + 1, 65, MAGIKARP
-	dbbw 100 percent,     65, MAGIKARP
+	dbbw  90 percent + 1, 65, TYROGUE
+	dbbw 100 percent,     65, MARILL
 
 .Dratini_2_Old:
-	dbbw  70 percent + 1, 15, MAGIKARP
-	dbbw  85 percent + 1, 15, MAGIKARP
-	dbbw 100 percent,     15, MAGIKARP
+	dbbw  70 percent + 1, 15, MARILL
+	dbbw  85 percent + 1, 15, WOOPER
+	dbbw 100 percent,     15, KAKUNA
 .Dratini_2_Good:
-	dbbw  35 percent,     35, MAGIKARP
-	dbbw  70 percent,     35, MAGIKARP
-	dbbw  90 percent + 1, 35, MAGIKARP
+	dbbw  35 percent,     35, WOOPER
+	dbbw  70 percent,     35, POOCHYENA
+	dbbw  90 percent + 1, 35, SWINUB
 	dbbw 100 percent,     16, TIME_GROUP
 .Dratini_2_Super:
-	dbbw  40 percent,     65, MAGIKARP
+	dbbw  40 percent,     65, SWINUB
 	dbbw  70 percent,     17, TIME_GROUP
-	dbbw  90 percent + 1, 65, DRAGONAIR
-	dbbw 100 percent,     65, DRAGONITE
+	dbbw  90 percent + 1, 65, ROSELIA
+	dbbw 100 percent,     65, ARCANINE
 
 .WhirlIslands_Old:
-	dbbw  70 percent + 1, 15, MAGIKARP
-	dbbw  85 percent + 1, 15, MAGIKARP
-	dbbw 100 percent,     15, KRABBY
+	dbbw  70 percent + 1, 15, BURMY
+	dbbw  85 percent + 1, 15, KAKUNA
+	dbbw 100 percent,     15, SNORUNT
 .WhirlIslands_Good:
-	dbbw  35 percent,     35, MAGIKARP
-	dbbw  70 percent,     35, KRABBY
-	dbbw  90 percent + 1, 35, KRABBY
+	dbbw  35 percent,     35, SLUGMA
+	dbbw  70 percent,     35, KROKOROK
+	dbbw  90 percent + 1, 35, CUBONE
 	dbbw 100 percent,     18, TIME_GROUP
 .WhirlIslands_Super:
-	dbbw  40 percent,     65, KRABBY
+	dbbw  40 percent,     65, FLAAFFY
 	dbbw  70 percent,     19, TIME_GROUP
-	dbbw  90 percent + 1, 65, KINGLER
-	dbbw 100 percent,     65, SEADRA
+	dbbw  90 percent + 1, 65, BELLOSSOM
+	dbbw 100 percent,     65, GOLBAT
 
 .Qwilfish_Old:
-	dbbw  70 percent + 1, 15, MAGIKARP
-	dbbw  85 percent + 1, 15, MAGIKARP
-	dbbw 100 percent,     15, TENTACOOL
+	dbbw  70 percent + 1, 15, TOGEPI
+	dbbw  85 percent + 1, 15, SWINUB
+	dbbw 100 percent,     15, CUBONE
 .Qwilfish_Good:
-	dbbw  35 percent,     35, MAGIKARP
-	dbbw  70 percent,     35, TENTACOOL
-	dbbw  90 percent + 1, 35, TENTACOOL
+	dbbw  35 percent,     35, BURMY
+	dbbw  70 percent,     35, LUXIO
+	dbbw  90 percent + 1, 35, HOUNDOUR
 	dbbw 100 percent,     20, TIME_GROUP
 .Qwilfish_Super:
-	dbbw  40 percent,     65, TENTACOOL
+	dbbw  40 percent,     65, LOMBRE
 	dbbw  70 percent,     21, TIME_GROUP
-	dbbw  90 percent + 1, 65, MAGIKARP
-	dbbw 100 percent,     65, QWILFISH
+	dbbw  90 percent + 1, 65, FEEBAS
+	dbbw 100 percent,     65, BELLOSSOM
 
 .Remoraid_Old:
-	dbbw  70 percent + 1, 15, MAGIKARP
-	dbbw  85 percent + 1, 15, MAGIKARP
-	dbbw 100 percent,     15, POLIWAG
+	dbbw  70 percent + 1, 15, SWINUB
+	dbbw  85 percent + 1, 15, METAPOD
+	dbbw 100 percent,     15, CYNDAQUIL
 .Remoraid_Good:
-	dbbw  35 percent,     35, MAGIKARP
-	dbbw  70 percent,     35, POLIWAG
-	dbbw  90 percent + 1, 35, POLIWAG
+	dbbw  35 percent,     35, POOCHYENA
+	dbbw  70 percent,     35, GEODUDE
+	dbbw  90 percent + 1, 35, CHIKORITA
 	dbbw 100 percent,      6, TIME_GROUP
 .Remoraid_Super:
-	dbbw  40 percent,     65, POLIWAG
+	dbbw  40 percent,     65, LITWICK
 	dbbw  70 percent,      7, TIME_GROUP
-	dbbw  90 percent + 1, 65, MAGIKARP
-	dbbw 100 percent,     65, REMORAID
+	dbbw  90 percent + 1, 65, BURMY
+	dbbw 100 percent,     65, NATU
 
 TimeFishGroups:
 	;     day             nite
-	dbwbw 35, CORSOLA,    35, STARYU     ; 0
-	dbwbw 65, CORSOLA,    65, STARYU     ; 1
-	dbwbw 35, SHELLDER,   35, SHELLDER   ; 2
-	dbwbw 65, SHELLDER,   65, SHELLDER   ; 3
-	dbwbw 35, GOLDEEN,    35, GOLDEEN    ; 4
-	dbwbw 65, GOLDEEN,    65, GOLDEEN    ; 5
-	dbwbw 35, POLIWAG,    35, POLIWAG    ; 6
-	dbwbw 65, POLIWAG,    65, POLIWAG    ; 7
-	dbwbw 35, DRATINI,    35, DRATINI    ; 8
-	dbwbw 65, DRATINI,    65, DRATINI    ; 9
-	dbwbw 35, QWILFISH,   35, QWILFISH   ; 10
-	dbwbw 65, QWILFISH,   65, QWILFISH   ; 11
-	dbwbw 35, REMORAID,   35, REMORAID   ; 12
-	dbwbw 65, REMORAID,   65, REMORAID   ; 13
-	dbwbw 35, GYARADOS,   35, GYARADOS   ; 14
-	dbwbw 65, GYARADOS,   65, GYARADOS   ; 15
-	dbwbw 35, DRATINI,    35, DRATINI    ; 16
-	dbwbw 65, DRATINI,    65, DRATINI    ; 17
-	dbwbw 35, HORSEA,     35, HORSEA     ; 18
-	dbwbw 65, HORSEA,     65, HORSEA     ; 19
-	dbwbw 35, TENTACOOL,  35, TENTACOOL  ; 20
-	dbwbw 65, TENTACOOL,  65, TENTACOOL  ; 21
+	dbwbw 35, SABLEYE,    35, RHYHORN    ; 0
+	dbwbw 65, FURRET,     65, AMAURA     ; 1
+	dbwbw 35, OMANYTE,    35, DODUO      ; 2
+	dbwbw 65, EXEGGCUTE,  65, MEOWTH     ; 3
+	dbwbw 35, KROKOROK,   35, CUTIEFLY   ; 4
+	dbwbw 65, MAGBY,      65, SLOWPOKE   ; 5
+	dbwbw 35, TREECKO,    35, NIDORAN_M  ; 6
+	dbwbw 65, BULBASAUR,  65, CYNDAQUIL  ; 7
+	dbwbw 35, HOPPORITA,  35, CHIKORITA  ; 8
+	dbwbw 65, POLIWAG,    65, HORSEA     ; 9
+	dbwbw 35, MAGCARGO,   35, QUAGYNX    ; 10
+	dbwbw 65, LANTURN,    65, GIRAFARIG  ; 11
+	dbwbw 35, BUNEARY,    35, SANDSHREW  ; 12
+	dbwbw 65, GROWLITHE,  65, KRABBY     ; 13
+	dbwbw 35, ALTARIA,    35, MUK        ; 14
+	dbwbw 65, KANGASKHAN, 65, MACHAMP    ; 15
+	dbwbw 35, POLIWAG,    35, TYNAMO     ; 16
+	dbwbw 65, BELLSPROUT, 65, DUSKULL    ; 17
+	dbwbw 35, MACHOP,     35, ABRA       ; 18
+	dbwbw 65, MUDKIP,     65, SQUIRTLE   ; 19
+	dbwbw 35, CRABRAWLER, 35, BONSLY     ; 20
+	dbwbw 65, CUBONE,     65, VULPIX     ; 21
