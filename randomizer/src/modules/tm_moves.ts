@@ -3,6 +3,9 @@ import Move from "../models/move";
 import MoveConstantsParser from "../parsers/constants/move_constants";
 import MovesParser from "../parsers/data/moves";
 import TMHMParser from "../parsers/data/tmhm";
+import { PickCascade } from "../utils/pick";
+
+const immutableTMs = ["ROCK_SMASH", "CUT", "FLY", "SURF", "STRENGTH", "FLASH", "WHIRLPOOL", "WATERFALL"];
 
 export default class TMMovesRandomizer implements RandoModule {
     command = "tm-moves"
@@ -16,25 +19,24 @@ export default class TMMovesRandomizer implements RandoModule {
 
         console.log("Randomizing TMs and Move Tutors");
 
-        let availableMoves = moveConstants.slice(1).filter(m => m != "STRUGGLE" && m != "CHATTY_HP" && m != "CHATTER");
+        let availableMoves = moveConstants.slice(1).filter(m => m != "STRUGGLE" && m != "CHATTY_HP" && m != "CHATTER" && !immutableTMs.includes(m));
 
-        const replaceMoves = (moveList:string[]) => moveList.map(oldMove => {
-            if (oldMove == "ROCK_SMASH")
+        const replaceMoves = (moveList: string[]) => moveList.map(oldMove => {
+            if (immutableTMs.includes(oldMove)) {
+                console.log(`Not replacing ${oldMove}`)
                 return oldMove;
+            }
 
             const oldMoveInfo = moveLookup[oldMove];
-            let newMoveIndex: number;;
-            let newMove: string;
-            let newMoveInfo: Move;
-            do {
-                newMoveIndex = randomInt(0, availableMoves.length);
-                newMove = availableMoves[newMoveIndex];
-                newMoveInfo = moveLookup[newMove];
-            } while (newMoveInfo.doesDamage != oldMoveInfo.doesDamage);
+            const newMove = PickCascade(availableMoves,
+                m => moveLookup[m].doesDamage == oldMoveInfo.doesDamage, // replace non-attacks with non-attacks
+                m => m != oldMove // don't pick same move
+            ) || oldMove;
 
-            availableMoves.splice(newMoveIndex, 1);
-
-            console.log(`Replacing ${oldMove} with ${newMove}`);
+            if (oldMove == newMove)
+                console.log(`Randomly kept ${oldMove}`);
+            else
+                console.log(`Replacing ${oldMove} with ${newMove}`);
             return newMove;
         })
         tms.tms = replaceMoves(tms.tms);
