@@ -48,12 +48,16 @@ export default class TrainerParser extends ReadWriteParser<Trainer[]> {
     }
 
     private writeTrainer(trainer: Trainer): string[] {
-        if (trainer.specialTrainer)
-            return [
+        if (trainer.specialTrainer) {
+            const specialTrainer = [
                 `	next_list_item ; ${trainer.constant}`,
                 `	db "${trainer.name}@"`,
                 ...trainer.specialTrainer
-            ]
+            ];
+            if (specialTrainer.includes("	end_list_items"))
+                specialTrainer.splice(specialTrainer.indexOf("	end_list_items"), 2);
+            return specialTrainer;
+        }
         const text = [
             `	next_list_item ; ${trainer.constant}`,
             `	db "${trainer.name}@", ${trainer.type.join(' | ')}`,
