@@ -1,13 +1,13 @@
 ContestMons:
 	;      %, species,   min, max
-	dbwbb 20, CATERPIE,    7, 18
-	dbwbb 20, WEEDLE,      7, 18
-	dbwbb 10, METAPOD,     9, 18
-	dbwbb 10, KAKUNA,      9, 18
-	dbwbb  5, BUTTERFREE, 12, 15
-	dbwbb  5, BEEDRILL,   12, 15
-	dbwbb 10, VENONAT,    10, 16
-	dbwbb 10, PARAS,      10, 17
-	dbwbb  5, SCYTHER,    13, 14
-	dbwbb  5, PINSIR,     13, 14
-	dbwbb -1, VENOMOTH,   30, 40
+	dbwbb 20, WHISMUR,     7, 18
+	dbwbb 20, ZUBAT,       7, 18
+	dbwbb 10, SPINARAK,    9, 18
+	dbwbb 10, MAKUHITA,    9, 18
+	dbwbb  5, WIGGLYTUFF, 12, 15
+	dbwbb  5, PELIPPER,   12, 15
+	dbwbb 10, EELEKTROSS, 10, 16
+	dbwbb 10, LUDICOLO,   10, 17
+	dbwbb  5, PORYGON2,   13, 14
+	dbwbb  5, UMBREON,    13, 14
+	dbwbb -1, MANECTRIC,  30, 40

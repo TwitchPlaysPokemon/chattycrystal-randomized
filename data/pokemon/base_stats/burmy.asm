@@ -14,7 +14,7 @@
 	dn EGG_BUG, EGG_BUG ; egg groups
 
 	; tm/hm learnset
-	tmhm HIDDEN_POWER, PROTECT
+	tmhm GRASS_KNOT, DEFENSE_CURL
 
 	ds BASE_PADDING_SIZE ; padding
 	assert (@ - :-) == BASE_DATA_SIZE ; end

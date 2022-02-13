@@ -14,7 +14,7 @@
 	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
 
 	; tm/hm learnset
-	tmhm ZAP_CANNON, THUNDER_WAVE
+	tmhm ROCK_SLIDE, SNORE
 
 	ds BASE_PADDING_SIZE ; padding
 	assert (@ - :-) == BASE_DATA_SIZE ; end
