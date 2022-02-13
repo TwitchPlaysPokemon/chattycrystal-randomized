@@ -1,6 +1,7 @@
 import { randomInt } from "crypto";
 import BaseStatsParser from "../parsers/data/base_stats";
 import IncludeListParser from "../parsers/include_list";
+import { PickCascade } from "../utils/pick";
 
 
 const immutableTMs = ["ROCK_SMASH", "CUT", "FLY", "SURF", "STRENGTH", "FLASH", "WHIRLPOOL", "WATERFALL"];
@@ -13,19 +14,16 @@ export default class TMCompatRandomizer implements RandoModule {
         let availableTMs = new Array<string>();
         baseStatParsers.forEach(p => p.data.tmhms.forEach(tm => availableTMs.includes(tm) ? null : availableTMs.push(tm)));
         availableTMs = availableTMs.filter(tm => !immutableTMs.includes(tm));
-        
+
         console.log("Randomizing TM compatibility...");
 
-        baseStatParsers.forEach(p=> {
+        baseStatParsers.forEach(p => {
             const replacements = [...availableTMs];
             const data = p.data;
-            data.tmhms = data.tmhms.map(tm=> {
+            data.tmhms = data.tmhms.map(tm => {
                 if (immutableTMs.includes(tm))
                     return tm;
-                const i = randomInt(0, replacements.length);
-                const newTm = replacements[i];
-                replacements.splice(i, 1);
-                return newTm;
+                return PickCascade(replacements, t => t != tm) || tm;
             })
             p.data = data;
         });
