@@ -352,6 +352,7 @@ PokemonCries::
 	mon_cry CRY_EKANS,       $101,  $086 ; BRONZOR
 	mon_cry CRY_EKANS,       $12a,  $170 ; BRONZONG
 	mon_cry CRY_SLOWPOKE,    $03c,  $15a ; BONSLY
+ChatotCry::
 	mon_cry CRY_CHATOT,      $002,  $120 ; CHATOT
 	mon_cry CRY_DIGLETT,    -$133,  $125 ; CROAGUNK
 	mon_cry CRY_SLOWKING,    $002,  $2c6 ; TOXICROAK

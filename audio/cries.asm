@@ -2078,7 +2078,7 @@ Cry_Gastrodon_Ch8_branch:
 	loopchannel 3, Cry_Gastrodon_Ch8_branch
 	endchannel
 
-ChatotCry: ; Chatty Controlller expects this name
+Cry_Chatot: ; Chatty Controlller expects this name
 	musicheader 3, 5, Cry_Chatot_Ch5
 	musicheader 1, 6, Cry_Chatot_Ch6
 	musicheader 1, 8, Cry_Chatot_Ch8
