@@ -1330,7 +1330,148 @@ URFGroup:
 
 	end_list_items
 
-GSCHGSSChrisRivalGroup:
+	GSCHGSSChrisRivalGroup:
+	next_list_item ; AJDNNW1
+	db "AJDNNW@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_NICKNAME
+
+	db 19
+	dw WAILORD
+	db EXP_SHARE
+	dw REST, ROLLOUT, SURF, WATER_SPOUT
+	bigdw $FFFF
+	db "Wu''''2@"
+
+	db 20
+	dw MAGIKARP
+	db NO_ITEM
+	dw SPLASH, NO_MOVE, NO_MOVE, NO_MOVE
+	bigdw $0FFF
+	db "BBAABaaaa@"
+
+	db 21
+	dw OMASTAR
+	db NO_ITEM
+	dw HYDRO_PUMP, WITHDRAW, SURF, HORN_ATTACK
+	bigdw $F9B5
+	db "OMASTAR@"
+
+	db 22
+	dw TOGEPI
+	db NO_ITEM
+	dw GROWL, CHARM, FLASH, NO_MOVE
+	bigdw $FFFF
+	db "DEKU@"
+
+	db 23
+	dw GYARADOS
+	db NO_ITEM
+	dw STRENGTH, BLIZZARD, HYDRO_PUMP, SURF
+	bigdw $4FFF
+	db "AJJJTUUUUU@"
+
+	db 24
+	dw VENUSAUR
+	db LEFTOVERS
+	dw GROWTH, SLUDGE_BOMB, SLEEP_POWDER, PETAL_DANCE
+	bigdw $FFFF
+	db "ul:::utx@"
+
+	db -1 ; end
+
+	next_list_item ; AJDNNW3
+	db "AJDNNW@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_NICKNAME
+
+	db 47
+	dw ABSOL
+	db LUCKY_EGG
+	dw ATTACK_ORDER, FLY, PSYSHOCK, DRAIN_PUNCH
+	bigdw $0FFF
+	db "Absol@"
+
+	db 48
+	dw SPINARAK
+	db NO_ITEM
+	dw LEECH_LIFE, SCARY_FACE, SLUDGE, BATON_PASS
+	bigdw $FFFF
+	db "BCCCCCCuB?@"
+
+	db 49
+	dw LOPUNNY
+	db POLKADOT_BOW
+	dw RETURN, POWER_GEM, CUT, METRONOME
+	bigdw $BA26
+	db "EEEE@"
+
+	db 50
+	dw GRAVELER
+	db TM_CURSE
+	dw STRENGTH, DOUBLE_EDGE, ROCK_THROW, ROCK_BLAST
+	bigdw $0FFF
+	db " -5'''7''Y@"
+
+	db 51
+	dw PHANCERO
+	db NO_ITEM
+	dw CUT, TAKE_DOWN, STRENGTH, DOUBLE_TEAM
+	bigdw $AF0E
+	db "1@"
+
+	db 52
+	dw SENTRET
+	db NO_ITEM
+	dw TACKLE, DEFENSE_CURL, NO_MOVE, NO_MOVE
+	bigdw $FFFF
+	db "ADiiiiihhh@"
+
+	db -1 ; end
+
+	next_list_item ; AJDNNW4
+	db "AJDNNW@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_NICKNAME
+
+	db 73
+	dw FEAROW
+	db STAR_PIECE
+	dw FLY, AERIAL_ACE, MIRROR_MOVE, ASSURANCE
+	bigdw $FFFF
+	db "cc5cch8ccc@"
+
+	db 74
+	dw SEADRA
+	db NUGGET
+	dw OCTAZOOKA, DRAGON_RAGE, DRAGONBREATH, ICY_WIND
+	bigdw $0FFF
+	db "---sxjxKKK@"
+
+	db 75
+	dw POOCHYENA
+	db NO_ITEM
+	dw TACKLE, HOWL, NO_MOVE, NO_MOVE
+	bigdw $0FFF
+	db "6@"
+
+	db 76
+	dw ROSERADE
+	db FLOWER_MAIL
+	dw STUN_SPORE, ABSORB, PETAL_DANCE, CUT
+	bigdw $0FFF
+	db "!?!!?! !:1@"
+
+	db 77
+	dw ENTEI
+	db FOCUS_BAND
+	dw SWAGGER, FIRE_SPIN, ROAR, FLAMETHROWER
+	bigdw $2FFF
+	db "BBBBLLlrk@"
+
+	db 78
+	dw RHYDON
+	db NO_ITEM
+	dw ROCK_SLIDE, STRENGTH, STOMP, EARTHQUAKE
+	bigdw $0FFF
+	db "JJI???UUT@"
+
+	db -1 ; end
+
 	end_list_items
 
 AzureGroup:
