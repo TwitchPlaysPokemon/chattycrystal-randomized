@@ -33,17 +33,18 @@ export default class TrainerRandomizer implements RandoModule {
 
         console.log("Randomizing TPP trainers");
 
-        const tppTrainers = trainers.filter(t => t.type.includes("TRAINERTYPE_NICKNAME"));
-        const tppRunmons = tppTrainers.reduce((all, cur) => all.concat(...cur.party), new Array<PartyMon>());
+        const tppTrainers = trainers.filter(t => t.type.includes("TRAINERTYPE_NICKNAME")).map(t => ({
+            trainer: t,
+            maxLevel: t.party.reduce((max, cur) => Math.max(max, cur.level), 0),
+            minLevel: t.party.reduce((min, cur) => Math.min(min, cur.level), 100)
+        }));
+        const tppRunmons = tppTrainers.reduce((all, cur) => all.concat(...cur.trainer.party), new Array<PartyMon>());
         tppRunmons.forEach(m => m.moves = m.moves || ["METRONOME", "NO_MOVE", "NO_MOVE", "NO_MOVE"]); // Fix MARINA's mons
 
         tppTrainers.forEach(t => {
-            const maxLevel = t.party.reduce((max, cur) => Math.max(max, cur.level), 0);
-            const minLevel = t.party.reduce((min, cur) => Math.min(min, cur.level), 100);
-
-            t.type = t.type.filter(t => t != "TRAINERTYPE_STATS"); // Remove baked-in stats
-            t.party = t.party.map(p => PickCascade(tppRunmons, mon => mon != p));
-            [...t.party].reverse().forEach((p, i) => p.level = Math.max(maxLevel - i, minLevel));
+            t.trainer.type = t.trainer.type.filter(t => t != "TRAINERTYPE_STATS"); // Remove baked-in stats
+            t.trainer.party = t.trainer.party.map(p => PickCascade(tppRunmons, mon => mon != p));
+            [...t.trainer.party].reverse().forEach((p, i) => p.level = Math.max(t.maxLevel - i, t.minLevel));
         });
 
         console.log("Randomizing other trainers");
