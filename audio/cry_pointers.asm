@@ -69,7 +69,7 @@ Cries:
 	dba Cry_Donphan
 	dba Cry_Manectric
 	dba Cry_Gastrodon
-	dba Cry_Chatot
+	dba ChatotCry
 	dba Cry_Amaura
 	dba Cry_Buneary
 	dba Cry_Crabrawler
