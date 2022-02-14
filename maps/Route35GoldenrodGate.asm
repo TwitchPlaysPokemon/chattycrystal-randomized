@@ -31,9 +31,9 @@ RandyScript:
 	writetext .received_mon_text
 	playsound SFX_KEY_ITEM
 	waitsfx
-	givepoke CHATOT, 20, NO_ITEM, TRUE, GiftChatotName, GiftChatotOTName
+	givepoke BURMY, 20, NO_ITEM, TRUE, GiftChatotName, GiftChatotOTName
 	givepokemail GiftChatotMail
-	replacemove AERIAL_ACE, CHATTER
+	replacemove REST, CHATTER
 	setevent EVENT_GOT_KENYA
 	setscene SCENE_FINISHED
 .alreadyhavekenya

@@ -263,10 +263,10 @@ HatchUnownEgg:
 	ld a, [wPartyMon1Species]
 	call GetPokemonIndexFromID
 	ld a, l
-	cp LOW(UNOWN)
+	cp LOW(DITTO)
 	ret nz
 	ld a, h
-	assert HIGH(UNOWN) == 0
+	assert HIGH(DITTO) == 0
 	and a
 	ret nz
 	; you have an Unown

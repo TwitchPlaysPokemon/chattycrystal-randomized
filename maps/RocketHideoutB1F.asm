@@ -46,7 +46,7 @@ RocketHideoutB1FOnixtret:
 	writetext ReceivedOnixtretText
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke ONIXTRET, 50
+	givepoke UNOWN, 50
 	setevent EVENT_ONIXTRET_IN_ROCKET_HIDEOUT
 	disappear ROCKETHIDEOUTB1F_ONIXTRET
 	closetext

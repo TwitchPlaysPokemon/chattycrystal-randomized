@@ -55,7 +55,7 @@ RocketHideoutB2FChiquirtle:
 	writetext ReceivedChiquirtleText
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke CHIQUIRTLE, 50
+	givepoke EEVEE, 50
 	setevent EVENT_CHIQUIRTLE_IN_ROCKET_HIDEOUT
 	disappear ROCKETHIDEOUTB2F_CHIQUIRTLE
 	closetext
@@ -76,7 +76,7 @@ RocketHideoutB2FHootduo:
 	writetext ReceivedHootduoText
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke HOOTDUO, 50
+	givepoke HO_OH, 50
 	setevent EVENT_HOOTDUO_IN_ROCKET_HIDEOUT
 	disappear ROCKETHIDEOUTB2F_HOOTDUO
 	closetext

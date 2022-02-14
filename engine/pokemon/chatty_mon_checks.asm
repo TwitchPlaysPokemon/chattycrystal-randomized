@@ -49,9 +49,9 @@ CheckChattyMon:
 	ld a, l
 	pop hl
 	jr nz, .not
-	cp LOW(CHATTER)
-	scf
-	ret z
+	; cp LOW(CHATTER)
+	; scf
+	; ret z
 	cp LOW(CHATTY_HP)
 	scf
 	ret z

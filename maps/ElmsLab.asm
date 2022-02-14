@@ -92,7 +92,7 @@ ElmCheckEverstone:
 	iftrue ElmGiveEverstoneScript
 	checkevent EVENT_TOLD_ELM_ABOUT_UNOWN_OVER_THE_PHONE
 	iffalse ElmCheckUnownEgg
-	loadmonindex 1, UNOWN
+	loadmonindex 1, DITTO
 	special FindPartyMonThatSpeciesYourTrainerID
 	iftrue ShowElmUnownScript
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
@@ -103,7 +103,7 @@ ElmCheckEverstone:
 	end
 
 ElmEggHatchedScript:
-	loadmonindex 1, UNOWN
+	loadmonindex 1, DITTO
 	special FindPartyMonThatSpeciesYourTrainerID
 	iftrue ShowElmUnownScript
 	sjump ElmCheckGotEggAgain

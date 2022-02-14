@@ -1,2648 +1,2648 @@
 {
-    "default": {
-        "moveName": "Splash",
-        "moveId": 150,
-        "badges": 0,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Return",
-        "enemyMoveId": 216
-    },
-    "GayPride": {
-        "moveName": "Attract (Same sex)",
-        "moveId": 32972,
-        "badges": 0,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Wake-up Slap",
-        "enemyMoveId": 291
-    },
-    "BisexualPride": {
-        "moveName": "Attract (Both sexes)",
-        "moveId": 49356,
-        "badges": 0,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Wake-up Slap",
-        "enemyMoveId": 291
-    },
-    "LesbianPride": {
-        "moveName": "Attract (Same sex)",
-        "moveId": 32972,
-        "badges": 0,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Wake-up Slap",
-        "enemyMoveId": 291
-    },
-    "PansexualPride": {
-        "moveName": "Attract (Both sexes)",
-        "moveId": 49356,
-        "badges": 0,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Wake-up Slap",
-        "enemyMoveId": 291
-    },
-    "SabaPing": {
-        "moveName": "Rain Dance",
-        "moveId": 240,
-        "badges": 0,
-        "hpTypeName": "Fire",
-        "hpTypeId": 20,
-        "enemyMoveName": "Waterfall",
-        "enemyMoveId": 127
-    },
-    "KAPOW": {
-        "moveName": "Explosion",
-        "moveId": 153,
-        "badges": 13,
-        "hpTypeName": "Fire",
-        "hpTypeId": 20,
-        "enemyMoveName": "DynamicPunch",
-        "enemyMoveId": 223
-    },
-    "PermaSmug": {
-        "moveName": "Self-destruct",
-        "moveId": 120,
-        "badges": 8,
-        "hpTypeName": "Ground",
-        "hpTypeId": 4,
-        "enemyMoveName": "DynamicPunch",
-        "enemyMoveId": 223
-    },
-    "SSSsss": {
-        "moveName": "Self-destruct",
-        "moveId": 120,
-        "badges": 8,
-        "hpTypeName": "Ground",
-        "hpTypeId": 4,
-        "enemyMoveName": "DynamicPunch",
-        "enemyMoveId": 223
-    },
-    "TPFufun": {
-        "moveName": "Sweet Scent",
-        "moveId": 230,
-        "badges": 0,
-        "hpTypeName": "Electric",
-        "hpTypeId": 23,
-        "enemyMoveName": "Giga Drain",
-        "enemyMoveId": 202
-    },
-    "panicBasket": {
-        "moveName": "Fire Spin",
-        "moveId": 83,
-        "badges": 0,
-        "hpTypeName": "Dragon",
-        "hpTypeId": 26,
-        "enemyMoveName": "Fire Blast",
-        "enemyMoveId": 126
-    },
-    "tppRiot": {
-        "moveName": "Fire Spin",
-        "moveId": 83,
-        "badges": 0,
-        "hpTypeName": "Dragon",
-        "hpTypeId": 26,
-        "enemyMoveName": "Fire Blast",
-        "enemyMoveId": 126
-    },
-    "FootGoal": {
-        "moveName": "Sunny Day",
-        "moveId": 241,
-        "badges": 0,
-        "hpTypeName": "Water",
-        "hpTypeId": 21,
-        "enemyMoveName": "Hi Jump Kick",
-        "enemyMoveId": 135
-    },
-    "FootYellow": {
-        "moveName": "False Swipe",
-        "moveId": 206,
-        "badges": 0,
-        "hpTypeName": "Ghost",
-        "hpTypeId": 8,
-        "enemyMoveName": "Wood Hammer",
-        "enemyMoveId": 326
-    },
-    "ANELE": {
-        "moveName": "Bind",
-        "moveId": 20,
-        "badges": 0,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Skull Bash",
-        "enemyMoveId": 129
-    },
-    "<3": {
-        "moveName": "Attract",
-        "moveId": 213,
-        "badges": 0,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Play Rough",
-        "enemyMoveId": 345
-    },
-    "tppLove": {
-        "moveName": "Attract",
-        "moveId": 213,
-        "badges": 0,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Play Rough",
-        "enemyMoveId": 345
-    },
-    "PunOko": {
-        "moveName": "Frustration",
-        "moveId": 218,
-        "badges": 0,
-        "hpTypeName": "Dark",
-        "hpTypeId": 27,
-        "enemyMoveName": "Frustration",
-        "enemyMoveId": 218
-    },
-    "HolidayPresent": {
-        "moveName": "Present",
-        "moveId": 217,
-        "badges": 0,
-        "hpTypeName": "Ice",
-        "hpTypeId": 25,
-        "enemyMoveName": "Blizzard",
-        "enemyMoveId": 59
-    },
-    "ItsBoshyTime": {
-        "moveName": "Spikes",
-        "moveId": 191,
-        "badges": 3,
-        "hpTypeName": "Psychic",
-        "hpTypeId": 24,
-        "enemyMoveName": "Needle Arm",
-        "enemyMoveId": 356
-    },
-    "NomNom": {
-        "moveName": "Dream Eater",
-        "moveId": 138,
-        "badges": 0,
-        "hpTypeName": "Ice",
-        "hpTypeId": 25,
-        "enemyMoveName": "Crunch",
-        "enemyMoveId": 242
-    },
-    "TinyFace": {
-        "moveName": "Haze",
-        "moveId": 114,
-        "badges": 0,
-        "hpTypeName": "Flying",
-        "hpTypeId": 2,
-        "enemyMoveName": "Moonblast",
-        "enemyMoveId": 346
-    },
-    "Squid4": {
-        "moveName": "Doubleslap",
-        "moveId": 3,
-        "badges": 0,
-        "hpTypeName": "Water",
-        "hpTypeId": 21,
-        "enemyMoveName": "Octazooka",
-        "enemyMoveId": 190
-    },
-    "Squid2": {
-        "moveName": "Bind",
-        "moveId": 190,
-        "badges": 0,
-        "hpTypeName": "Dark",
-        "hpTypeId": 27,
-        "enemyMoveName": "Octazooka",
-        "enemyMoveId": 190
-    },
-    "Squid1": {
-        "moveName": "Wrap",
-        "moveId": 35,
-        "badges": 0,
-        "hpTypeName": "Water",
-        "hpTypeId": 21,
-        "enemyMoveName": "Octazooka",
-        "enemyMoveId": 190
-    },
-    "HSWP": {
-        "moveName": "Encore",
-        "moveId": 227,
-        "badges": 0,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Echoed Voice",
-        "enemyMoveId": 334
-    },
-    "FBBlock": {
-        "moveName": "Safeguard",
-        "moveId": 219,
-        "badges": 0,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Body Slam",
-        "enemyMoveId": 34
-    },
-    "Poooound": {
-        "moveName": "Pound",
-        "moveId": 1,
-        "badges": 0,
-        "hpTypeName": "Fire",
-        "hpTypeId": 20,
-        "enemyMoveName": "Mega Punch",
-        "enemyMoveId": 5
-    },
-    "tppBoop": {
-        "moveName": "Pound",
-        "moveId": 1,
-        "badges": 0,
-        "hpTypeName": "Fire",
-        "hpTypeId": 20,
-        "enemyMoveName": "Mega Punch",
-        "enemyMoveId": 5
-    },
-    "KappaWealth": {
-        "moveName": "Pay Day",
-        "moveId": 6,
-        "badges": 0,
-        "hpTypeName": "Steel",
-        "hpTypeId": 9,
-        "enemyMoveName": "Slash",
-        "enemyMoveId": 163
-    },
-    "tppPokeyen": {
-        "moveName": "Pay Day",
-        "moveId": 6,
-        "badges": 0,
-        "hpTypeName": "Steel",
-        "hpTypeId": 9,
-        "enemyMoveName": "Slash",
-        "enemyMoveId": 163
-    },
-    "tppPayout": {
-        "moveName": "Pay Day",
-        "moveId": 6,
-        "badges": 0,
-        "hpTypeName": "Steel",
-        "hpTypeId": 9,
-        "enemyMoveName": "Surf",
-        "enemyMoveId": 57
-    },
-    ":)": {
-        "moveName": "Gust",
-        "moveId": 16,
-        "badges": 0,
-        "hpTypeName": "Ice",
-        "hpTypeId": 25,
-        "enemyMoveName": "Air Slash",
-        "enemyMoveId": 302
-    },
-    "duDudu": {
-        "moveName": "Sand Attack",
-        "moveId": 28,
-        "badges": 0,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Rock Slide",
-        "enemyMoveId": 157
-    },
-    "RlyTho": {
-        "moveName": "Tackle",
-        "moveId": 33,
-        "badges": 0,
-        "hpTypeName": "Dragon",
-        "hpTypeId": 26,
-        "enemyMoveName": "Return",
-        "enemyMoveId": 216
-    },
-    "CorgiDerp": {
-        "moveName": "Tail Whip",
-        "moveId": 39,
-        "badges": 0,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Crunch",
-        "enemyMoveId": 242
-    },
-    "DoritosChip": {
-        "moveName": "Poison Sting",
-        "moveId": 40,
-        "badges": 0,
-        "hpTypeName": "Fire",
-        "hpTypeId": 20,
-        "enemyMoveName": "Tri Attack",
-        "enemyMoveId": 161
-    },
-    "GrammarKing": {
-        "moveName": "Leer",
-        "moveId": 43,
-        "badges": 0,
-        "hpTypeName": "Water",
-        "hpTypeId": 21,
-        "enemyMoveName": "Dazzlingleam",
-        "enemyMoveId": 347
-    },
-    "B)": {
-        "moveName": "Leer",
-        "moveId": 43,
-        "badges": 0,
-        "hpTypeName": "Water",
-        "hpTypeId": 21,
-        "enemyMoveName": "Dazzlingleam",
-        "enemyMoveId": 43
-    },
-    "tppCool": {
-        "moveName": "Leer",
-        "moveId": 43,
-        "badges": 0,
-        "hpTypeName": "Water",
-        "hpTypeId": 21,
-        "enemyMoveName": "Dazzlingleam",
-        "enemyMoveId": 43
-    },
-    "OhMyDog": {
-        "moveName": "Roar",
-        "moveId": 46,
-        "badges": 0,
-        "hpTypeName": "Ghost",
-        "hpTypeId": 8,
-        "enemyMoveName": "Crunch",
-        "enemyMoveId": 242
-    },
-    "SwiftRage": {
-        "moveName": "Rage",
-        "moveId": 99,
-        "badges": 0,
-        "hpTypeName": "Fire",
-        "hpTypeId": 20,
-        "enemyMoveName": "Outrage",
-        "enemyMoveId": 200
-    },
-    "copyThis": {
-        "moveName": "Mimic",
-        "moveId": 102,
-        "badges": 0,
-        "hpTypeName": "Psychic",
-        "hpTypeId": 24,
-        "enemyMoveName": "Mimic",
-        "enemyMoveId": 102
-    },
-    "WTRuck": {
-        "moveName": "Focus Energy",
-        "moveId": 116,
-        "badges": 0,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Muddy Water",
-        "enemyMoveId": 280
-    },
-    "FailFish": {
-        "moveName": "Focus Energy",
-        "moveId": 116,
-        "badges": 0,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Headbutt",
-        "enemyMoveId": 29
-    },
-    "tppFail": {
-        "moveName": "Focus Energy",
-        "moveId": 116,
-        "badges": 0,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Headbutt",
-        "enemyMoveId": 29
-    },
-    "BrokeBack": {
-        "moveName": "Lick",
-        "moveId": 122,
-        "badges": 0,
-        "hpTypeName": "Water",
-        "hpTypeId": 21,
-        "enemyMoveName": "Hammer Arm",
-        "enemyMoveId": 292
-    },
-    ":p": {
-        "moveName": "Lick",
-        "moveId": 122,
-        "badges": 0,
-        "hpTypeName": "Water",
-        "hpTypeId": 21,
-        "enemyMoveName": "Waterfall",
-        "enemyMoveId": 127
-    },
-    ";p": {
-        "moveName": "Lick",
-        "moveId": 122,
-        "badges": 0,
-        "hpTypeName": "Water",
-        "hpTypeId": 21,
-        "enemyMoveName": "Waterfall",
-        "enemyMoveId": 127
-    },
-    "Kappa": {
-        "moveName": "Constrict",
-        "moveId": 132,
-        "badges": 0,
-        "hpTypeName": "Poison",
-        "hpTypeId": 3,
-        "enemyMoveName": "Return",
-        "enemyMoveId": 216
-    },
-    "BatChest": {
-        "moveName": "Leech Life",
-        "moveId": 141,
-        "badges": 0,
-        "hpTypeName": "Ghost",
-        "hpTypeId": 8,
-        "enemyMoveName": "Brave Bird",
-        "enemyMoveId": 308
-    },
-    "ArgieB8": {
-        "moveName": "Splash",
-        "moveId": 150,
-        "badges": 0,
-        "hpTypeName": "Dark",
-        "hpTypeId": 27,
-        "enemyMoveName": "Covet",
-        "enemyMoveId": 285
-    },
-    "TheIlluminati": {
-        "moveName": "Splash",
-        "moveId": 150,
-        "badges": 0,
-        "hpTypeName": "Dark",
-        "hpTypeId": 27,
-        "enemyMoveName": "Tri Attack",
-        "enemyMoveId": 161
-    },
-    "DxCat": {
-        "moveName": "Scratch",
-        "moveId": 10,
-        "badges": 0,
-        "hpTypeName": "Bug",
-        "hpTypeId": 7,
-        "enemyMoveName": "Slash",
-        "enemyMoveId": 163
-    },
-    "Keepo": {
-        "moveName": "Scratch",
-        "moveId": 10,
-        "badges": 0,
-        "hpTypeName": "Bug",
-        "hpTypeId": 7,
-        "enemyMoveName": "Slash",
-        "enemyMoveId": 163
-    },
-    "FrankerZ": {
-        "moveName": "Growl",
-        "moveId": 45,
-        "badges": 0,
-        "hpTypeName": "Grass",
-        "hpTypeId": 22,
-        "enemyMoveName": "Crunch",
-        "enemyMoveId": 242
-    },
-    "RalpherZ": {
-        "moveName": "Growl",
-        "moveId": 45,
-        "badges": 0,
-        "hpTypeName": "Grass",
-        "hpTypeId": 22,
-        "enemyMoveName": "Crunch",
-        "enemyMoveId": 242
-    },
-    "TTours": {
-        "moveName": "Flash",
-        "moveId": 148,
-        "badges": 0,
-        "hpTypeName": "Electric",
-        "hpTypeId": 23,
-        "enemyMoveName": "Dazzlingleam",
-        "enemyMoveId": 347
-    },
-    "StinkyCheese": {
-        "moveName": "Poison Gas",
-        "moveId": 139,
-        "badges": 0,
-        "hpTypeName": "Flying",
-        "hpTypeId": 2,
-        "enemyMoveName": "Toxic",
-        "enemyMoveId": 92
-    },
-    "FreakinStinkin": {
-        "moveName": "Poison Gas",
-        "moveId": 139,
-        "badges": 0,
-        "hpTypeName": "Flying",
-        "hpTypeId": 2,
-        "enemyMoveName": "Sludge Bomb",
-        "enemyMoveId": 188
-    },
-    ":O": {
-        "moveName": "Poison Gas",
-        "moveId": 139,
-        "badges": 0,
-        "hpTypeName": "Flying",
-        "hpTypeId": 2,
-        "enemyMoveName": "Sludge Bomb",
-        "enemyMoveId": 188
-    },
-    "DansGame": {
-        "moveName": "Smog",
-        "moveId": 123,
-        "badges": 0,
-        "hpTypeName": "Fire",
-        "hpTypeId": 20,
-        "enemyMoveName": "Frustration",
-        "enemyMoveId": 218
-    },
-    "Kreygasm": {
-        "moveName": "String Shot",
-        "moveId": 81,
-        "badges": 0,
-        "hpTypeName": "Water",
-        "hpTypeId": 21,
-        "enemyMoveName": "Play Rough",
-        "enemyMoveId": 345
-    },
-    "VoHiYo": {
-        "moveName": "Sweet Kiss",
-        "moveId": 186,
-        "badges": 0,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Drainingkiss",
-        "enemyMoveId": 344
-    },
-    "tppYo": {
-        "moveName": "Sweet Kiss",
-        "moveId": 186,
-        "badges": 0,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Drainingkiss",
-        "enemyMoveId": 344
-    },
-    "tppAYAYA": {
-        "moveName": "Sweet Kiss",
-        "moveId": 186,
-        "badges": 0,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Drainingkiss",
-        "enemyMoveId": 344
-    },
-    "OSFrog": {
-        "moveName": "Mist",
-        "moveId": 54,
-        "badges": 0,
-        "hpTypeName": "Ice",
-        "hpTypeId": 25,
-        "enemyMoveName": "Muddy Water",
-        "enemyMoveId": 280
-    },
-    ":D": {
-        "moveName": "Transform",
-        "moveId": 144,
-        "badges": 0,
-        "hpTypeName": "Grass",
-        "hpTypeId": 22,
-        "enemyMoveName": "Transform",
-        "enemyMoveId": 144
-    },
-    "SuperVinlin": {
-        "moveName": "Bide",
-        "moveId": 117,
-        "badges": 0,
-        "hpTypeName": "Poison",
-        "hpTypeId": 3,
-        "enemyMoveName": "Revenge",
-        "enemyMoveId": 258
-    },
-    "ArsonNoSexy": {
-        "moveName": "Bide",
-        "moveId": 117,
-        "badges": 0,
-        "hpTypeName": "Fire",
-        "hpTypeId": 20,
-        "enemyMoveName": "Revenge",
-        "enemyMoveId": 258
-    },
-    "PRChase": {
-        "moveName": "Metronome",
-        "moveId": 118,
-        "badges": 0,
-        "hpTypeName": "Dragon",
-        "hpTypeId": 26,
-        "enemyMoveName": "Metronome",
-        "enemyMoveId": 118
-    },
-    "tppPray": {
-        "moveName": "Metronome",
-        "moveId": 118,
-        "badges": 0,
-        "hpTypeName": "Dragon",
-        "hpTypeId": 26,
-        "enemyMoveName": "Metronome",
-        "enemyMoveId": 118
-    },
-    "tppRNG": {
-        "moveName": "Metronome",
-        "moveId": 118,
-        "badges": 0,
-        "hpTypeName": "Dragon",
-        "hpTypeId": 26,
-        "enemyMoveName": "Metronome",
-        "enemyMoveId": 118
-    },
-    "pastaThat": {
-        "moveName": "Mirror Move",
-        "moveId": 119,
-        "badges": 0,
-        "hpTypeName": "Steel",
-        "hpTypeId": 9,
-        "enemyMoveName": "Mirror Move",
-        "enemyMoveId": 119
-    },
-    "NotLikeThis": {
-        "moveName": "Supersonic",
-        "moveId": 48,
-        "badges": 0,
-        "hpTypeName": "Poison",
-        "hpTypeId": 3,
-        "enemyMoveName": "Echoed Voice",
-        "enemyMoveId": 334
-    },
-    "VoteYea": {
-        "moveName": "Conversion",
-        "moveId": 160,
-        "badges": 0,
-        "hpTypeName": "Ghost",
-        "hpTypeId": 8,
-        "enemyMoveName": "Echoed Voice",
-        "enemyMoveId": 334
-    },
-    "PJSalt": {
-        "moveName": "Disable",
-        "moveId": 50,
-        "badges": 0,
-        "hpTypeName": "Dark",
-        "hpTypeId": 27,
-        "enemyMoveName": "Brine",
-        "enemyMoveId": 293
-    },
-    "VoteNay": {
-        "moveName": "Disable",
-        "moveId": 50,
-        "badges": 0,
-        "hpTypeName": "Fire",
-        "hpTypeId": 20,
-        "enemyMoveName": "Echoed Voice",
-        "enemyMoveId": 334
-    },
-    "PJSugar": {
-        "moveName": "Kinesis",
-        "moveId": 134,
-        "badges": 0,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Pollen Puff",
-        "enemyMoveId": 350
-    },
-    "MrDestructoid": {
-        "moveName": "Teleport",
-        "moveId": 100,
-        "badges": 0,
-        "hpTypeName": "Steel",
-        "hpTypeId": 9,
-        "enemyMoveName": "Iron Head",
-        "enemyMoveId": 322
-    },
-    "UWot": {
-        "moveName": "Psywave",
-        "moveId": 149,
-        "badges": 0,
-        "hpTypeName": "Grass",
-        "hpTypeId": 22,
-        "enemyMoveName": "Psywave",
-        "enemyMoveId": 149
-    },
-    "YouDontSay": {
-        "moveName": "Psywave",
-        "moveId": 149,
-        "badges": 0,
-        "hpTypeName": "Grass",
-        "hpTypeId": 22,
-        "enemyMoveName": "Psywave",
-        "enemyMoveId": 149
-    },
-    "cmonBruh": {
-        "moveName": "Counter",
-        "moveId": 68,
-        "badges": 0,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Revenge",
-        "enemyMoveId": 258
-    },
-    "JKanStyle": {
-        "moveName": "Smokescreen",
-        "moveId": 108,
-        "badges": 0,
-        "hpTypeName": "Flying",
-        "hpTypeId": 2,
-        "enemyMoveName": "Sludge Bomb",
-        "enemyMoveId": 188
-    },
-    "tppBlind": {
-        "moveName": "Smokescreen",
-        "moveId": 108,
-        "badges": 0,
-        "hpTypeName": "Flying",
-        "hpTypeId": 2,
-        "enemyMoveName": "Sludge Bomb",
-        "enemyMoveId": 188
-    },
-    "BrainSlug": {
-        "moveName": "Absorb",
-        "moveId": 71,
-        "badges": 0,
-        "hpTypeName": "Poison",
-        "hpTypeId": 3,
-        "enemyMoveName": "Giga Drain",
-        "enemyMoveId": 202
-    },
-    "InuyoFace": {
-        "moveName": "Scary Face",
-        "moveId": 184,
-        "badges": 0,
-        "hpTypeName": "Ice",
-        "hpTypeId": 25,
-        "enemyMoveName": "Close Combat",
-        "enemyMoveId": 294
-    },
-    "HotPokket": {
-        "moveName": "Bubble",
-        "moveId": 145,
-        "badges": 0,
-        "hpTypeName": "Ice",
-        "hpTypeId": 25,
-        "enemyMoveName": "Outrage",
-        "enemyMoveId": 200
-    },
-    ":(": {
-        "moveName": "Bubble",
-        "moveId": 145,
-        "badges": 0,
-        "hpTypeName": "Grass",
-        "hpTypeId": 22,
-        "enemyMoveName": "Dark Void",
-        "enemyMoveId": 329
-    },
-    "Kippa": {
-        "moveName": "Fury Swipes",
-        "moveId": 154,
-        "badges": 0,
-        "hpTypeName": "Bug",
-        "hpTypeId": 7,
-        "enemyMoveName": "Night Slash",
-        "enemyMoveId": 301
-    },
-    "imGlitch": {
-        "moveName": "Substitute",
-        "moveId": 164,
-        "badges": 0,
-        "hpTypeName": "Bug",
-        "hpTypeId": 7,
-        "enemyMoveName": "Return",
-        "enemyMoveId": 216
-    },
-    "PrimeMe": {
-        "moveName": "Substitute",
-        "moveId": 164,
-        "badges": 0,
-        "hpTypeName": "Psychic",
-        "hpTypeId": 24,
-        "enemyMoveName": "Return",
-        "enemyMoveId": 216
-    },
-    "RaccAttack": {
-        "moveName": "Fury Attack",
-        "moveId": 31,
-        "badges": 0,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Return",
-        "enemyMoveId": 216
-    },
-    "tppZig": {
-        "moveName": "Fury Attack",
-        "moveId": 31,
-        "badges": 0,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Return",
-        "enemyMoveId": 216
-    },
-    "tppShine": {
-        "moveName": "Fury Attack",
-        "moveId": 31,
-        "badges": 0,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Return",
-        "enemyMoveId": 216
-    },
-    "tppZag": {
-        "moveName": "Fury Attack",
-        "moveId": 31,
-        "badges": 0,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Return",
-        "enemyMoveId": 216
-    },
-    "tppOon": {
-        "moveName": "Fury Attack",
-        "moveId": 31,
-        "badges": 0,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Return",
-        "enemyMoveId": 216
-    },
-    "CrreamAwk": {
-        "moveName": "Shadow Sneak",
-        "moveId": 314,
-        "badges": 1,
-        "hpTypeName": "Ice",
-        "hpTypeId": 25,
-        "enemyMoveName": "Shadow Ball",
-        "enemyMoveId": 246
-    },
-    "TwitchVotes": {
-        "moveName": "Future Sight",
-        "moveId": 248,
-        "badges": 1,
-        "hpTypeName": "Ghost",
-        "hpTypeId": 8,
-        "enemyMoveName": "Echoed Voice",
-        "enemyMoveId": 334
-    },
-    "twitchRaid": {
-        "moveName": "Pin Missile",
-        "moveId": 42,
-        "badges": 1,
-        "hpTypeName": "Steel",
-        "hpTypeId": 9,
-        "enemyMoveName": "Attack Order",
-        "enemyMoveId": 328
-    },
-    "WutFace": {
-        "moveName": "Acid",
-        "moveId": 51,
-        "badges": 1,
-        "hpTypeName": "Fire",
-        "hpTypeId": 20,
-        "enemyMoveName": "Muddy Water",
-        "enemyMoveId": 280
-    },
-    "BigBrother": {
-        "moveName": "Harden",
-        "moveId": 106,
-        "badges": 0,
-        "hpTypeName": "Steel",
-        "hpTypeId": 9,
-        "enemyMoveName": "Wood Hammer",
-        "enemyMoveId": 326
-    },
-    "OneHand": {
-        "moveName": "Harden",
-        "moveId": 106,
-        "badges": 0,
-        "hpTypeName": "Dragon",
-        "hpTypeId": 26,
-        "enemyMoveName": "Blaze Kick",
-        "enemyMoveId": 265
-    },
-    "tppSmug": {
-        "moveName": "Harden",
-        "moveId": 106,
-        "badges": 0,
-        "hpTypeName": "Dragon",
-        "hpTypeId": 26,
-        "enemyMoveName": "Blaze Kick",
-        "enemyMoveId": 265
-    },
-    "KevinTurtle": {
-        "moveName": "Withdraw",
-        "moveId": 110,
-        "badges": 1,
-        "hpTypeName": "Ground",
-        "hpTypeId": 4,
-        "enemyMoveName": "Hydro Pump",
-        "enemyMoveId": 56
-    },
-    "MikeHogu": {
-        "moveName": "Withdraw",
-        "moveId": 110,
-        "badges": 1,
-        "hpTypeName": "Ground",
-        "hpTypeId": 4,
-        "enemyMoveName": "Dark Void",
-        "enemyMoveId": 329
-    },
-    "CurseLit": {
-        "moveName": "Ember",
-        "moveId": 52,
-        "badges": 1,
-        "hpTypeName": "Ground",
-        "hpTypeId": 4,
-        "enemyMoveName": "Ember",
-        "enemyMoveId": 52
-    },
-    "TearGlove": {
-        "moveName": "Water Gun",
-        "moveId": 55,
-        "badges": 1,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Bubblebeam",
-        "enemyMoveId": 61
-    },
-    "GivePLZ": {
-        "moveName": "Comet Punch",
-        "moveId": 4,
-        "badges": 1,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Covet",
-        "enemyMoveId": 285
-    },
-    "SeemsGood": {
-        "moveName": "Comet Punch",
-        "moveId": 4,
-        "badges": 1,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Hammer Arm",
-        "enemyMoveId": 292
-    },
-    "TPcrunchyroll": {
-        "moveName": "Charm",
-        "moveId": 204,
-        "badges": 1,
-        "hpTypeName": "Ground",
-        "hpTypeId": 4,
-        "enemyMoveName": "Crunch",
-        "enemyMoveId": 242
-    },
-    "PinkMercy": {
-        "moveName": "Charm",
-        "moveId": 204,
-        "badges": 1,
-        "hpTypeName": "Dark",
-        "hpTypeId": 27,
-        "enemyMoveName": "Dazzlingleam",
-        "enemyMoveId": 347
-    },
-    "YouWHY": {
-        "moveName": "Vicegrip",
-        "moveId": 11,
-        "badges": 2,
-        "hpTypeName": "Grass",
-        "hpTypeId": 22,
-        "enemyMoveName": "Foul Play",
-        "enemyMoveId": 333
-    },
-    "GunRun": {
-        "moveName": "Agility",
-        "moveId": 97,
-        "badges": 2,
-        "hpTypeName": "Steel",
-        "hpTypeId": 9,
-        "enemyMoveName": "Thrash",
-        "enemyMoveId": 37
-    },
-    "FBRun": {
-        "moveName": "Agility",
-        "moveId": 97,
-        "badges": 2,
-        "hpTypeName": "Steel",
-        "hpTypeId": 9,
-        "enemyMoveName": "Rollout",
-        "enemyMoveId": 205
-    },
-    "FBPass": {
-        "moveName": "Baton Pass",
-        "moveId": 226,
-        "badges": 2,
-        "hpTypeName": "Electric",
-        "hpTypeId": 23,
-        "enemyMoveName": "Ice ball",
-        "enemyMoveId": 266
-    },
-    "PeoplesChamp": {
-        "moveName": "Seismic Toss",
-        "moveId": 69,
-        "badges": 2,
-        "hpTypeName": "Ground",
-        "hpTypeId": 4,
-        "enemyMoveName": "Seismic Toss",
-        "enemyMoveId": 69
-    },
-    "SMOrc": {
-        "moveName": "Skull Bash",
-        "moveId": 130,
-        "badges": 2,
-        "hpTypeName": "Steel",
-        "hpTypeId": 9,
-        "enemyMoveName": "Skull Bash",
-        "enemyMoveId": 130
-    },
-    "DatSheffy": {
-        "moveName": "Night Shade",
-        "moveId": 101,
-        "badges": 2,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Night Shade",
-        "enemyMoveId": 101
-    },
-    "mcaT": {
-        "moveName": "Confusion",
-        "moveId": 93,
-        "badges": 3,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Psychic",
-        "enemyMoveId": 94
-    },
-    "FUNgineer": {
-        "moveName": "Rock Throw",
-        "moveId": 88,
-        "badges": 3,
-        "hpTypeName": "Ground",
-        "hpTypeId": 4,
-        "enemyMoveName": "Rock Slide",
-        "enemyMoveId": 157
-    },
-    "DAESuppy": {
-        "moveName": "Rock Throw",
-        "moveId": 88,
-        "badges": 3,
-        "hpTypeName": "Electric",
-        "hpTypeId": 23,
-        "enemyMoveName": "Rock Slide",
-        "enemyMoveId": 157
-    },
-    "CoolStoryBob": {
-        "moveName": "Wing Attack",
-        "moveId": 17,
-        "badges": 3,
-        "hpTypeName": "Flying",
-        "hpTypeId": 2,
-        "enemyMoveName": "Wing Attack",
-        "enemyMoveId": 17
-    },
-    "TakeNRG": {
-        "moveName": "Covet",
-        "moveId": 3,
-        "badges": 3,
-        "hpTypeName": "Poison",
-        "hpTypeId": 3,
-        "enemyMoveName": "Covet",
-        "enemyMoveId": 285
-    },
-    "PorscheWIN": {
-        "moveName": "Mud-Slap",
-        "moveId": 189,
-        "badges": 3,
-        "hpTypeName": "Electric",
-        "hpTypeId": 23,
-        "enemyMoveName": "Mud-Slap",
-        "enemyMoveId": 189
-    },
-    "DendiFace": {
-        "moveName": "Swift",
-        "moveId": 129,
-        "badges": 3,
-        "hpTypeName": "Bug",
-        "hpTypeId": 7,
-        "enemyMoveName": "Swift",
-        "enemyMoveId": 129
-    },
-    "PurpleStar": {
-        "moveName": "Swift",
-        "moveId": 129,
-        "badges": 3,
-        "hpTypeName": "Bug",
-        "hpTypeId": 7,
-        "enemyMoveName": "Swift",
-        "enemyMoveId": 129
-    },
-    "PraiseIt": {
-        "moveName": "Spike Cannon",
-        "moveId": 131,
-        "badges": 3,
-        "hpTypeName": "Psychic",
-        "hpTypeId": 24,
-        "enemyMoveName": "Spike Cannon",
-        "enemyMoveId": 131
-    },
-    "tppPraise": {
-        "moveName": "Spike Cannon",
-        "moveId": 131,
-        "badges": 3,
-        "hpTypeName": "Psychic",
-        "hpTypeId": 24,
-        "enemyMoveName": "Spike Cannon",
-        "enemyMoveId": 131
-    },
-    "BlackLivesMatter": {
-        "moveName": "Psych Up",
-        "moveId": 244,
-        "badges": 3,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Shadow Punch",
-        "enemyMoveId": 277
-    },
-    "JonCarnage": {
-        "moveName": "Slam",
-        "moveId": 21,
-        "badges": 3,
-        "hpTypeName": "Flying",
-        "hpTypeId": 2,
-        "enemyMoveName": "Slam",
-        "enemyMoveId": 21
-    },
-    "UncleNox": {
-        "moveName": "Horn Attack",
-        "moveId": 30,
-        "badges": 3,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Horn Attack",
-        "enemyMoveId": 30
-    },
-    "WholeWheat": {
-        "moveName": "Razor leaf",
-        "moveId": 75,
-        "badges": 4,
-        "hpTypeName": "Fire",
-        "hpTypeId": 20,
-        "enemyMoveName": "Wood hammer",
-        "enemyMoveId": 326
-    },
-    "CarlSmile": {
-        "moveName": "Assurance",
-        "moveId": 295,
-        "badges": 4,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Assurance",
-        "enemyMoveId": 295
-    },
-    "PixelBob": {
-        "moveName": "Assurance",
-        "moveId": 295,
-        "badges": 4,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Assurance",
-        "enemyMoveId": 295
-    },
-    "OpieOP": {
-        "moveName": "Barrier",
-        "moveId": 112,
-        "badges": 4,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Zen Headbutt",
-        "enemyMoveId": 317
-    },
-    "TooSpicy": {
-        "moveName": "Stun Spore",
-        "moveId": 78,
-        "badges": 4,
-        "hpTypeName": "Fire",
-        "hpTypeId": 20,
-        "enemyMoveName": "Flare Blitz",
-        "enemyMoveId": 299
-    },
-    "PicoMause": {
-        "moveName": "Super Fang",
-        "moveId": 162,
-        "badges": 4,
-        "hpTypeName": "Dark",
-        "hpTypeId": 27,
-        "enemyMoveName": "Hyper Fang",
-        "enemyMoveId": 158
-    },
-    "Mau5": {
-        "moveName": "Super Fang",
-        "moveId": 162,
-        "badges": 4,
-        "hpTypeName": "Dark",
-        "hpTypeId": 27,
-        "enemyMoveName": "Hyper Fang",
-        "enemyMoveId": 158
-    },
-    "CoolCat": {
-        "moveName": "Glare",
-        "moveId": 137,
-        "badges": 4,
-        "hpTypeName": "Dark",
-        "hpTypeId": 27,
-        "enemyMoveName": "Hyper Fang",
-        "enemyMoveId": 158
-    },
-    "ShadyLulu": {
-        "moveName": "Glare",
-        "moveId": 137,
-        "badges": 4,
-        "hpTypeName": "Dark",
-        "hpTypeId": 27,
-        "enemyMoveName": "Hyper Fang",
-        "enemyMoveId": 158
-    },
-    "BuddhaBar": {
-        "moveName": "Meditate",
-        "moveId": 96,
-        "badges": 4,
-        "hpTypeName": "Ground",
-        "hpTypeId": 4,
-        "enemyMoveName": "Zen Headbutt",
-        "enemyMoveId": 317
-    },
-    "DogFace": {
-        "moveName": "Howl",
-        "moveId": 46,
-        "badges": 4,
-        "hpTypeName": "Ghost",
-        "hpTypeId": 8,
-        "enemyMoveName": "Howl",
-        "enemyMoveId": 242
-    },
-    "tppWowee": {
-        "moveName": "Howl",
-        "moveId": 46,
-        "badges": 4,
-        "hpTypeName": "Ghost",
-        "hpTypeId": 8,
-        "enemyMoveName": "Crunch",
-        "enemyMoveId": 242
-    },
-    ":/": {
-        "moveName": "Meditate",
-        "moveId": 96,
-        "badges": 4,
-        "hpTypeName": "Ground",
-        "hpTypeId": 4,
-        "enemyMoveName": "Crunch",
-        "enemyMoveId": 242
-    },
-    "NinjaGrumpy": {
-        "moveName": "Double Team",
-        "moveId": 104,
-        "badges": 4,
-        "hpTypeName": "Poison",
-        "hpTypeId": 3,
-        "enemyMoveName": "Fient Attack",
-        "enemyMoveId": 185
-    },
-    "SoBayed": {
-        "moveName": "Sing",
-        "moveId": 47,
-        "badges": 4,
-        "hpTypeName": "Psychic",
-        "hpTypeId": 24,
-        "enemyMoveName": "Bug Buzz",
-        "enemyMoveId": 303
-    },
-    "TheRinger": {
-        "moveName": "Sing",
-        "moveId": 47,
-        "badges": 4,
-        "hpTypeName": "Psychic",
-        "hpTypeId": 24,
-        "enemyMoveName": "Bug Buzz",
-        "enemyMoveId": 303
-    },
-    "SingsMic": {
-        "moveName": "Sing",
-        "moveId": 47,
-        "badges": 4,
-        "hpTypeName": "Electric",
-        "hpTypeId": 23,
-        "enemyMoveName": "Bug Buzz",
-        "enemyMoveId": 303
-    },
-    "HeyGuys": {
-        "moveName": "Teeter Dance",
-        "moveId": 80,
-        "badges": 4,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Petal Dance",
-        "enemyMoveId": 80
-    },
-    "HassaanChop": {
-        "moveName": "Karate Chop",
-        "moveId": 2,
-        "badges": 4,
-        "hpTypeName": "Grass",
-        "hpTypeId": 22,
-        "enemyMoveName": "Karate Chop",
-        "enemyMoveId": 2
-    },
-    "BCWarrior": {
-        "moveName": "Confuse Ray",
-        "moveId": 109,
-        "badges": 4,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Close Combat",
-        "enemyMoveId": 294
-    },
-    "KappaPride": {
-        "moveName": "Confuse Ray",
-        "moveId": 109,
-        "badges": 4,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Wake Up Slap",
-        "enemyMoveId": 291
-    },
-    "tppPride": {
-        "moveName": "Confuse Ray",
-        "moveId": 109,
-        "badges": 4,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Wake Up Slap",
-        "enemyMoveId": 291
-    },
-    ";)": {
-        "moveName": "Confuse Ray",
-        "moveId": 109,
-        "badges": 4,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Wake Up Slap",
-        "enemyMoveId": 291
-    },
-    "ShowOfHands": {
-        "moveName": "Beat Up",
-        "moveId": 251,
-        "badges": 4,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Wake Up Slap",
-        "enemyMoveId": 291
-    },
-    "HolidayOrnament": {
-        "moveName": "Spikes",
-        "moveId": 191,
-        "badges": 4,
-        "hpTypeName": "Ice",
-        "hpTypeId": 25,
-        "enemyMoveName": "Wood Hammer",
-        "enemyMoveId": 326
-    },
-    "ShazBotstix": {
-        "moveName": "Low Kick",
-        "moveId": 67,
-        "badges": 4,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Low Kick",
-        "enemyMoveId": 67
-    },
-    "MingLee": {
-        "moveName": "Low Kick",
-        "moveId": 67,
-        "badges": 4,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Low Kick",
-        "enemyMoveId": 67
-    },
-    "RitzMitz": {
-        "moveName": "Dig",
-        "moveId": 91,
-        "badges": 5,
-        "hpTypeName": "Ice",
-        "hpTypeId": 25,
-        "enemyMoveName": "Dig",
-        "enemyMoveId": 91
-    },
-    "TheTarFu": {
-        "moveName": "Dig",
-        "moveId": 91,
-        "badges": 5,
-        "hpTypeName": "Ice",
-        "hpTypeId": 25,
-        "enemyMoveName": "Dig",
-        "enemyMoveId": 91
-    },
-    "FBChallenge": {
-        "moveName": "Rolling Kick",
-        "moveId": 27,
-        "badges": 5,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Rolling Kick",
-        "enemyMoveId": 27
-    },
-    "FBPenalty": {
-        "moveName": "Rolling Kick",
-        "moveId": 27,
-        "badges": 5,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Rolling Kick",
-        "enemyMoveId": 27
-    },
-    "FBtouchdown": {
-        "moveName": "Rolling Kick",
-        "moveId": 27,
-        "badges": 5,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Rolling Kick",
-        "enemyMoveId": 27
-    },
-    "Squid3": {
-        "moveName": "Octazooka",
-        "moveId": 190,
-        "badges": 5,
-        "hpTypeName": "Steel",
-        "hpTypeId": 9,
-        "enemyMoveName": "Octazooka",
-        "enemyMoveId": 190
-    },
-    "FutureMan": {
-        "moveName": "Psybeam",
-        "moveId": 60,
-        "badges": 5,
-        "hpTypeName": "Steel",
-        "hpTypeId": 9,
-        "enemyMoveName": "Psybeam",
-        "enemyMoveId": 60
-    },
-    "PartyTime": {
-        "moveName": "Petal Dance",
-        "moveId": 80,
-        "badges": 5,
-        "hpTypeName": "Steel",
-        "hpTypeId": 9,
-        "enemyMoveName": "Petal Dance",
-        "enemyMoveId": 80
-    },
-    "PMSTwin": {
-        "moveName": "Twinneedle",
-        "moveId": 41,
-        "badges": 5,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Twinneedle",
-        "enemyMoveId": 41
-    },
-    "HSCheers": {
-        "moveName": "Light Screen",
-        "moveId": 115,
-        "badges": 5,
-        "hpTypeName": "Water",
-        "hpTypeId": 21,
-        "enemyMoveName": "Bubblebeam",
-        "enemyMoveId": 61
-    },
-    "NotATK": {
-        "moveName": "Reflect",
-        "moveId": 115,
-        "badges": 5,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Spore",
-        "enemyMoveId": 147
-    },
-    "ThunBeast": {
-        "moveName": "Thunder Wave",
-        "moveId": 86,
-        "badges": 5,
-        "hpTypeName": "Water",
-        "hpTypeId": 21,
-        "enemyMoveName": "Charge Beam",
-        "enemyMoveId": 325
-    },
-    "RuleFive": {
-        "moveName": "Thunder Wave",
-        "moveId": 86,
-        "badges": 5,
-        "hpTypeName": "Water",
-        "hpTypeId": 21,
-        "enemyMoveName": "Ice Hammer",
-        "enemyMoveId": 349
-    },
-    "tppSlowpoke": {
-        "moveName": "Thunder Wave",
-        "moveId": 86,
-        "badges": 5,
-        "hpTypeName": "Water",
-        "hpTypeId": 21,
-        "enemyMoveName": "Ice Hammer",
-        "enemyMoveId": 349
-    },
-    "GingerPower": {
-        "moveName": "Mega Punch",
-        "moveId": 5,
-        "badges": 5,
-        "hpTypeName": "Fire",
-        "hpTypeId": 20,
-        "enemyMoveName": "Mega Punch",
-        "enemyMoveId": 5
-    },
-    "PipeHype": {
-        "moveName": "Mega Punch",
-        "moveId": 5,
-        "badges": 5,
-        "hpTypeName": "Poison",
-        "hpTypeId": 3,
-        "enemyMoveName": "Mega Punch",
-        "enemyMoveId": 5
-    },
-    "FootBall": {
-        "moveName": "Flame Wheel",
-        "moveId": 172,
-        "badges": 5,
-        "hpTypeName": "Ice",
-        "hpTypeId": 25,
-        "enemyMoveName": "Flame Wheel",
-        "enemyMoveId": 172
-    },
-    "DBstyle": {
-        "moveName": "Submission",
-        "moveId": 66,
-        "badges": 6,
-        "hpTypeName": "Poison",
-        "hpTypeId": 3,
-        "enemyMoveName": "Submission",
-        "enemyMoveId": 66
-    },
-    "StrawBeary": {
-        "moveName": "Submission",
-        "moveId": 66,
-        "badges": 6,
-        "hpTypeName": "Flying",
-        "hpTypeId": 2,
-        "enemyMoveName": "Submission",
-        "enemyMoveId": 66
-    },
-    "TombRaid": {
-        "moveName": "Rock Climb",
-        "moveId": 319,
-        "badges": 6,
-        "hpTypeName": "Ghost",
-        "hpTypeId": 8,
-        "enemyMoveName": "Rock Climb",
-        "enemyMoveId": 319
-    },
-    "FBCatch": {
-        "moveName": "Thief",
-        "moveId": 168,
-        "badges": 6,
-        "hpTypeName": "Dark",
-        "hpTypeId": 27,
-        "enemyMoveName": "Thief",
-        "enemyMoveId": 168
-    },
-    "tppCatch": {
-        "moveName": "Thief",
-        "moveId": 168,
-        "badges": 6,
-        "hpTypeName": "Dark",
-        "hpTypeId": 27,
-        "enemyMoveName": "Thief",
-        "enemyMoveId": 168
-    },
-    "TheThing": {
-        "moveName": "Bone Club",
-        "moveId": 125,
-        "badges": 6,
-        "hpTypeName": "Electric",
-        "hpTypeId": 23,
-        "enemyMoveName": "Bone Club",
-        "enemyMoveId": 125
-    },
-    "ChefFrank": {
-        "moveName": "Egg Bomb",
-        "moveId": 121,
-        "badges": 6,
-        "hpTypeName": "Dragon",
-        "hpTypeId": 26,
-        "enemyMoveName": "Egg Bomb",
-        "enemyMoveId": 121
-    },
-    "TwitchSings": {
-        "moveName": "Perish Song",
-        "moveId": 195,
-        "badges": 6,
-        "hpTypeName": "Dragon",
-        "hpTypeId": 26,
-        "enemyMoveName": "Bug Buzz",
-        "enemyMoveId": 303
-    },
-    "tppS": {
-        "moveName": "Perish Song",
-        "moveId": 195,
-        "badges": 6,
-        "hpTypeName": "Dragon",
-        "hpTypeId": 26,
-        "enemyMoveName": "Bug Buzz",
-        "enemyMoveId": 303
-    },
-    "tppGiga": {
-        "moveName": "Perish Song",
-        "moveId": 195,
-        "badges": 6,
-        "hpTypeName": "Dragon",
-        "hpTypeId": 26,
-        "enemyMoveName": "Bug Buzz",
-        "enemyMoveId": 303
-    },
-    "SingsNote": {
-        "moveName": "Perish Song",
-        "moveId": 195,
-        "badges": 6,
-        "hpTypeName": "Dragon",
-        "hpTypeId": 26,
-        "enemyMoveName": "Bug Buzz",
-        "enemyMoveId": 303
-    },
-    "StinkyGlitch": {
-        "moveName": "Dragon Breath",
-        "moveId": 225,
-        "badges": 6,
-        "hpTypeName": "Grass",
-        "hpTypeId": 22,
-        "enemyMoveName": "Dragon Breath",
-        "enemyMoveId": 225
-    },
-    "BibleThump": {
-        "moveName": "Bubble Beam",
-        "moveId": 61,
-        "badges": 6,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Bubble Beam",
-        "enemyMoveId": 61
-    },
-    "tppHands": {
-        "moveName": "Bubble Beam",
-        "moveId": 61,
-        "badges": 6,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Bubble Beam",
-        "enemyMoveId": 61
-    },
-    "AsianGlow": {
-        "moveName": "Aurora Beam",
-        "moveId": 62,
-        "badges": 6,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Aurora Beam",
-        "enemyMoveId": 62
-    },
-    "KappaClaus": {
-        "moveName": "Aurora Beam",
-        "moveId": 62,
-        "badges": 6,
-        "hpTypeName": "Ice",
-        "hpTypeId": 25,
-        "enemyMoveName": "Aurora Beam",
-        "enemyMoveId": 62
-    },
-    "ResidentSleeper": {
-        "moveName": "Rest",
-        "moveId": 156,
-        "badges": 6,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Spore",
-        "enemyMoveId": 147
-    },
-    ":z": {
-        "moveName": "Rest",
-        "moveId": 156,
-        "badges": 6,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Spore",
-        "enemyMoveId": 147
-    },
-    "SeriousSloth": {
-        "moveName": "Rest",
-        "moveId": 156,
-        "badges": 6,
-        "hpTypeName": "Grass",
-        "hpTypeId": 22,
-        "enemyMoveName": "Spore",
-        "enemyMoveId": 147
-    },
-    "o_O": {
-        "moveName": "Dizzy Punch",
-        "moveId": 146,
-        "badges": 6,
-        "hpTypeName": "Psychic",
-        "hpTypeId": 24,
-        "enemyMoveName": "Dizzy Punch",
-        "enemyMoveId": 146
-    },
-    "SmoocherZ": {
-        "moveName": "Drainingkiss",
-        "moveId": 344,
-        "badges": 6,
-        "hpTypeName": "Poison",
-        "hpTypeId": 3,
-        "enemyMoveName": "Drainingkiss",
-        "enemyMoveId": 344
-    },
-    "MaxLOL": {
-        "moveName": "Pain Split",
-        "moveId": 220,
-        "badges": 6,
-        "hpTypeName": "Poison",
-        "hpTypeId": 3,
-        "enemyMoveName": "Water Spout",
-        "enemyMoveId": 355
-    },
-    "UnSane": {
-        "moveName": "Hyper Fang",
-        "moveId": 158,
-        "badges": 6,
-        "hpTypeName": "Fire",
-        "hpTypeId": 20,
-        "enemyMoveName": "Hyper Fang",
-        "enemyMoveId": 158
-    },
-    "RedCoat": {
-        "moveName": "Take Down",
-        "moveId": 36,
-        "badges": 6,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Take Down",
-        "enemyMoveId": 36
-    },
-    "KomodoHype": {
-        "moveName": "Bite",
-        "moveId": 44,
-        "badges": 7,
-        "hpTypeName": "Ghost",
-        "hpTypeId": 8,
-        "enemyMoveName": "Bite",
-        "enemyMoveId": 44
-    },
-    "StoneLightning": {
-        "moveName": "Crystal Bolt",
-        "moveId": 353,
-        "badges": 7,
-        "hpTypeName": "Ground",
-        "hpTypeId": 4,
-        "enemyMoveName": "Crystal Bolt",
-        "enemyMoveId": 353
-    },
-    "OptimizePrime": {
-        "moveName": "Rollout",
-        "moveId": 205,
-        "badges": 7,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Rollout",
-        "enemyMoveId": 205
-    },
-    "tppD": {
-        "moveName": "Rollout",
-        "moveId": 205,
-        "badges": 7,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Rollout",
-        "enemyMoveId": 205
-    },
-    "tppRoyal": {
-        "moveName": "Rollout",
-        "moveId": 205,
-        "badges": 7,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Rollout",
-        "enemyMoveId": 205
-    },
-    "FBSpiral": {
-        "moveName": "Ice ball",
-        "moveId": 266,
-        "badges": 7,
-        "hpTypeName": "Electric",
-        "hpTypeId": 23,
-        "enemyMoveName": "Ice ball",
-        "enemyMoveId": 266
-    },
-    "ExtraLife": {
-        "moveName": "Toxic",
-        "moveId": 92,
-        "badges": 7,
-        "hpTypeName": "Fire",
-        "hpTypeId": 20,
-        "enemyMoveName": "Poison Fang",
-        "enemyMoveId": 267
-    },
-    "tppToxic": {
-        "moveName": "Toxic",
-        "moveId": 92,
-        "badges": 7,
-        "hpTypeName": "Fire",
-        "hpTypeId": 20,
-        "enemyMoveName": "Poison Fang",
-        "enemyMoveId": 267
-    },
-    "BlargNaut": {
-        "moveName": "Toxic",
-        "moveId": 92,
-        "badges": 7,
-        "hpTypeName": "Electric",
-        "hpTypeId": 23,
-        "enemyMoveName": "Poison Fang",
-        "enemyMoveId": 267
-    },
-    "TF2John": {
-        "moveName": "Screech",
-        "moveId": 103,
-        "badges": 7,
-        "hpTypeName": "Psychic",
-        "hpTypeId": 24,
-        "enemyMoveName": "Bug Buzz",
-        "enemyMoveId": 303
-    },
-    ">(": {
-        "moveName": "Screech",
-        "moveId": 103,
-        "badges": 7,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Bug Buzz",
-        "enemyMoveId": 303
-    },
-    "tppDoot": {
-        "moveName": "Screech",
-        "moveId": 103,
-        "badges": 7,
-        "hpTypeName": "Steel",
-        "hpTypeId": 9,
-        "enemyMoveName": "Bug Buzz",
-        "enemyMoveId": 303
-    },
-    "bleedPurple": {
-        "moveName": "Acid Armour",
-        "moveId": 151,
-        "badges": 7,
-        "hpTypeName": "Water",
-        "hpTypeId": 21,
-        "enemyMoveName": "Water Spout",
-        "enemyMoveId": 355
-    },
-    "EarthDay": {
-        "moveName": "Magnitude",
-        "moveId": 222,
-        "badges": 7,
-        "hpTypeName": "Ghost",
-        "hpTypeId": 8,
-        "enemyMoveName": "Magnitude",
-        "enemyMoveId": 222
-    },
-    "PopCorn": {
-        "moveName": "Growth",
-        "moveId": 74,
-        "badges": 7,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Egg Bomb",
-        "enemyMoveId": 121
-    },
-    "4Head": {
-        "moveName": "Headbutt",
-        "moveId": 29,
-        "badges": 7,
-        "hpTypeName": "Grass",
-        "hpTypeId": 22,
-        "enemyMoveName": "Headbutt",
-        "enemyMoveId": 29
-    },
-    "PanicVis": {
-        "moveName": "Thrash",
-        "moveId": 37,
-        "badges": 7,
-        "hpTypeName": "Dark",
-        "hpTypeId": 27,
-        "enemyMoveName": "Thrash",
-        "enemyMoveId": 37
-    },
-    "MercyWing1": {
-        "moveName": "Steel Wing",
-        "moveId": 211,
-        "badges": 7,
-        "hpTypeName": "Flying",
-        "hpTypeId": 2,
-        "enemyMoveName": "Steel Wing",
-        "enemyMoveId": 211
-    },
-    "MercyWing2": {
-        "moveName": "Steel Wing",
-        "moveId": 211,
-        "badges": 7,
-        "hpTypeName": "Flying",
-        "hpTypeId": 2,
-        "enemyMoveName": "Steel Wing",
-        "enemyMoveId": 211
-    },
-    "VirtualHug": {
-        "moveName": "Protect",
-        "moveId": 182,
-        "badges": 7,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Play Rough",
-        "enemyMoveId": 345
-    },
-    "tppHug": {
-        "moveName": "Protect",
-        "moveId": 182,
-        "badges": 7,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Play Rough",
-        "enemyMoveId": 345
-    },
-    "tppFloof": {
-        "moveName": "Protect",
-        "moveId": 182,
-        "badges": 7,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Play Rough",
-        "enemyMoveId": 345
-    },
-    "KappaRoss": {
-        "moveName": "Drill Peck",
-        "moveId": 65,
-        "badges": 7,
-        "hpTypeName": "Bug",
-        "hpTypeId": 7,
-        "enemyMoveName": "Drill Peck",
-        "enemyMoveId": 65
-    },
-    "tppGlitch": {
-        "moveName": "Drill Peck",
-        "moveId": 65,
-        "badges": 7,
-        "hpTypeName": "Bug",
-        "hpTypeId": 7,
-        "enemyMoveName": "Drill Peck",
-        "enemyMoveId": 65
-    },
-    "BloodTrail": {
-        "moveName": "Jump Kick",
-        "moveId": 26,
-        "badges": 7,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Jump Kick",
-        "enemyMoveId": 26
-    },
-    "TriHard": {
-        "moveName": "Tri Attack",
-        "moveId": 161,
-        "badges": 8,
-        "hpTypeName": "Bug",
-        "hpTypeId": 7,
-        "enemyMoveName": "Tri Attack",
-        "enemyMoveId": 161
-    },
-    "AsexualPride": {
-        "moveName": "Wake Up Slap",
-        "moveId": 291,
-        "badges": 8,
-        "hpTypeName": "Ghost",
-        "hpTypeId": 8,
-        "enemyMoveName": "Wake Up Slap",
-        "enemyMoveId": 291
-    },
-    "DarkMode": {
-        "moveName": "Night Slash",
-        "moveId": 301,
-        "badges": 8,
-        "hpTypeName": "Ground",
-        "hpTypeId": 4,
-        "enemyMoveName": "Night Slash",
-        "enemyMoveId": 301
-    },
-    "tppCult": {
-        "moveName": "Night Slash",
-        "moveId": 301,
-        "badges": 8,
-        "hpTypeName": "Ground",
-        "hpTypeId": 4,
-        "enemyMoveName": "Night Slash",
-        "enemyMoveId": 301
-    },
-    "EntropyWins": {
-        "moveName": "Psycho Cut",
-        "moveId": 316,
-        "badges": 8,
-        "hpTypeName": "Electric",
-        "hpTypeId": 23,
-        "enemyMoveName": "Psycho Cut",
-        "enemyMoveId": 316
-    },
-    "PowerUpL": {
-        "moveName": "Fire Punch",
-        "moveId": 7,
-        "badges": 8,
-        "hpTypeName": "Psychic",
-        "hpTypeId": 24,
-        "enemyMoveName": "Fire Punch",
-        "enemyMoveId": 7
-    },
-    "RedTeam": {
-        "moveName": "Hyper Beam",
-        "moveId": 63,
-        "badges": 8,
-        "hpTypeName": "Grass",
-        "hpTypeId": 22,
-        "enemyMoveName": "Hyper Beam",
-        "enemyMoveId": 63
-    },
-    "EleGiggle": {
-        "moveName": "Rock Slide",
-        "moveId": 157,
-        "badges": 9,
-        "hpTypeName": "Poison",
-        "hpTypeId": 3,
-        "enemyMoveName": "Rock Slide",
-        "enemyMoveId": 157
-    },
-    "BabyRage": {
-        "moveName": "Outrage",
-        "moveId": 82,
-        "badges": 9,
-        "hpTypeName": "Flying",
-        "hpTypeId": 2,
-        "enemyMoveName": "Outrage",
-        "enemyMoveId": 82
-    },
-    "PogChamp": {
-        "moveName": "Crunch",
-        "moveId": 242,
-        "badges": 9,
-        "hpTypeName": "Ghost",
-        "hpTypeId": 8,
-        "enemyMoveName": "Crunch",
-        "enemyMoveId": 242
-    },
-    "HolidayCookie": {
-        "moveName": "Crunch",
-        "moveId": 242,
-        "badges": 9,
-        "hpTypeName": "Ground",
-        "hpTypeId": 4,
-        "enemyMoveName": "Crunch",
-        "enemyMoveId": 242
-    },
-    "TwitchLit": {
-        "moveName": "Shadow Ball",
-        "moveId": 247,
-        "badges": 9,
-        "hpTypeName": "Bug",
-        "hpTypeId": 9,
-        "enemyMoveName": "Shadow Ball",
-        "enemyMoveId": 247
-    },
-    "LUL": {
-        "moveName": "Swagger",
-        "moveId": 207,
-        "badges": 9,
-        "hpTypeName": "Poison",
-        "hpTypeId": 3,
-        "enemyMoveName": "Revenge",
-        "enemyMoveId": 258
-    },
-    "tppLUL": {
-        "moveName": "Swagger",
-        "moveId": 207,
-        "badges": 9,
-        "hpTypeName": "Poison",
-        "hpTypeId": 3,
-        "enemyMoveName": "Revenge",
-        "enemyMoveId": 258
-    },
-    "TransgenderPride": {
-        "moveName": "Dazzlingleam",
-        "moveId": 347,
-        "badges": 9,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Power Gem",
-        "enemyMoveId": 305
-    },
-    "IntersexPride": {
-        "moveName": "Dazzlingleam",
-        "moveId": 347,
-        "badges": 9,
-        "hpTypeName": "Electric",
-        "hpTypeId": 23,
-        "enemyMoveName": "Power Gem",
-        "enemyMoveId": 305
-    },
-    "GenderFluidPride": {
-        "moveName": "Dazzlingleam",
-        "moveId": 347,
-        "badges": 9,
-        "hpTypeName": "Water",
-        "hpTypeId": 21,
-        "enemyMoveName": "Power Gem",
-        "enemyMoveId": 305
-    },
-    "NonBinaryPride": {
-        "moveName": "Dazzlingleam",
-        "moveId": 347,
-        "badges": 9,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Power Gem",
-        "enemyMoveId": 305
-    },
-    "BegWan": {
-        "moveName": "Heal Bell",
-        "moveId": 215,
-        "badges": 10,
-        "hpTypeName": "Flying",
-        "hpTypeId": 2,
-        "enemyMoveName": "Crunch",
-        "enemyMoveId": 242
-    },
-    "DrinkPurple": {
-        "moveName": "Milk Drink",
-        "moveId": 208,
-        "badges": 10,
-        "hpTypeName": "Dragon",
-        "hpTypeId": 26,
-        "enemyMoveName": "Scald",
-        "enemyMoveId": 335
-    },
-    "ThankEgg": {
-        "moveName": "Softboiled",
-        "moveId": 134,
-        "badges": 10,
-        "hpTypeName": "Ghost",
-        "hpTypeId": 8,
-        "enemyMoveName": "Egg Bomb",
-        "enemyMoveId": 121
-    },
-    "GreenTeam": {
-        "moveName": "Solar Beam",
-        "moveId": 76,
-        "badges": 11,
-        "hpTypeName": "Fire",
-        "hpTypeId": 20,
-        "enemyMoveName": "Solar Beam",
-        "enemyMoveId": 76
-    },
-    "PartyHat" :{
-        "moveName": "Iron Head",
-        "moveId": 322,
-        "badges": 11,
-        "hpTypeName": "Electric",
-        "hpTypeId": 23,
-        "enemyMoveName": "Iron Head",
-        "enemyMoveId": 322
-    },
-    "KonCha": {
-        "moveName": "Return",
-        "moveId": 216,
-        "badges": 11,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Return",
-        "enemyMoveId": 216
-    },
-    "R)": {
-        "moveName": "Waterfall",
-        "moveId": 127,
-        "badges": 11,
-        "hpTypeName": "Dark",
-        "hpTypeId": 27,
-        "enemyMoveName": "Waterfall",
-        "enemyMoveId": 127
-    },
-    "SoonerLater": {
-        "moveName": "Sludge bomb",
-        "moveId": 124,
-        "badges": 11,
-        "hpTypeName": "Grass",
-        "hpTypeId": 22,
-        "enemyMoveName": "Sludge bomb",
-        "enemyMoveId": 124
-    },
-    "BigPhish": {
-        "moveName": "Curse",
-        "moveId": 174,
-        "badges": 11,
-        "hpTypeName": "Ghost",
-        "hpTypeId": 8,
-        "enemyMoveName": "Close Combat",
-        "enemyMoveId": 294
-    },
-    "TwitchRPG": {
-        "moveName": "Dragon Pulse",
-        "moveId": 304,
-        "badges": 11,
-        "hpTypeName": "Dragon",
-        "hpTypeId": 24,
-        "enemyMoveName": "Dragon Pulse",
-        "enemyMoveId": 304
-    },
-    "GlitchCat": {
-        "moveName": "Dark Void",
-        "moveId": 329,
-        "badges": 11,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Dark Void",
-        "enemyMoveId": 329
-    },
-    "Kappu": {
-        "moveName": "Scald",
-        "moveId": 335,
-        "badges": 12,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Scald",
-        "enemyMoveId": 335
-    },
-    "tppHype": {
-        "moveName": "Scald",
-        "moveId": 335,
-        "badges": 12,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Scald",
-        "enemyMoveId": 335
-    },
-    "TehePelo": {
-        "moveName": "Horn Leech",
-        "moveId": 339,
-        "badges": 12,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Horn leech",
-        "enemyMoveId": 339
-    },
-    "GlitchLit": {
-        "moveName": "Fire Blast",
-        "moveId": 126,
-        "badges": 12,
-        "hpTypeName": "Bug",
-        "hpTypeId": 7,
-        "enemyMoveName": "Fire Blast",
-        "enemyMoveId": 126
-    },
-    "tppTeiHard": {
-        "moveName": "Fire Blast",
-        "moveId": 126,
-        "badges": 12,
-        "hpTypeName": "Bug",
-        "hpTypeId": 7,
-        "enemyMoveName": "Fire Blast",
-        "enemyMoveId": 126
-    },
-    "GlitchNRG": {
-        "moveName": "Flamethrower",
-        "moveId": 53,
-        "badges": 12,
-        "hpTypeName": "Bug",
-        "hpTypeId": 7,
-        "enemyMoveName": "Flamethrower",
-        "enemyMoveId": 53
-    },
-    "MorphinTime": {
-        "moveName": "Thunder",
-        "moveId": 49,
-        "badges": 12,
-        "hpTypeName": "Grass",
-        "hpTypeId": 22,
-        "enemyMoveName": "Thunder",
-        "enemyMoveId": 49
-    },
-    "tppPika": {
-        "moveName": "Thunder",
-        "moveId": 49,
-        "badges": 12,
-        "hpTypeName": "Grass",
-        "hpTypeId": 22,
-        "enemyMoveName": "Thunder",
-        "enemyMoveId": 49
-    },
-    "TBAngel": {
-        "moveName": "Moonblast",
-        "moveId": 24,
-        "badges": 13,
-        "hpTypeName": "Electric",
-        "hpTypeId": 23,
-        "enemyMoveName": "Moonblast",
-        "enemyMoveId": 24
-    },
-    "MVGame": {
-        "moveName": "Megahorn",
-        "moveId": 224,
-        "badges": 13,
-        "hpTypeName": "Normal",
-        "hpTypeId": 0,
-        "enemyMoveName": "Megahorn",
-        "enemyMoveId": 224
-    },
-    "PunchTrees": {
-        "moveName": "Wood Hammer",
-        "moveId": 326,
-        "badges": 13,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Wood Hammer",
-        "enemyMoveId": 326
-    },
-    "HolidayLog": {
-        "moveName": "Wood Hammer",
-        "moveId": 326,
-        "badges": 13,
-        "hpTypeName": "Ice",
-        "hpTypeId": 25,
-        "enemyMoveName": "Wood Hammer",
-        "enemyMoveId": 326
-    },
-    "BOP": {
-        "moveName": "Wood Hammer",
-        "moveId": 326,
-        "badges": 13,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Wood Hammer",
-        "enemyMoveId": 326
-    },
-    "HolidayTree": {
-        "moveName": "Leaf Storm",
-        "moveId": 321,
-        "badges": 14,
-        "hpTypeName": "Flying",
-        "hpTypeId": 2,
-        "enemyMoveName": "Leaf Storm",
-        "enemyMoveId": 321
-    },
-    "HolidaySanta": {
-        "moveName": "Blizzard",
-        "moveId": 59,
-        "badges": 14,
-        "hpTypeName": "Bug",
-        "hpTypeId": 7,
-        "enemyMoveName": "Blizzard",
-        "enemyMoveId": 59
-    },
-    "PowerUpR": {
-        "moveName": "Sacred Fire",
-        "moveId": 221,
-        "badges": 14,
-        "hpTypeName": "Psychic",
-        "hpTypeId": 24,
-        "enemyMoveName": "Sacred Fire",
-        "enemyMoveId": 221
-    },
-    "tppPc": {
-        "moveName": "Guillotine",
-        "moveId": 12,
-        "badges": 15,
-        "hpTypeName": "Dark",
-        "hpTypeId": 27,
-        "enemyMoveName": "Guillotine",
-        "enemyMoveId": 12
-    },
-    "riPepperonis": {
-        "moveName": "Guillotine",
-        "moveId": 12,
-        "badges": 1,
-        "hpTypeName": "Poison",
-        "hpTypeId": 3,
-        "enemyMoveName": "Guillotine",
-        "enemyMoveId": 12
-    },
-    "TwitchUnity": {
-        "moveName": "Quiver Dance",
-        "moveId": 332,
-        "badges": 15,
-        "hpTypeName": "Flying",
-        "hpTypeId": 2,
-        "enemyMoveName": "Draco Meteor",
-        "enemyMoveId": 357
-    },
-    "tppPet": {
-        "moveName": "Quiver Dance",
-        "moveId": 332,
-        "badges": 15,
-        "hpTypeName": "Flying",
-        "hpTypeId": 2,
-        "enemyMoveName": "Draco Meteor",
-        "enemyMoveId": 357
-    },
-    "Jebaited": {
-        "moveName": "Splash",
-        "moveId": 150,
-        "badges": 16,
-        "hpTypeName": "Dragon",
-        "hpTypeId": 26,
-        "enemyMoveName": "Rock Slide",
-        "enemyMoveId": 157
-    },
-    "NewRecord": {
-        "moveName": "Quick Attack",
-        "moveId": 98,
-        "badges": 1,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Extremespeed",
-        "enemyMoveId": 245
-    },
-    "HungryPaimon": {
-        "moveName": "Softboiled",
-        "moveId": 134,
-        "badges": 10,
-        "hpTypeName": "Ghost",
-        "hpTypeId": 8,
-        "enemyMoveName": "Softboiled",
-        "enemyMoveId": 134
-    },
-    "RyuChamp": {
-        "moveName": "Aura Sphere",
-        "moveId": 300,
-        "badges": 10,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Aura Sphere",
-        "enemyMoveId": 300
-    },
-    "FamilyMan": {
-        "moveName": "Sonic Boom",
-        "moveId": 49,
-        "badges": 2,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Hurricane",
-        "enemyMoveId": 370
-    },
-    "DarkKnight": {
-        "moveName": "Dark Void",
-        "moveId": 329,
-        "badges": 11,
-        "hpTypeName": "Dark",
-        "hpTypeId": 27,
-        "enemyMoveName": "Dark Void",
-        "enemyMoveId": 329
-    },
-    "WhySoSerious": {
-        "moveName": "Teeter Dance",
-        "moveId": 80,
-        "badges": 4,
-        "hpTypeName": "Poison",
-        "hpTypeId": 3,
-        "enemyMoveName": "Petal Dance",
-        "enemyMoveId": 80
-    },
-    "HarleyWink": {
-        "moveName": "Wood Hammer",
-        "moveId": 326,
-        "badges": 13,
-        "hpTypeName": "Psychic",
-        "hpTypeId": 24,
-        "enemyMoveName": "Wood Hammer",
-        "enemyMoveId": 326
-    },
-    "CaitlynS": {
-        "moveName": "Spikes",
-        "moveId": 191,
-        "badges": 3,
-        "hpTypeName": "Psychic",
-        "hpTypeId": 24,
-        "enemyMoveName": "Spike Cannon",
-        "enemyMoveId": 131
-    },
-    "KEKHeim": {
-        "moveName": "Octazooka",
-        "moveId": 190,
-        "badges": 5,
-        "hpTypeName": "Steel",
-        "hpTypeId": 9,
-        "enemyMoveName": "Octazooka",
-        "enemyMoveId": 190
-    },
-    "PoroSad": {
-        "moveName": "Aurora Beam",
-        "moveId": 62,
-        "badges": 6,
-        "hpTypeName": "Fairy",
-        "hpTypeId": 28,
-        "enemyMoveName": "Aurora Beam",
-        "enemyMoveId": 62
-    },
-    "PogBones": {
-        "moveName": "Bonemerang",
-        "moveId": 155,
-        "badges": 13,
-        "hpTypeName": "Dragon",
-        "hpTypeId": 26,
-        "enemyMoveName": "Bonemerang",
-        "enemyMoveId": 155
-    },
-    "Jebasted": {
-        "moveName": "Present",
-        "moveId": 217,
-        "badges": 16,
-        "hpTypeName": "Ice",
-        "hpTypeId": 25,
-        "enemyMoveName": "Blizzard",
-        "enemyMoveId": 59
-    },
-    "tppBop": {
-        "moveName": "Wood Hammer",
-        "moveId": 326,
-        "badges": 13,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Wood Hammer",
-        "enemyMoveId": 326
-    },
-    "tppCrash": {
-        "moveName": "Beat Up",
-        "moveId": 251,
-        "badges": 4,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Beat Up",
-        "enemyMoveId": 251
-    },
-    "tppLedge": {
-        "moveName": "Splash",
-        "moveId": 150,
-        "badges": 0,
-        "hpTypeName": "Dark",
-        "hpTypeId": 27,
-        "enemyMoveName": "Covet",
-        "enemyMoveId": 285
-    },
-    "tppNap": {
-        "moveName": "Rest",
-        "moveId": 156,
-        "badges": 6,
-        "hpTypeName": "Grass",
-        "hpTypeId": 22,
-        "enemyMoveName": "Spore",
-        "enemyMoveId": 147
-    },
-    "tppPop": {
-        "moveName": "Bubble",
-        "moveId": 145,
-        "badges": 0,
-        "hpTypeName": "Ice",
-        "hpTypeId": 25,
-        "enemyMoveName": "Outrage",
-        "enemyMoveId": 200
-    },
-    "tppPopcorn": {
-        "moveName": "Bubble Beam",
-        "moveId": 61,
-        "badges": 6,
-        "hpTypeName": "Rock",
-        "hpTypeId": 5,
-        "enemyMoveName": "Bubble Beam",
-        "enemyMoveId": 61
-    },
-    "tppRoll": {
-        "moveName": "Rollout",
-        "moveId": 205,
-        "badges": 7,
-        "hpTypeName": "Fighting",
-        "hpTypeId": 1,
-        "enemyMoveName": "Rollout",
-        "enemyMoveId": 205
-    }
+  "default": {
+    "moveName": "Pay Day",
+    "moveId": 6,
+    "badges": 0,
+    "hpTypeName": "Dark",
+    "hpTypeId": 27,
+    "enemyMoveName": "Slash",
+    "enemyMoveId": 163
+  },
+  "GayPride": {
+    "moveName": "Bide",
+    "moveId": 117,
+    "badges": 0,
+    "hpTypeName": "Psychic",
+    "hpTypeId": 24,
+    "enemyMoveName": "Revenge",
+    "enemyMoveId": 258
+  },
+  "BisexualPride": {
+    "moveName": "Substitute",
+    "moveId": 164,
+    "badges": 0,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Return",
+    "enemyMoveId": 216
+  },
+  "LesbianPride": {
+    "moveName": "Water Gun",
+    "moveId": 55,
+    "badges": 1,
+    "hpTypeName": "Grass",
+    "hpTypeId": 22,
+    "enemyMoveName": "Bubblebeam",
+    "enemyMoveId": 61
+  },
+  "PansexualPride": {
+    "moveName": "Encore",
+    "moveId": 227,
+    "badges": 0,
+    "hpTypeName": "Electric",
+    "hpTypeId": 23,
+    "enemyMoveName": "Echoed Voice",
+    "enemyMoveId": 334
+  },
+  "SabaPing": {
+    "moveName": "Perish Song",
+    "moveId": 195,
+    "badges": 6,
+    "hpTypeName": "Grass",
+    "hpTypeId": 22,
+    "enemyMoveName": "Bug Buzz",
+    "enemyMoveId": 303
+  },
+  "KAPOW": {
+    "moveName": "Dazzlingleam",
+    "moveId": 347,
+    "badges": 9,
+    "hpTypeName": "Fire",
+    "hpTypeId": 20,
+    "enemyMoveName": "Power Gem",
+    "enemyMoveId": 305
+  },
+  "PermaSmug": {
+    "moveName": "Wrap",
+    "moveId": 35,
+    "badges": 0,
+    "hpTypeName": "Ghost",
+    "hpTypeId": 8,
+    "enemyMoveName": "Octazooka",
+    "enemyMoveId": 190
+  },
+  "SSSsss": {
+    "moveName": "Spikes",
+    "moveId": 191,
+    "badges": 4,
+    "hpTypeName": "Grass",
+    "hpTypeId": 22,
+    "enemyMoveName": "Wood Hammer",
+    "enemyMoveId": 326
+  },
+  "TPFufun": {
+    "moveName": "Horn Attack",
+    "moveId": 30,
+    "badges": 3,
+    "hpTypeName": "Ground",
+    "hpTypeId": 4,
+    "enemyMoveName": "Horn Attack",
+    "enemyMoveId": 30
+  },
+  "panicBasket": {
+    "moveName": "Aurora Beam",
+    "moveId": 62,
+    "badges": 6,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Aurora Beam",
+    "enemyMoveId": 62
+  },
+  "tppRiot": {
+    "moveName": "Crunch",
+    "moveId": 242,
+    "badges": 9,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Crunch",
+    "enemyMoveId": 242
+  },
+  "FootGoal": {
+    "moveName": "Dark Void",
+    "moveId": 329,
+    "badges": 11,
+    "hpTypeName": "Fire",
+    "hpTypeId": 20,
+    "enemyMoveName": "Dark Void",
+    "enemyMoveId": 329
+  },
+  "FootYellow": {
+    "moveName": "Razor leaf",
+    "moveId": 75,
+    "badges": 4,
+    "hpTypeName": "Dragon",
+    "hpTypeId": 24,
+    "enemyMoveName": "Wood hammer",
+    "enemyMoveId": 326
+  },
+  "ANELE": {
+    "moveName": "Scald",
+    "moveId": 335,
+    "badges": 12,
+    "hpTypeName": "Poison",
+    "hpTypeId": 3,
+    "enemyMoveName": "Scald",
+    "enemyMoveId": 335
+  },
+  "<3": {
+    "moveName": "Outrage",
+    "moveId": 82,
+    "badges": 9,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Outrage",
+    "enemyMoveId": 82
+  },
+  "tppLove": {
+    "moveName": "Present",
+    "moveId": 217,
+    "badges": 16,
+    "hpTypeName": "Bug",
+    "hpTypeId": 7,
+    "enemyMoveName": "Blizzard",
+    "enemyMoveId": 59
+  },
+  "PunOko": {
+    "moveName": "Bonemerang",
+    "moveId": 155,
+    "badges": 13,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Bonemerang",
+    "enemyMoveId": 155
+  },
+  "HolidayPresent": {
+    "moveName": "Wake Up Slap",
+    "moveId": 291,
+    "badges": 8,
+    "hpTypeName": "Flying",
+    "hpTypeId": 2,
+    "enemyMoveName": "Wake Up Slap",
+    "enemyMoveId": 291
+  },
+  "ItsBoshyTime": {
+    "moveName": "Magnitude",
+    "moveId": 222,
+    "badges": 7,
+    "hpTypeName": "Flying",
+    "hpTypeId": 2,
+    "enemyMoveName": "Magnitude",
+    "enemyMoveId": 222
+  },
+  "NomNom": {
+    "moveName": "Wood Hammer",
+    "moveId": 326,
+    "badges": 13,
+    "hpTypeName": "Steel",
+    "hpTypeId": 9,
+    "enemyMoveName": "Wood Hammer",
+    "enemyMoveId": 326
+  },
+  "TinyFace": {
+    "moveName": "Guillotine",
+    "moveId": 12,
+    "badges": 15,
+    "hpTypeName": "Dark",
+    "hpTypeId": 27,
+    "enemyMoveName": "Guillotine",
+    "enemyMoveId": 12
+  },
+  "Squid4": {
+    "moveName": "Protect",
+    "moveId": 182,
+    "badges": 7,
+    "hpTypeName": "Flying",
+    "hpTypeId": 2,
+    "enemyMoveName": "Play Rough",
+    "enemyMoveId": 345
+  },
+  "Squid2": {
+    "moveName": "Mud-Slap",
+    "moveId": 189,
+    "badges": 3,
+    "hpTypeName": "Poison",
+    "hpTypeId": 3,
+    "enemyMoveName": "Mud-Slap",
+    "enemyMoveId": 189
+  },
+  "Squid1": {
+    "moveName": "Growth",
+    "moveId": 74,
+    "badges": 7,
+    "hpTypeName": "Flying",
+    "hpTypeId": 2,
+    "enemyMoveName": "Egg Bomb",
+    "enemyMoveId": 121
+  },
+  "HSWP": {
+    "moveName": "Fire Blast",
+    "moveId": 126,
+    "badges": 12,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Fire Blast",
+    "enemyMoveId": 126
+  },
+  "FBBlock": {
+    "moveName": "Doubleslap",
+    "moveId": 3,
+    "badges": 0,
+    "hpTypeName": "Ghost",
+    "hpTypeId": 8,
+    "enemyMoveName": "Octazooka",
+    "enemyMoveId": 190
+  },
+  "Poooound": {
+    "moveName": "Drill Peck",
+    "moveId": 65,
+    "badges": 7,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Drill Peck",
+    "enemyMoveId": 65
+  },
+  "tppBoop": {
+    "moveName": "Dazzlingleam",
+    "moveId": 347,
+    "badges": 9,
+    "hpTypeName": "Flying",
+    "hpTypeId": 2,
+    "enemyMoveName": "Power Gem",
+    "enemyMoveId": 305
+  },
+  "KappaWealth": {
+    "moveName": "Light Screen",
+    "moveId": 115,
+    "badges": 5,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Bubblebeam",
+    "enemyMoveId": 61
+  },
+  "tppPokeyen": {
+    "moveName": "Safeguard",
+    "moveId": 219,
+    "badges": 0,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Body Slam",
+    "enemyMoveId": 34
+  },
+  "tppPayout": {
+    "moveName": "Sunny Day",
+    "moveId": 241,
+    "badges": 0,
+    "hpTypeName": "Bug",
+    "hpTypeId": 7,
+    "enemyMoveName": "Hi Jump Kick",
+    "enemyMoveId": 135
+  },
+  ":)": {
+    "moveName": "Shadow Sneak",
+    "moveId": 314,
+    "badges": 1,
+    "hpTypeName": "Dragon",
+    "hpTypeId": 26,
+    "enemyMoveName": "Shadow Ball",
+    "enemyMoveId": 246
+  },
+  "duDudu": {
+    "moveName": "Metronome",
+    "moveId": 118,
+    "badges": 0,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Metronome",
+    "enemyMoveId": 118
+  },
+  "RlyTho": {
+    "moveName": "Flame Wheel",
+    "moveId": 172,
+    "badges": 5,
+    "hpTypeName": "Ice",
+    "hpTypeId": 25,
+    "enemyMoveName": "Flame Wheel",
+    "enemyMoveId": 172
+  },
+  "CorgiDerp": {
+    "moveName": "Self-destruct",
+    "moveId": 120,
+    "badges": 8,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "DynamicPunch",
+    "enemyMoveId": 223
+  },
+  "DoritosChip": {
+    "moveName": "Screech",
+    "moveId": 103,
+    "badges": 7,
+    "hpTypeName": "Poison",
+    "hpTypeId": 3,
+    "enemyMoveName": "Bug Buzz",
+    "enemyMoveId": 303
+  },
+  "GrammarKing": {
+    "moveName": "Fire Spin",
+    "moveId": 83,
+    "badges": 0,
+    "hpTypeName": "Water",
+    "hpTypeId": 21,
+    "enemyMoveName": "Fire Blast",
+    "enemyMoveId": 126
+  },
+  "B)": {
+    "moveName": "Thunder Wave",
+    "moveId": 86,
+    "badges": 5,
+    "hpTypeName": "Bug",
+    "hpTypeId": 7,
+    "enemyMoveName": "Ice Hammer",
+    "enemyMoveId": 349
+  },
+  "tppCool": {
+    "moveName": "Rage",
+    "moveId": 99,
+    "badges": 0,
+    "hpTypeName": "Fire",
+    "hpTypeId": 20,
+    "enemyMoveName": "Outrage",
+    "enemyMoveId": 200
+  },
+  "OhMyDog": {
+    "moveName": "Scary Face",
+    "moveId": 184,
+    "badges": 0,
+    "hpTypeName": "Ghost",
+    "hpTypeId": 8,
+    "enemyMoveName": "Close Combat",
+    "enemyMoveId": 294
+  },
+  "SwiftRage": {
+    "moveName": "Petal Dance",
+    "moveId": 80,
+    "badges": 5,
+    "hpTypeName": "Poison",
+    "hpTypeId": 3,
+    "enemyMoveName": "Petal Dance",
+    "enemyMoveId": 80
+  },
+  "copyThis": {
+    "moveName": "Dream Eater",
+    "moveId": 138,
+    "badges": 0,
+    "hpTypeName": "Steel",
+    "hpTypeId": 9,
+    "enemyMoveName": "Crunch",
+    "enemyMoveId": 242
+  },
+  "WTRuck": {
+    "moveName": "Rock Slide",
+    "moveId": 157,
+    "badges": 9,
+    "hpTypeName": "Psychic",
+    "hpTypeId": 24,
+    "enemyMoveName": "Rock Slide",
+    "enemyMoveId": 157
+  },
+  "FailFish": {
+    "moveName": "Bubble",
+    "moveId": 145,
+    "badges": 0,
+    "hpTypeName": "Poison",
+    "hpTypeId": 3,
+    "enemyMoveName": "Outrage",
+    "enemyMoveId": 200
+  },
+  "tppFail": {
+    "moveName": "Barrier",
+    "moveId": 112,
+    "badges": 4,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Zen Headbutt",
+    "enemyMoveId": 317
+  },
+  "BrokeBack": {
+    "moveName": "Return",
+    "moveId": 216,
+    "badges": 11,
+    "hpTypeName": "Grass",
+    "hpTypeId": 22,
+    "enemyMoveName": "Return",
+    "enemyMoveId": 216
+  },
+  ":p": {
+    "moveName": "Take Down",
+    "moveId": 36,
+    "badges": 6,
+    "hpTypeName": "Ice",
+    "hpTypeId": 25,
+    "enemyMoveName": "Take Down",
+    "enemyMoveId": 36
+  },
+  ";p": {
+    "moveName": "Swagger",
+    "moveId": 207,
+    "badges": 9,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Revenge",
+    "enemyMoveId": 258
+  },
+  "Kappa": {
+    "moveName": "Howl",
+    "moveId": 46,
+    "badges": 4,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Crunch",
+    "enemyMoveId": 242
+  },
+  "BatChest": {
+    "moveName": "Attract",
+    "moveId": 213,
+    "badges": 0,
+    "hpTypeName": "Dragon",
+    "hpTypeId": 26,
+    "enemyMoveName": "Play Rough",
+    "enemyMoveId": 345
+  },
+  "ArgieB8": {
+    "moveName": "Rollout",
+    "moveId": 205,
+    "badges": 7,
+    "hpTypeName": "Water",
+    "hpTypeId": 21,
+    "enemyMoveName": "Rollout",
+    "enemyMoveId": 205
+  },
+  "TheIlluminati": {
+    "moveName": "Psych Up",
+    "moveId": 244,
+    "badges": 3,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Shadow Punch",
+    "enemyMoveId": 277
+  },
+  "DxCat": {
+    "moveName": "Flash",
+    "moveId": 148,
+    "badges": 0,
+    "hpTypeName": "Water",
+    "hpTypeId": 21,
+    "enemyMoveName": "Dazzlingleam",
+    "enemyMoveId": 347
+  },
+  "Keepo": {
+    "moveName": "Agility",
+    "moveId": 97,
+    "badges": 2,
+    "hpTypeName": "Grass",
+    "hpTypeId": 22,
+    "enemyMoveName": "Thrash",
+    "enemyMoveId": 37
+  },
+  "FrankerZ": {
+    "moveName": "Poison Sting",
+    "moveId": 40,
+    "badges": 0,
+    "hpTypeName": "Steel",
+    "hpTypeId": 9,
+    "enemyMoveName": "Tri Attack",
+    "enemyMoveId": 161
+  },
+  "RalpherZ": {
+    "moveName": "Smokescreen",
+    "moveId": 108,
+    "badges": 0,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Sludge Bomb",
+    "enemyMoveId": 188
+  },
+  "TTours": {
+    "moveName": "Attract (Both sexes)",
+    "moveId": 49356,
+    "badges": 0,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Wake-up Slap",
+    "enemyMoveId": 291
+  },
+  "StinkyCheese": {
+    "moveName": "Tackle",
+    "moveId": 33,
+    "badges": 0,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Return",
+    "enemyMoveId": 216
+  },
+  "FreakinStinkin": {
+    "moveName": "Wing Attack",
+    "moveId": 17,
+    "badges": 3,
+    "hpTypeName": "Psychic",
+    "hpTypeId": 24,
+    "enemyMoveName": "Wing Attack",
+    "enemyMoveId": 17
+  },
+  ":O": {
+    "moveName": "Pain Split",
+    "moveId": 220,
+    "badges": 6,
+    "hpTypeName": "Ice",
+    "hpTypeId": 25,
+    "enemyMoveName": "Water Spout",
+    "enemyMoveId": 355
+  },
+  "DansGame": {
+    "moveName": "Perish Song",
+    "moveId": 195,
+    "badges": 6,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Bug Buzz",
+    "enemyMoveId": 303
+  },
+  "Kreygasm": {
+    "moveName": "Poison Gas",
+    "moveId": 139,
+    "badges": 0,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Sludge Bomb",
+    "enemyMoveId": 188
+  },
+  "VoHiYo": {
+    "moveName": "Fire Spin",
+    "moveId": 83,
+    "badges": 0,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Fire Blast",
+    "enemyMoveId": 126
+  },
+  "tppYo": {
+    "moveName": "Harden",
+    "moveId": 106,
+    "badges": 0,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Wood Hammer",
+    "enemyMoveId": 326
+  },
+  "tppAYAYA": {
+    "moveName": "Bubble",
+    "moveId": 145,
+    "badges": 0,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Dark Void",
+    "enemyMoveId": 329
+  },
+  "OSFrog": {
+    "moveName": "Quiver Dance",
+    "moveId": 332,
+    "badges": 15,
+    "hpTypeName": "Bug",
+    "hpTypeId": 9,
+    "enemyMoveName": "Draco Meteor",
+    "enemyMoveId": 357
+  },
+  ":D": {
+    "moveName": "Night Slash",
+    "moveId": 301,
+    "badges": 8,
+    "hpTypeName": "Ground",
+    "hpTypeId": 4,
+    "enemyMoveName": "Night Slash",
+    "enemyMoveId": 301
+  },
+  "SuperVinlin": {
+    "moveName": "Confuse Ray",
+    "moveId": 109,
+    "badges": 4,
+    "hpTypeName": "Steel",
+    "hpTypeId": 9,
+    "enemyMoveName": "Wake Up Slap",
+    "enemyMoveId": 291
+  },
+  "ArsonNoSexy": {
+    "moveName": "Super Fang",
+    "moveId": 162,
+    "badges": 4,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Hyper Fang",
+    "enemyMoveId": 158
+  },
+  "PRChase": {
+    "moveName": "Poison Gas",
+    "moveId": 139,
+    "badges": 0,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Sludge Bomb",
+    "enemyMoveId": 188
+  },
+  "tppPray": {
+    "moveName": "Thunder Wave",
+    "moveId": 86,
+    "badges": 5,
+    "hpTypeName": "Dragon",
+    "hpTypeId": 26,
+    "enemyMoveName": "Charge Beam",
+    "enemyMoveId": 325
+  },
+  "tppRNG": {
+    "moveName": "Sing",
+    "moveId": 47,
+    "badges": 4,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Bug Buzz",
+    "enemyMoveId": 303
+  },
+  "pastaThat": {
+    "moveName": "Sonic Boom",
+    "moveId": 49,
+    "badges": 2,
+    "hpTypeName": "Ground",
+    "hpTypeId": 4,
+    "enemyMoveName": "Hurricane",
+    "enemyMoveId": 370
+  },
+  "NotLikeThis": {
+    "moveName": "Toxic",
+    "moveId": 92,
+    "badges": 7,
+    "hpTypeName": "Fire",
+    "hpTypeId": 20,
+    "enemyMoveName": "Poison Fang",
+    "enemyMoveId": 267
+  },
+  "VoteYea": {
+    "moveName": "Fury Attack",
+    "moveId": 31,
+    "badges": 0,
+    "hpTypeName": "Psychic",
+    "hpTypeId": 24,
+    "enemyMoveName": "Return",
+    "enemyMoveId": 216
+  },
+  "PJSalt": {
+    "moveName": "Disable",
+    "moveId": 50,
+    "badges": 0,
+    "hpTypeName": "Ghost",
+    "hpTypeId": 8,
+    "enemyMoveName": "Echoed Voice",
+    "enemyMoveId": 334
+  },
+  "VoteNay": {
+    "moveName": "Protect",
+    "moveId": 182,
+    "badges": 7,
+    "hpTypeName": "Ice",
+    "hpTypeId": 25,
+    "enemyMoveName": "Play Rough",
+    "enemyMoveId": 345
+  },
+  "PJSugar": {
+    "moveName": "Gust",
+    "moveId": 16,
+    "badges": 0,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Air Slash",
+    "enemyMoveId": 302
+  },
+  "MrDestructoid": {
+    "moveName": "Meditate",
+    "moveId": 96,
+    "badges": 4,
+    "hpTypeName": "Ice",
+    "hpTypeId": 25,
+    "enemyMoveName": "Crunch",
+    "enemyMoveId": 242
+  },
+  "UWot": {
+    "moveName": "Harden",
+    "moveId": 106,
+    "badges": 0,
+    "hpTypeName": "Ghost",
+    "hpTypeId": 8,
+    "enemyMoveName": "Blaze Kick",
+    "enemyMoveId": 265
+  },
+  "YouDontSay": {
+    "moveName": "Horn Leech",
+    "moveId": 339,
+    "badges": 12,
+    "hpTypeName": "Electric",
+    "hpTypeId": 23,
+    "enemyMoveName": "Horn leech",
+    "enemyMoveId": 339
+  },
+  "cmonBruh": {
+    "moveName": "Sweet Kiss",
+    "moveId": 186,
+    "badges": 0,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Drainingkiss",
+    "enemyMoveId": 344
+  },
+  "JKanStyle": {
+    "moveName": "Disable",
+    "moveId": 50,
+    "badges": 0,
+    "hpTypeName": "Electric",
+    "hpTypeId": 23,
+    "enemyMoveName": "Brine",
+    "enemyMoveId": 293
+  },
+  "tppBlind": {
+    "moveName": "Tri Attack",
+    "moveId": 161,
+    "badges": 8,
+    "hpTypeName": "Bug",
+    "hpTypeId": 7,
+    "enemyMoveName": "Tri Attack",
+    "enemyMoveId": 161
+  },
+  "BrainSlug": {
+    "moveName": "Beat Up",
+    "moveId": 251,
+    "badges": 4,
+    "hpTypeName": "Electric",
+    "hpTypeId": 23,
+    "enemyMoveName": "Beat Up",
+    "enemyMoveId": 251
+  },
+  "InuyoFace": {
+    "moveName": "Drill Peck",
+    "moveId": 65,
+    "badges": 7,
+    "hpTypeName": "Fire",
+    "hpTypeId": 20,
+    "enemyMoveName": "Drill Peck",
+    "enemyMoveId": 65
+  },
+  "HotPokket": {
+    "moveName": "Scald",
+    "moveId": 335,
+    "badges": 12,
+    "hpTypeName": "Electric",
+    "hpTypeId": 23,
+    "enemyMoveName": "Scald",
+    "enemyMoveId": 335
+  },
+  ":(": {
+    "moveName": "Charm",
+    "moveId": 204,
+    "badges": 1,
+    "hpTypeName": "Ghost",
+    "hpTypeId": 8,
+    "enemyMoveName": "Crunch",
+    "enemyMoveId": 242
+  },
+  "Kippa": {
+    "moveName": "Thunder Wave",
+    "moveId": 86,
+    "badges": 5,
+    "hpTypeName": "Dark",
+    "hpTypeId": 27,
+    "enemyMoveName": "Ice Hammer",
+    "enemyMoveId": 349
+  },
+  "imGlitch": {
+    "moveName": "Dragon Breath",
+    "moveId": 225,
+    "badges": 6,
+    "hpTypeName": "Water",
+    "hpTypeId": 21,
+    "enemyMoveName": "Dragon Breath",
+    "enemyMoveId": 225
+  },
+  "PrimeMe": {
+    "moveName": "Sweet Kiss",
+    "moveId": 186,
+    "badges": 0,
+    "hpTypeName": "Grass",
+    "hpTypeId": 22,
+    "enemyMoveName": "Drainingkiss",
+    "enemyMoveId": 344
+  },
+  "RaccAttack": {
+    "moveName": "Self-destruct",
+    "moveId": 120,
+    "badges": 8,
+    "hpTypeName": "Ice",
+    "hpTypeId": 25,
+    "enemyMoveName": "DynamicPunch",
+    "enemyMoveId": 223
+  },
+  "tppZig": {
+    "moveName": "Spikes",
+    "moveId": 191,
+    "badges": 3,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Needle Arm",
+    "enemyMoveId": 356
+  },
+  "tppShine": {
+    "moveName": "Rest",
+    "moveId": 156,
+    "badges": 6,
+    "hpTypeName": "Grass",
+    "hpTypeId": 22,
+    "enemyMoveName": "Spore",
+    "enemyMoveId": 147
+  },
+  "tppZag": {
+    "moveName": "Thrash",
+    "moveId": 37,
+    "badges": 7,
+    "hpTypeName": "Flying",
+    "hpTypeId": 2,
+    "enemyMoveName": "Thrash",
+    "enemyMoveId": 37
+  },
+  "tppOon": {
+    "moveName": "Bide",
+    "moveId": 117,
+    "badges": 0,
+    "hpTypeName": "Fire",
+    "hpTypeId": 20,
+    "enemyMoveName": "Revenge",
+    "enemyMoveId": 258
+  },
+  "CrreamAwk": {
+    "moveName": "Withdraw",
+    "moveId": 110,
+    "badges": 1,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Dark Void",
+    "enemyMoveId": 329
+  },
+  "TwitchVotes": {
+    "moveName": "Aura Sphere",
+    "moveId": 300,
+    "badges": 10,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Aura Sphere",
+    "enemyMoveId": 300
+  },
+  "twitchRaid": {
+    "moveName": "Pay Day",
+    "moveId": 6,
+    "badges": 0,
+    "hpTypeName": "Electric",
+    "hpTypeId": 23,
+    "enemyMoveName": "Surf",
+    "enemyMoveId": 57
+  },
+  "WutFace": {
+    "moveName": "Rollout",
+    "moveId": 205,
+    "badges": 7,
+    "hpTypeName": "Ground",
+    "hpTypeId": 4,
+    "enemyMoveName": "Rollout",
+    "enemyMoveId": 205
+  },
+  "BigBrother": {
+    "moveName": "Explosion",
+    "moveId": 153,
+    "badges": 13,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "DynamicPunch",
+    "enemyMoveId": 223
+  },
+  "OneHand": {
+    "moveName": "Growl",
+    "moveId": 45,
+    "badges": 0,
+    "hpTypeName": "Steel",
+    "hpTypeId": 9,
+    "enemyMoveName": "Crunch",
+    "enemyMoveId": 242
+  },
+  "tppSmug": {
+    "moveName": "Flamethrower",
+    "moveId": 53,
+    "badges": 12,
+    "hpTypeName": "Poison",
+    "hpTypeId": 3,
+    "enemyMoveName": "Flamethrower",
+    "enemyMoveId": 53
+  },
+  "KevinTurtle": {
+    "moveName": "Sacred Fire",
+    "moveId": 221,
+    "badges": 14,
+    "hpTypeName": "Grass",
+    "hpTypeId": 22,
+    "enemyMoveName": "Sacred Fire",
+    "enemyMoveId": 221
+  },
+  "MikeHogu": {
+    "moveName": "Harden",
+    "moveId": 106,
+    "badges": 0,
+    "hpTypeName": "Ground",
+    "hpTypeId": 4,
+    "enemyMoveName": "Blaze Kick",
+    "enemyMoveId": 265
+  },
+  "CurseLit": {
+    "moveName": "Growl",
+    "moveId": 45,
+    "badges": 0,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Crunch",
+    "enemyMoveId": 242
+  },
+  "TearGlove": {
+    "moveName": "Scratch",
+    "moveId": 10,
+    "badges": 0,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Slash",
+    "enemyMoveId": 163
+  },
+  "GivePLZ": {
+    "moveName": "Charm",
+    "moveId": 204,
+    "badges": 1,
+    "hpTypeName": "Dragon",
+    "hpTypeId": 26,
+    "enemyMoveName": "Dazzlingleam",
+    "enemyMoveId": 347
+  },
+  "SeemsGood": {
+    "moveName": "Psycho Cut",
+    "moveId": 316,
+    "badges": 8,
+    "hpTypeName": "Ice",
+    "hpTypeId": 25,
+    "enemyMoveName": "Psycho Cut",
+    "enemyMoveId": 316
+  },
+  "TPcrunchyroll": {
+    "moveName": "Spikes",
+    "moveId": 191,
+    "badges": 3,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Spike Cannon",
+    "enemyMoveId": 131
+  },
+  "PinkMercy": {
+    "moveName": "Moonblast",
+    "moveId": 24,
+    "badges": 13,
+    "hpTypeName": "Dragon",
+    "hpTypeId": 26,
+    "enemyMoveName": "Moonblast",
+    "enemyMoveId": 24
+  },
+  "YouWHY": {
+    "moveName": "Confuse Ray",
+    "moveId": 109,
+    "badges": 4,
+    "hpTypeName": "Poison",
+    "hpTypeId": 3,
+    "enemyMoveName": "Wake Up Slap",
+    "enemyMoveId": 291
+  },
+  "GunRun": {
+    "moveName": "Fury Attack",
+    "moveId": 31,
+    "badges": 0,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Return",
+    "enemyMoveId": 216
+  },
+  "FBRun": {
+    "moveName": "Transform",
+    "moveId": 144,
+    "badges": 0,
+    "hpTypeName": "Steel",
+    "hpTypeId": 9,
+    "enemyMoveName": "Transform",
+    "enemyMoveId": 144
+  },
+  "FBPass": {
+    "moveName": "Assurance",
+    "moveId": 295,
+    "badges": 4,
+    "hpTypeName": "Dragon",
+    "hpTypeId": 26,
+    "enemyMoveName": "Assurance",
+    "enemyMoveId": 295
+  },
+  "PeoplesChamp": {
+    "moveName": "Thunder",
+    "moveId": 49,
+    "badges": 12,
+    "hpTypeName": "Fire",
+    "hpTypeId": 20,
+    "enemyMoveName": "Thunder",
+    "enemyMoveId": 49
+  },
+  "SMOrc": {
+    "moveName": "Glare",
+    "moveId": 137,
+    "badges": 4,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Hyper Fang",
+    "enemyMoveId": 158
+  },
+  "DatSheffy": {
+    "moveName": "Attract",
+    "moveId": 213,
+    "badges": 0,
+    "hpTypeName": "Dark",
+    "hpTypeId": 27,
+    "enemyMoveName": "Play Rough",
+    "enemyMoveId": 345
+  },
+  "mcaT": {
+    "moveName": "Jump Kick",
+    "moveId": 26,
+    "badges": 7,
+    "hpTypeName": "Ground",
+    "hpTypeId": 4,
+    "enemyMoveName": "Jump Kick",
+    "enemyMoveId": 26
+  },
+  "FUNgineer": {
+    "moveName": "Leer",
+    "moveId": 43,
+    "badges": 0,
+    "hpTypeName": "Grass",
+    "hpTypeId": 22,
+    "enemyMoveName": "Dazzlingleam",
+    "enemyMoveId": 43
+  },
+  "DAESuppy": {
+    "moveName": "Thief",
+    "moveId": 168,
+    "badges": 6,
+    "hpTypeName": "Flying",
+    "hpTypeId": 2,
+    "enemyMoveName": "Thief",
+    "enemyMoveId": 168
+  },
+  "CoolStoryBob": {
+    "moveName": "Quick Attack",
+    "moveId": 98,
+    "badges": 1,
+    "hpTypeName": "Steel",
+    "hpTypeId": 9,
+    "enemyMoveName": "Extremespeed",
+    "enemyMoveId": 245
+  },
+  "TakeNRG": {
+    "moveName": "Dig",
+    "moveId": 91,
+    "badges": 5,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Dig",
+    "enemyMoveId": 91
+  },
+  "PorscheWIN": {
+    "moveName": "Pin Missile",
+    "moveId": 42,
+    "badges": 1,
+    "hpTypeName": "Fire",
+    "hpTypeId": 20,
+    "enemyMoveName": "Attack Order",
+    "enemyMoveId": 328
+  },
+  "DendiFace": {
+    "moveName": "Megahorn",
+    "moveId": 224,
+    "badges": 13,
+    "hpTypeName": "Ice",
+    "hpTypeId": 25,
+    "enemyMoveName": "Megahorn",
+    "enemyMoveId": 224
+  },
+  "PurpleStar": {
+    "moveName": "Fury Attack",
+    "moveId": 31,
+    "badges": 0,
+    "hpTypeName": "Ground",
+    "hpTypeId": 4,
+    "enemyMoveName": "Return",
+    "enemyMoveId": 216
+  },
+  "PraiseIt": {
+    "moveName": "Submission",
+    "moveId": 66,
+    "badges": 6,
+    "hpTypeName": "Fire",
+    "hpTypeId": 20,
+    "enemyMoveName": "Submission",
+    "enemyMoveId": 66
+  },
+  "tppPraise": {
+    "moveName": "Sweet Scent",
+    "moveId": 230,
+    "badges": 0,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Giga Drain",
+    "enemyMoveId": 202
+  },
+  "BlackLivesMatter": {
+    "moveName": "Reflect",
+    "moveId": 115,
+    "badges": 5,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Spore",
+    "enemyMoveId": 147
+  },
+  "JonCarnage": {
+    "moveName": "Aurora Beam",
+    "moveId": 62,
+    "badges": 6,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Aurora Beam",
+    "enemyMoveId": 62
+  },
+  "UncleNox": {
+    "moveName": "Sweet Kiss",
+    "moveId": 186,
+    "badges": 0,
+    "hpTypeName": "Dragon",
+    "hpTypeId": 26,
+    "enemyMoveName": "Drainingkiss",
+    "enemyMoveId": 344
+  },
+  "WholeWheat": {
+    "moveName": "Crunch",
+    "moveId": 242,
+    "badges": 9,
+    "hpTypeName": "Ghost",
+    "hpTypeId": 8,
+    "enemyMoveName": "Crunch",
+    "enemyMoveId": 242
+  },
+  "CarlSmile": {
+    "moveName": "Steel Wing",
+    "moveId": 211,
+    "badges": 7,
+    "hpTypeName": "Water",
+    "hpTypeId": 21,
+    "enemyMoveName": "Steel Wing",
+    "enemyMoveId": 211
+  },
+  "PixelBob": {
+    "moveName": "Iron Head",
+    "moveId": 322,
+    "badges": 11,
+    "hpTypeName": "Grass",
+    "hpTypeId": 22,
+    "enemyMoveName": "Iron Head",
+    "enemyMoveId": 322
+  },
+  "OpieOP": {
+    "moveName": "Conversion",
+    "moveId": 160,
+    "badges": 0,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Echoed Voice",
+    "enemyMoveId": 334
+  },
+  "TooSpicy": {
+    "moveName": "Attract (Same sex)",
+    "moveId": 32972,
+    "badges": 0,
+    "hpTypeName": "Ghost",
+    "hpTypeId": 8,
+    "enemyMoveName": "Wake-up Slap",
+    "enemyMoveId": 291
+  },
+  "PicoMause": {
+    "moveName": "Present",
+    "moveId": 217,
+    "badges": 0,
+    "hpTypeName": "Grass",
+    "hpTypeId": 22,
+    "enemyMoveName": "Blizzard",
+    "enemyMoveId": 59
+  },
+  "Mau5": {
+    "moveName": "Dazzlingleam",
+    "moveId": 347,
+    "badges": 9,
+    "hpTypeName": "Dark",
+    "hpTypeId": 27,
+    "enemyMoveName": "Power Gem",
+    "enemyMoveId": 305
+  },
+  "CoolCat": {
+    "moveName": "Focus Energy",
+    "moveId": 116,
+    "badges": 0,
+    "hpTypeName": "Steel",
+    "hpTypeId": 9,
+    "enemyMoveName": "Muddy Water",
+    "enemyMoveId": 280
+  },
+  "ShadyLulu": {
+    "moveName": "Dragon Pulse",
+    "moveId": 304,
+    "badges": 11,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Dragon Pulse",
+    "enemyMoveId": 304
+  },
+  "BuddhaBar": {
+    "moveName": "Rollout",
+    "moveId": 205,
+    "badges": 7,
+    "hpTypeName": "Ice",
+    "hpTypeId": 25,
+    "enemyMoveName": "Rollout",
+    "enemyMoveId": 205
+  },
+  "DogFace": {
+    "moveName": "Perish Song",
+    "moveId": 195,
+    "badges": 6,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Bug Buzz",
+    "enemyMoveId": 303
+  },
+  "tppWowee": {
+    "moveName": "Spike Cannon",
+    "moveId": 131,
+    "badges": 3,
+    "hpTypeName": "Water",
+    "hpTypeId": 21,
+    "enemyMoveName": "Spike Cannon",
+    "enemyMoveId": 131
+  },
+  ":/": {
+    "moveName": "Mirror Move",
+    "moveId": 119,
+    "badges": 0,
+    "hpTypeName": "Grass",
+    "hpTypeId": 22,
+    "enemyMoveName": "Mirror Move",
+    "enemyMoveId": 119
+  },
+  "NinjaGrumpy": {
+    "moveName": "Leer",
+    "moveId": 43,
+    "badges": 0,
+    "hpTypeName": "Electric",
+    "hpTypeId": 23,
+    "enemyMoveName": "Dazzlingleam",
+    "enemyMoveId": 347
+  },
+  "SoBayed": {
+    "moveName": "Confuse Ray",
+    "moveId": 109,
+    "badges": 4,
+    "hpTypeName": "Steel",
+    "hpTypeId": 9,
+    "enemyMoveName": "Wake Up Slap",
+    "enemyMoveId": 291
+  },
+  "TheRinger": {
+    "moveName": "Octazooka",
+    "moveId": 190,
+    "badges": 5,
+    "hpTypeName": "Ice",
+    "hpTypeId": 25,
+    "enemyMoveName": "Octazooka",
+    "enemyMoveId": 190
+  },
+  "SingsMic": {
+    "moveName": "Psywave",
+    "moveId": 149,
+    "badges": 0,
+    "hpTypeName": "Ground",
+    "hpTypeId": 4,
+    "enemyMoveName": "Psywave",
+    "enemyMoveId": 149
+  },
+  "HeyGuys": {
+    "moveName": "Dark Void",
+    "moveId": 329,
+    "badges": 11,
+    "hpTypeName": "Dark",
+    "hpTypeId": 27,
+    "enemyMoveName": "Dark Void",
+    "enemyMoveId": 329
+  },
+  "HassaanChop": {
+    "moveName": "Wood Hammer",
+    "moveId": 326,
+    "badges": 13,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Wood Hammer",
+    "enemyMoveId": 326
+  },
+  "BCWarrior": {
+    "moveName": "Sludge bomb",
+    "moveId": 124,
+    "badges": 11,
+    "hpTypeName": "Bug",
+    "hpTypeId": 7,
+    "enemyMoveName": "Sludge bomb",
+    "enemyMoveId": 124
+  },
+  "KappaPride": {
+    "moveName": "Sing",
+    "moveId": 47,
+    "badges": 4,
+    "hpTypeName": "Ground",
+    "hpTypeId": 4,
+    "enemyMoveName": "Bug Buzz",
+    "enemyMoveId": 303
+  },
+  "tppPride": {
+    "moveName": "Rock Climb",
+    "moveId": 319,
+    "badges": 6,
+    "hpTypeName": "Psychic",
+    "hpTypeId": 24,
+    "enemyMoveName": "Rock Climb",
+    "enemyMoveId": 319
+  },
+  ";)": {
+    "moveName": "Psybeam",
+    "moveId": 60,
+    "badges": 5,
+    "hpTypeName": "Ghost",
+    "hpTypeId": 8,
+    "enemyMoveName": "Psybeam",
+    "enemyMoveId": 60
+  },
+  "ShowOfHands": {
+    "moveName": "Pound",
+    "moveId": 1,
+    "badges": 0,
+    "hpTypeName": "Fire",
+    "hpTypeId": 20,
+    "enemyMoveName": "Mega Punch",
+    "enemyMoveId": 5
+  },
+  "HolidayOrnament": {
+    "moveName": "Crystal Bolt",
+    "moveId": 353,
+    "badges": 7,
+    "hpTypeName": "Fire",
+    "hpTypeId": 20,
+    "enemyMoveName": "Crystal Bolt",
+    "enemyMoveId": 353
+  },
+  "ShazBotstix": {
+    "moveName": "String Shot",
+    "moveId": 81,
+    "badges": 0,
+    "hpTypeName": "Flying",
+    "hpTypeId": 2,
+    "enemyMoveName": "Play Rough",
+    "enemyMoveId": 345
+  },
+  "MingLee": {
+    "moveName": "Wood Hammer",
+    "moveId": 326,
+    "badges": 13,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Wood Hammer",
+    "enemyMoveId": 326
+  },
+  "RitzMitz": {
+    "moveName": "Bubble Beam",
+    "moveId": 61,
+    "badges": 6,
+    "hpTypeName": "Dark",
+    "hpTypeId": 27,
+    "enemyMoveName": "Bubble Beam",
+    "enemyMoveId": 61
+  },
+  "TheTarFu": {
+    "moveName": "Lick",
+    "moveId": 122,
+    "badges": 0,
+    "hpTypeName": "Ghost",
+    "hpTypeId": 8,
+    "enemyMoveName": "Waterfall",
+    "enemyMoveId": 127
+  },
+  "FBChallenge": {
+    "moveName": "Swift",
+    "moveId": 129,
+    "badges": 3,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Swift",
+    "enemyMoveId": 129
+  },
+  "FBPenalty": {
+    "moveName": "Aurora Beam",
+    "moveId": 62,
+    "badges": 6,
+    "hpTypeName": "Water",
+    "hpTypeId": 21,
+    "enemyMoveName": "Aurora Beam",
+    "enemyMoveId": 62
+  },
+  "FBtouchdown": {
+    "moveName": "Covet",
+    "moveId": 3,
+    "badges": 3,
+    "hpTypeName": "Grass",
+    "hpTypeId": 22,
+    "enemyMoveName": "Covet",
+    "enemyMoveId": 285
+  },
+  "Squid3": {
+    "moveName": "Glare",
+    "moveId": 137,
+    "badges": 4,
+    "hpTypeName": "Poison",
+    "hpTypeId": 3,
+    "enemyMoveName": "Hyper Fang",
+    "enemyMoveId": 158
+  },
+  "FutureMan": {
+    "moveName": "Rolling Kick",
+    "moveId": 27,
+    "badges": 5,
+    "hpTypeName": "Steel",
+    "hpTypeId": 9,
+    "enemyMoveName": "Rolling Kick",
+    "enemyMoveId": 27
+  },
+  "PartyTime": {
+    "moveName": "Twinneedle",
+    "moveId": 41,
+    "badges": 5,
+    "hpTypeName": "Steel",
+    "hpTypeId": 9,
+    "enemyMoveName": "Twinneedle",
+    "enemyMoveId": 41
+  },
+  "PMSTwin": {
+    "moveName": "Confusion",
+    "moveId": 93,
+    "badges": 3,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Psychic",
+    "enemyMoveId": 94
+  },
+  "HSCheers": {
+    "moveName": "Thunder",
+    "moveId": 49,
+    "badges": 12,
+    "hpTypeName": "Grass",
+    "hpTypeId": 22,
+    "enemyMoveName": "Thunder",
+    "enemyMoveId": 49
+  },
+  "NotATK": {
+    "moveName": "Leaf Storm",
+    "moveId": 321,
+    "badges": 14,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Leaf Storm",
+    "enemyMoveId": 321
+  },
+  "ThunBeast": {
+    "moveName": "Skull Bash",
+    "moveId": 130,
+    "badges": 2,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Skull Bash",
+    "enemyMoveId": 130
+  },
+  "RuleFive": {
+    "moveName": "Hyper Fang",
+    "moveId": 158,
+    "badges": 6,
+    "hpTypeName": "Poison",
+    "hpTypeId": 3,
+    "enemyMoveName": "Hyper Fang",
+    "enemyMoveId": 158
+  },
+  "tppSlowpoke": {
+    "moveName": "Smog",
+    "moveId": 123,
+    "badges": 0,
+    "hpTypeName": "Poison",
+    "hpTypeId": 3,
+    "enemyMoveName": "Frustration",
+    "enemyMoveId": 218
+  },
+  "GingerPower": {
+    "moveName": "Rolling Kick",
+    "moveId": 27,
+    "badges": 5,
+    "hpTypeName": "Dark",
+    "hpTypeId": 27,
+    "enemyMoveName": "Rolling Kick",
+    "enemyMoveId": 27
+  },
+  "PipeHype": {
+    "moveName": "Haze",
+    "moveId": 114,
+    "badges": 0,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Moonblast",
+    "enemyMoveId": 346
+  },
+  "FootBall": {
+    "moveName": "Protect",
+    "moveId": 182,
+    "badges": 7,
+    "hpTypeName": "Water",
+    "hpTypeId": 21,
+    "enemyMoveName": "Play Rough",
+    "enemyMoveId": 345
+  },
+  "DBstyle": {
+    "moveName": "Softboiled",
+    "moveId": 134,
+    "badges": 10,
+    "hpTypeName": "Dragon",
+    "hpTypeId": 26,
+    "enemyMoveName": "Softboiled",
+    "enemyMoveId": 134
+  },
+  "StrawBeary": {
+    "moveName": "Bind",
+    "moveId": 20,
+    "badges": 0,
+    "hpTypeName": "Dragon",
+    "hpTypeId": 26,
+    "enemyMoveName": "Skull Bash",
+    "enemyMoveId": 129
+  },
+  "TombRaid": {
+    "moveName": "Supersonic",
+    "moveId": 48,
+    "badges": 0,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Echoed Voice",
+    "enemyMoveId": 334
+  },
+  "FBCatch": {
+    "moveName": "Toxic",
+    "moveId": 92,
+    "badges": 7,
+    "hpTypeName": "Ice",
+    "hpTypeId": 25,
+    "enemyMoveName": "Poison Fang",
+    "enemyMoveId": 267
+  },
+  "tppCatch": {
+    "moveName": "Pay Day",
+    "moveId": 6,
+    "badges": 0,
+    "hpTypeName": "Psychic",
+    "hpTypeId": 24,
+    "enemyMoveName": "Slash",
+    "enemyMoveId": 163
+  },
+  "TheThing": {
+    "moveName": "Rest",
+    "moveId": 156,
+    "badges": 6,
+    "hpTypeName": "Electric",
+    "hpTypeId": 23,
+    "enemyMoveName": "Spore",
+    "enemyMoveId": 147
+  },
+  "ChefFrank": {
+    "moveName": "Submission",
+    "moveId": 66,
+    "badges": 6,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Submission",
+    "enemyMoveId": 66
+  },
+  "TwitchSings": {
+    "moveName": "Leer",
+    "moveId": 43,
+    "badges": 0,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Dazzlingleam",
+    "enemyMoveId": 43
+  },
+  "tppS": {
+    "moveName": "Fire Blast",
+    "moveId": 126,
+    "badges": 12,
+    "hpTypeName": "Flying",
+    "hpTypeId": 2,
+    "enemyMoveName": "Fire Blast",
+    "enemyMoveId": 126
+  },
+  "tppGiga": {
+    "moveName": "Ember",
+    "moveId": 52,
+    "badges": 1,
+    "hpTypeName": "Grass",
+    "hpTypeId": 22,
+    "enemyMoveName": "Ember",
+    "enemyMoveId": 52
+  },
+  "SingsNote": {
+    "moveName": "Wood Hammer",
+    "moveId": 326,
+    "badges": 13,
+    "hpTypeName": "Steel",
+    "hpTypeId": 9,
+    "enemyMoveName": "Wood Hammer",
+    "enemyMoveId": 326
+  },
+  "StinkyGlitch": {
+    "moveName": "Rock Throw",
+    "moveId": 88,
+    "badges": 3,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Rock Slide",
+    "enemyMoveId": 157
+  },
+  "BibleThump": {
+    "moveName": "Softboiled",
+    "moveId": 134,
+    "badges": 10,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Egg Bomb",
+    "enemyMoveId": 121
+  },
+  "tppHands": {
+    "moveName": "Toxic",
+    "moveId": 92,
+    "badges": 7,
+    "hpTypeName": "Dragon",
+    "hpTypeId": 26,
+    "enemyMoveName": "Poison Fang",
+    "enemyMoveId": 267
+  },
+  "AsianGlow": {
+    "moveName": "Teleport",
+    "moveId": 100,
+    "badges": 0,
+    "hpTypeName": "Water",
+    "hpTypeId": 21,
+    "enemyMoveName": "Iron Head",
+    "enemyMoveId": 322
+  },
+  "KappaClaus": {
+    "moveName": "Attract (Same sex)",
+    "moveId": 32972,
+    "badges": 0,
+    "hpTypeName": "Psychic",
+    "hpTypeId": 24,
+    "enemyMoveName": "Wake-up Slap",
+    "enemyMoveId": 291
+  },
+  "ResidentSleeper": {
+    "moveName": "Curse",
+    "moveId": 174,
+    "badges": 11,
+    "hpTypeName": "Psychic",
+    "hpTypeId": 24,
+    "enemyMoveName": "Close Combat",
+    "enemyMoveId": 294
+  },
+  ":z": {
+    "moveName": "Agility",
+    "moveId": 97,
+    "badges": 2,
+    "hpTypeName": "Water",
+    "hpTypeId": 21,
+    "enemyMoveName": "Rollout",
+    "enemyMoveId": 205
+  },
+  "SeriousSloth": {
+    "moveName": "Splash",
+    "moveId": 150,
+    "badges": 0,
+    "hpTypeName": "Poison",
+    "hpTypeId": 3,
+    "enemyMoveName": "Return",
+    "enemyMoveId": 216
+  },
+  "o_O": {
+    "moveName": "Blizzard",
+    "moveId": 59,
+    "badges": 14,
+    "hpTypeName": "Electric",
+    "hpTypeId": 23,
+    "enemyMoveName": "Blizzard",
+    "enemyMoveId": 59
+  },
+  "SmoocherZ": {
+    "moveName": "Karate Chop",
+    "moveId": 2,
+    "badges": 4,
+    "hpTypeName": "Dark",
+    "hpTypeId": 27,
+    "enemyMoveName": "Karate Chop",
+    "enemyMoveId": 2
+  },
+  "MaxLOL": {
+    "moveName": "Fury Swipes",
+    "moveId": 154,
+    "badges": 0,
+    "hpTypeName": "Dark",
+    "hpTypeId": 27,
+    "enemyMoveName": "Night Slash",
+    "enemyMoveId": 301
+  },
+  "UnSane": {
+    "moveName": "Mist",
+    "moveId": 54,
+    "badges": 0,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Muddy Water",
+    "enemyMoveId": 280
+  },
+  "RedCoat": {
+    "moveName": "Low Kick",
+    "moveId": 67,
+    "badges": 4,
+    "hpTypeName": "Poison",
+    "hpTypeId": 3,
+    "enemyMoveName": "Low Kick",
+    "enemyMoveId": 67
+  },
+  "KomodoHype": {
+    "moveName": "Attract (Both sexes)",
+    "moveId": 49356,
+    "badges": 0,
+    "hpTypeName": "Bug",
+    "hpTypeId": 7,
+    "enemyMoveName": "Wake-up Slap",
+    "enemyMoveId": 291
+  },
+  "StoneLightning": {
+    "moveName": "Spike Cannon",
+    "moveId": 131,
+    "badges": 3,
+    "hpTypeName": "Water",
+    "hpTypeId": 21,
+    "enemyMoveName": "Spike Cannon",
+    "enemyMoveId": 131
+  },
+  "OptimizePrime": {
+    "moveName": "Counter",
+    "moveId": 68,
+    "badges": 0,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Revenge",
+    "enemyMoveId": 258
+  },
+  "tppD": {
+    "moveName": "Teeter Dance",
+    "moveId": 80,
+    "badges": 4,
+    "hpTypeName": "Fire",
+    "hpTypeId": 20,
+    "enemyMoveName": "Petal Dance",
+    "enemyMoveId": 80
+  },
+  "tppRoyal": {
+    "moveName": "Rollout",
+    "moveId": 205,
+    "badges": 7,
+    "hpTypeName": "Dark",
+    "hpTypeId": 27,
+    "enemyMoveName": "Rollout",
+    "enemyMoveId": 205
+  },
+  "FBSpiral": {
+    "moveName": "Bone Club",
+    "moveId": 125,
+    "badges": 6,
+    "hpTypeName": "Psychic",
+    "hpTypeId": 24,
+    "enemyMoveName": "Bone Club",
+    "enemyMoveId": 125
+  },
+  "ExtraLife": {
+    "moveName": "Low Kick",
+    "moveId": 67,
+    "badges": 4,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Low Kick",
+    "enemyMoveId": 67
+  },
+  "tppToxic": {
+    "moveName": "Dig",
+    "moveId": 91,
+    "badges": 5,
+    "hpTypeName": "Bug",
+    "hpTypeId": 7,
+    "enemyMoveName": "Dig",
+    "enemyMoveId": 91
+  },
+  "BlargNaut": {
+    "moveName": "Ice ball",
+    "moveId": 266,
+    "badges": 7,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Ice ball",
+    "enemyMoveId": 266
+  },
+  "TF2John": {
+    "moveName": "Screech",
+    "moveId": 103,
+    "badges": 7,
+    "hpTypeName": "Water",
+    "hpTypeId": 21,
+    "enemyMoveName": "Bug Buzz",
+    "enemyMoveId": 303
+  },
+  ">(": {
+    "moveName": "Meditate",
+    "moveId": 96,
+    "badges": 4,
+    "hpTypeName": "Bug",
+    "hpTypeId": 7,
+    "enemyMoveName": "Zen Headbutt",
+    "enemyMoveId": 317
+  },
+  "tppDoot": {
+    "moveName": "Octazooka",
+    "moveId": 190,
+    "badges": 5,
+    "hpTypeName": "Dragon",
+    "hpTypeId": 26,
+    "enemyMoveName": "Octazooka",
+    "enemyMoveId": 190
+  },
+  "bleedPurple": {
+    "moveName": "Sing",
+    "moveId": 47,
+    "badges": 4,
+    "hpTypeName": "Flying",
+    "hpTypeId": 2,
+    "enemyMoveName": "Bug Buzz",
+    "enemyMoveId": 303
+  },
+  "EarthDay": {
+    "moveName": "Super Fang",
+    "moveId": 162,
+    "badges": 4,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Hyper Fang",
+    "enemyMoveId": 158
+  },
+  "PopCorn": {
+    "moveName": "Quiver Dance",
+    "moveId": 332,
+    "badges": 15,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Draco Meteor",
+    "enemyMoveId": 357
+  },
+  "4Head": {
+    "moveName": "Rock Throw",
+    "moveId": 88,
+    "badges": 3,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Rock Slide",
+    "enemyMoveId": 157
+  },
+  "PanicVis": {
+    "moveName": "Rolling Kick",
+    "moveId": 27,
+    "badges": 5,
+    "hpTypeName": "Ground",
+    "hpTypeId": 4,
+    "enemyMoveName": "Rolling Kick",
+    "enemyMoveId": 27
+  },
+  "MercyWing1": {
+    "moveName": "Bubble Beam",
+    "moveId": 61,
+    "badges": 6,
+    "hpTypeName": "Steel",
+    "hpTypeId": 9,
+    "enemyMoveName": "Bubble Beam",
+    "enemyMoveId": 61
+  },
+  "MercyWing2": {
+    "moveName": "Smokescreen",
+    "moveId": 108,
+    "badges": 0,
+    "hpTypeName": "Flying",
+    "hpTypeId": 2,
+    "enemyMoveName": "Sludge Bomb",
+    "enemyMoveId": 188
+  },
+  "VirtualHug": {
+    "moveName": "Milk Drink",
+    "moveId": 208,
+    "badges": 10,
+    "hpTypeName": "Water",
+    "hpTypeId": 21,
+    "enemyMoveName": "Scald",
+    "enemyMoveId": 335
+  },
+  "tppHug": {
+    "moveName": "Lick",
+    "moveId": 122,
+    "badges": 0,
+    "hpTypeName": "Electric",
+    "hpTypeId": 23,
+    "enemyMoveName": "Waterfall",
+    "enemyMoveId": 127
+  },
+  "tppFloof": {
+    "moveName": "Splash",
+    "moveId": 150,
+    "badges": 0,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Tri Attack",
+    "enemyMoveId": 161
+  },
+  "KappaRoss": {
+    "moveName": "False Swipe",
+    "moveId": 206,
+    "badges": 0,
+    "hpTypeName": "Fire",
+    "hpTypeId": 20,
+    "enemyMoveName": "Wood Hammer",
+    "enemyMoveId": 326
+  },
+  "tppGlitch": {
+    "moveName": "Rest",
+    "moveId": 156,
+    "badges": 6,
+    "hpTypeName": "Dragon",
+    "hpTypeId": 26,
+    "enemyMoveName": "Spore",
+    "enemyMoveId": 147
+  },
+  "BloodTrail": {
+    "moveName": "Thief",
+    "moveId": 168,
+    "badges": 6,
+    "hpTypeName": "Ghost",
+    "hpTypeId": 8,
+    "enemyMoveName": "Thief",
+    "enemyMoveId": 168
+  },
+  "TriHard": {
+    "moveName": "Future Sight",
+    "moveId": 248,
+    "badges": 1,
+    "hpTypeName": "Ice",
+    "hpTypeId": 25,
+    "enemyMoveName": "Echoed Voice",
+    "enemyMoveId": 334
+  },
+  "AsexualPride": {
+    "moveName": "Splash",
+    "moveId": 150,
+    "badges": 16,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Rock Slide",
+    "enemyMoveId": 157
+  },
+  "DarkMode": {
+    "moveName": "Absorb",
+    "moveId": 71,
+    "badges": 0,
+    "hpTypeName": "Steel",
+    "hpTypeId": 9,
+    "enemyMoveName": "Giga Drain",
+    "enemyMoveId": 202
+  },
+  "tppCult": {
+    "moveName": "Confuse Ray",
+    "moveId": 109,
+    "badges": 4,
+    "hpTypeName": "Flying",
+    "hpTypeId": 2,
+    "enemyMoveName": "Close Combat",
+    "enemyMoveId": 294
+  },
+  "EntropyWins": {
+    "moveName": "Guillotine",
+    "moveId": 12,
+    "badges": 1,
+    "hpTypeName": "Electric",
+    "hpTypeId": 23,
+    "enemyMoveName": "Guillotine",
+    "enemyMoveId": 12
+  },
+  "PowerUpL": {
+    "moveName": "Wood Hammer",
+    "moveId": 326,
+    "badges": 13,
+    "hpTypeName": "Bug",
+    "hpTypeId": 7,
+    "enemyMoveName": "Wood Hammer",
+    "enemyMoveId": 326
+  },
+  "RedTeam": {
+    "moveName": "Headbutt",
+    "moveId": 29,
+    "badges": 7,
+    "hpTypeName": "Dark",
+    "hpTypeId": 27,
+    "enemyMoveName": "Headbutt",
+    "enemyMoveId": 29
+  },
+  "EleGiggle": {
+    "moveName": "Solar Beam",
+    "moveId": 76,
+    "badges": 11,
+    "hpTypeName": "Ground",
+    "hpTypeId": 4,
+    "enemyMoveName": "Solar Beam",
+    "enemyMoveId": 76
+  },
+  "BabyRage": {
+    "moveName": "Stun Spore",
+    "moveId": 78,
+    "badges": 4,
+    "hpTypeName": "Grass",
+    "hpTypeId": 22,
+    "enemyMoveName": "Flare Blitz",
+    "enemyMoveId": 299
+  },
+  "PogChamp": {
+    "moveName": "Fire Punch",
+    "moveId": 7,
+    "badges": 8,
+    "hpTypeName": "Dark",
+    "hpTypeId": 27,
+    "enemyMoveName": "Fire Punch",
+    "enemyMoveId": 7
+  },
+  "HolidayCookie": {
+    "moveName": "Bind",
+    "moveId": 190,
+    "badges": 0,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Octazooka",
+    "enemyMoveId": 190
+  },
+  "TwitchLit": {
+    "moveName": "Seismic Toss",
+    "moveId": 69,
+    "badges": 2,
+    "hpTypeName": "Ghost",
+    "hpTypeId": 8,
+    "enemyMoveName": "Seismic Toss",
+    "enemyMoveId": 69
+  },
+  "LUL": {
+    "moveName": "Slam",
+    "moveId": 21,
+    "badges": 3,
+    "hpTypeName": "Water",
+    "hpTypeId": 21,
+    "enemyMoveName": "Slam",
+    "enemyMoveId": 21
+  },
+  "tppLUL": {
+    "moveName": "Poison Gas",
+    "moveId": 139,
+    "badges": 0,
+    "hpTypeName": "Ghost",
+    "hpTypeId": 8,
+    "enemyMoveName": "Toxic",
+    "enemyMoveId": 92
+  },
+  "TransgenderPride": {
+    "moveName": "Kinesis",
+    "moveId": 134,
+    "badges": 0,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Pollen Puff",
+    "enemyMoveId": 350
+  },
+  "IntersexPride": {
+    "moveName": "Scratch",
+    "moveId": 10,
+    "badges": 0,
+    "hpTypeName": "Ghost",
+    "hpTypeId": 8,
+    "enemyMoveName": "Slash",
+    "enemyMoveId": 163
+  },
+  "GenderFluidPride": {
+    "moveName": "Fury Attack",
+    "moveId": 31,
+    "badges": 0,
+    "hpTypeName": "Dark",
+    "hpTypeId": 27,
+    "enemyMoveName": "Return",
+    "enemyMoveId": 216
+  },
+  "NonBinaryPride": {
+    "moveName": "Heal Bell",
+    "moveId": 215,
+    "badges": 10,
+    "hpTypeName": "Dragon",
+    "hpTypeId": 26,
+    "enemyMoveName": "Crunch",
+    "enemyMoveId": 242
+  },
+  "BegWan": {
+    "moveName": "Egg Bomb",
+    "moveId": 121,
+    "badges": 6,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Egg Bomb",
+    "enemyMoveId": 121
+  },
+  "DrinkPurple": {
+    "moveName": "Drainingkiss",
+    "moveId": 344,
+    "badges": 6,
+    "hpTypeName": "Ice",
+    "hpTypeId": 25,
+    "enemyMoveName": "Drainingkiss",
+    "enemyMoveId": 344
+  },
+  "ThankEgg": {
+    "moveName": "Shadow Ball",
+    "moveId": 247,
+    "badges": 9,
+    "hpTypeName": "Flying",
+    "hpTypeId": 2,
+    "enemyMoveName": "Shadow Ball",
+    "enemyMoveId": 247
+  },
+  "GreenTeam": {
+    "moveName": "Dizzy Punch",
+    "moveId": 146,
+    "badges": 6,
+    "hpTypeName": "Poison",
+    "hpTypeId": 3,
+    "enemyMoveName": "Dizzy Punch",
+    "enemyMoveId": 146
+  },
+  "PartyHat": {
+    "moveName": "Hyper Beam",
+    "moveId": 63,
+    "badges": 8,
+    "hpTypeName": "Fire",
+    "hpTypeId": 20,
+    "enemyMoveName": "Hyper Beam",
+    "enemyMoveId": 63
+  },
+  "KonCha": {
+    "moveName": "Rain Dance",
+    "moveId": 240,
+    "badges": 0,
+    "hpTypeName": "Psychic",
+    "hpTypeId": 24,
+    "enemyMoveName": "Waterfall",
+    "enemyMoveId": 127
+  },
+  "R)": {
+    "moveName": "Rest",
+    "moveId": 156,
+    "badges": 6,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Spore",
+    "enemyMoveId": 147
+  },
+  "SoonerLater": {
+    "moveName": "Substitute",
+    "moveId": 164,
+    "badges": 0,
+    "hpTypeName": "Dragon",
+    "hpTypeId": 26,
+    "enemyMoveName": "Return",
+    "enemyMoveId": 216
+  },
+  "BigPhish": {
+    "moveName": "Double Team",
+    "moveId": 104,
+    "badges": 4,
+    "hpTypeName": "Bug",
+    "hpTypeId": 7,
+    "enemyMoveName": "Fient Attack",
+    "enemyMoveId": 185
+  },
+  "TwitchRPG": {
+    "moveName": "Metronome",
+    "moveId": 118,
+    "badges": 0,
+    "hpTypeName": "Psychic",
+    "hpTypeId": 24,
+    "enemyMoveName": "Metronome",
+    "enemyMoveId": 118
+  },
+  "GlitchCat": {
+    "moveName": "Bubble",
+    "moveId": 145,
+    "badges": 0,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Outrage",
+    "enemyMoveId": 200
+  },
+  "Kappu": {
+    "moveName": "Vicegrip",
+    "moveId": 11,
+    "badges": 2,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Foul Play",
+    "enemyMoveId": 333
+  },
+  "tppHype": {
+    "moveName": "Comet Punch",
+    "moveId": 4,
+    "badges": 1,
+    "hpTypeName": "Ground",
+    "hpTypeId": 4,
+    "enemyMoveName": "Hammer Arm",
+    "enemyMoveId": 292
+  },
+  "TehePelo": {
+    "moveName": "Lick",
+    "moveId": 122,
+    "badges": 0,
+    "hpTypeName": "Electric",
+    "hpTypeId": 23,
+    "enemyMoveName": "Hammer Arm",
+    "enemyMoveId": 292
+  },
+  "GlitchLit": {
+    "moveName": "Acid Armour",
+    "moveId": 151,
+    "badges": 7,
+    "hpTypeName": "Ghost",
+    "hpTypeId": 8,
+    "enemyMoveName": "Water Spout",
+    "enemyMoveId": 355
+  },
+  "tppTeiHard": {
+    "moveName": "Swagger",
+    "moveId": 207,
+    "badges": 9,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Revenge",
+    "enemyMoveId": 258
+  },
+  "GlitchNRG": {
+    "moveName": "Mimic",
+    "moveId": 102,
+    "badges": 0,
+    "hpTypeName": "Dark",
+    "hpTypeId": 27,
+    "enemyMoveName": "Mimic",
+    "enemyMoveId": 102
+  },
+  "MorphinTime": {
+    "moveName": "Focus Energy",
+    "moveId": 116,
+    "badges": 0,
+    "hpTypeName": "Dark",
+    "hpTypeId": 27,
+    "enemyMoveName": "Headbutt",
+    "enemyMoveId": 29
+  },
+  "tppPika": {
+    "moveName": "Beat Up",
+    "moveId": 251,
+    "badges": 4,
+    "hpTypeName": "Flying",
+    "hpTypeId": 2,
+    "enemyMoveName": "Wake Up Slap",
+    "enemyMoveId": 291
+  },
+  "TBAngel": {
+    "moveName": "Dazzlingleam",
+    "moveId": 347,
+    "badges": 9,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Power Gem",
+    "enemyMoveId": 305
+  },
+  "MVGame": {
+    "moveName": "Tail Whip",
+    "moveId": 39,
+    "badges": 0,
+    "hpTypeName": "Poison",
+    "hpTypeId": 3,
+    "enemyMoveName": "Crunch",
+    "enemyMoveId": 242
+  },
+  "PunchTrees": {
+    "moveName": "Sand Attack",
+    "moveId": 28,
+    "badges": 0,
+    "hpTypeName": "Dragon",
+    "hpTypeId": 26,
+    "enemyMoveName": "Rock Slide",
+    "enemyMoveId": 157
+  },
+  "HolidayLog": {
+    "moveName": "Swift",
+    "moveId": 129,
+    "badges": 3,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Swift",
+    "enemyMoveId": 129
+  },
+  "BOP": {
+    "moveName": "Screech",
+    "moveId": 103,
+    "badges": 7,
+    "hpTypeName": "Dragon",
+    "hpTypeId": 26,
+    "enemyMoveName": "Bug Buzz",
+    "enemyMoveId": 303
+  },
+  "HolidayTree": {
+    "moveName": "Frustration",
+    "moveId": 218,
+    "badges": 0,
+    "hpTypeName": "Psychic",
+    "hpTypeId": 24,
+    "enemyMoveName": "Frustration",
+    "enemyMoveId": 218
+  },
+  "HolidaySanta": {
+    "moveName": "Constrict",
+    "moveId": 132,
+    "badges": 0,
+    "hpTypeName": "Poison",
+    "hpTypeId": 3,
+    "enemyMoveName": "Return",
+    "enemyMoveId": 216
+  },
+  "PowerUpR": {
+    "moveName": "Metronome",
+    "moveId": 118,
+    "badges": 0,
+    "hpTypeName": "Fire",
+    "hpTypeId": 20,
+    "enemyMoveName": "Metronome",
+    "enemyMoveId": 118
+  },
+  "tppPc": {
+    "moveName": "Steel Wing",
+    "moveId": 211,
+    "badges": 7,
+    "hpTypeName": "Bug",
+    "hpTypeId": 7,
+    "enemyMoveName": "Steel Wing",
+    "enemyMoveId": 211
+  },
+  "riPepperonis": {
+    "moveName": "Roar",
+    "moveId": 46,
+    "badges": 0,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Crunch",
+    "enemyMoveId": 242
+  },
+  "TwitchUnity": {
+    "moveName": "Mega Punch",
+    "moveId": 5,
+    "badges": 5,
+    "hpTypeName": "Steel",
+    "hpTypeId": 9,
+    "enemyMoveName": "Mega Punch",
+    "enemyMoveId": 5
+  },
+  "tppPet": {
+    "moveName": "Night Slash",
+    "moveId": 301,
+    "badges": 8,
+    "hpTypeName": "Bug",
+    "hpTypeId": 7,
+    "enemyMoveName": "Night Slash",
+    "enemyMoveId": 301
+  },
+  "Jebaited": {
+    "moveName": "Teeter Dance",
+    "moveId": 80,
+    "badges": 4,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Petal Dance",
+    "enemyMoveId": 80
+  },
+  "NewRecord": {
+    "moveName": "Howl",
+    "moveId": 46,
+    "badges": 4,
+    "hpTypeName": "Bug",
+    "hpTypeId": 7,
+    "enemyMoveName": "Howl",
+    "enemyMoveId": 242
+  },
+  "HungryPaimon": {
+    "moveName": "Leech Life",
+    "moveId": 141,
+    "badges": 0,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Brave Bird",
+    "enemyMoveId": 308
+  },
+  "RyuChamp": {
+    "moveName": "Fury Attack",
+    "moveId": 31,
+    "badges": 0,
+    "hpTypeName": "Flying",
+    "hpTypeId": 2,
+    "enemyMoveName": "Return",
+    "enemyMoveId": 216
+  },
+  "FamilyMan": {
+    "moveName": "Pound",
+    "moveId": 1,
+    "badges": 0,
+    "hpTypeName": "Ground",
+    "hpTypeId": 4,
+    "enemyMoveName": "Mega Punch",
+    "enemyMoveId": 5
+  },
+  "DarkKnight": {
+    "moveName": "Acid",
+    "moveId": 51,
+    "badges": 1,
+    "hpTypeName": "Fire",
+    "hpTypeId": 20,
+    "enemyMoveName": "Muddy Water",
+    "enemyMoveId": 280
+  },
+  "WhySoSerious": {
+    "moveName": "Assurance",
+    "moveId": 295,
+    "badges": 4,
+    "hpTypeName": "Fairy",
+    "hpTypeId": 28,
+    "enemyMoveName": "Assurance",
+    "enemyMoveId": 295
+  },
+  "HarleyWink": {
+    "moveName": "Perish Song",
+    "moveId": 195,
+    "badges": 6,
+    "hpTypeName": "Ice",
+    "hpTypeId": 25,
+    "enemyMoveName": "Bug Buzz",
+    "enemyMoveId": 303
+  },
+  "CaitlynS": {
+    "moveName": "Bubble Beam",
+    "moveId": 61,
+    "badges": 6,
+    "hpTypeName": "Normal",
+    "hpTypeId": 0,
+    "enemyMoveName": "Bubble Beam",
+    "enemyMoveId": 61
+  },
+  "KEKHeim": {
+    "moveName": "Mega Punch",
+    "moveId": 5,
+    "badges": 5,
+    "hpTypeName": "Dark",
+    "hpTypeId": 27,
+    "enemyMoveName": "Mega Punch",
+    "enemyMoveId": 5
+  },
+  "PoroSad": {
+    "moveName": "Comet Punch",
+    "moveId": 4,
+    "badges": 1,
+    "hpTypeName": "Psychic",
+    "hpTypeId": 24,
+    "enemyMoveName": "Covet",
+    "enemyMoveId": 285
+  },
+  "PogBones": {
+    "moveName": "Bite",
+    "moveId": 44,
+    "badges": 7,
+    "hpTypeName": "Rock",
+    "hpTypeId": 5,
+    "enemyMoveName": "Bite",
+    "enemyMoveId": 44
+  },
+  "Jebasted": {
+    "moveName": "Splash",
+    "moveId": 150,
+    "badges": 0,
+    "hpTypeName": "Electric",
+    "hpTypeId": 23,
+    "enemyMoveName": "Covet",
+    "enemyMoveId": 285
+  },
+  "tppBop": {
+    "moveName": "Psywave",
+    "moveId": 149,
+    "badges": 0,
+    "hpTypeName": "Water",
+    "hpTypeId": 21,
+    "enemyMoveName": "Psywave",
+    "enemyMoveId": 149
+  },
+  "tppCrash": {
+    "moveName": "Night Shade",
+    "moveId": 101,
+    "badges": 2,
+    "hpTypeName": "Ice",
+    "hpTypeId": 25,
+    "enemyMoveName": "Night Shade",
+    "enemyMoveId": 101
+  },
+  "tppLedge": {
+    "moveName": "Withdraw",
+    "moveId": 110,
+    "badges": 1,
+    "hpTypeName": "Water",
+    "hpTypeId": 21,
+    "enemyMoveName": "Hydro Pump",
+    "enemyMoveId": 56
+  },
+  "tppNap": {
+    "moveName": "Splash",
+    "moveId": 150,
+    "badges": 0,
+    "hpTypeName": "Ground",
+    "hpTypeId": 4,
+    "enemyMoveName": "Covet",
+    "enemyMoveId": 285
+  },
+  "tppPop": {
+    "moveName": "Focus Energy",
+    "moveId": 116,
+    "badges": 0,
+    "hpTypeName": "Flying",
+    "hpTypeId": 2,
+    "enemyMoveName": "Headbutt",
+    "enemyMoveId": 29
+  },
+  "tppPopcorn": {
+    "moveName": "Baton Pass",
+    "moveId": 226,
+    "badges": 2,
+    "hpTypeName": "Fighting",
+    "hpTypeId": 1,
+    "enemyMoveName": "Ice ball",
+    "enemyMoveId": 266
+  },
+  "tppRoll": {
+    "moveName": "Waterfall",
+    "moveId": 127,
+    "badges": 11,
+    "hpTypeName": "Fire",
+    "hpTypeId": 20,
+    "enemyMoveName": "Waterfall",
+    "enemyMoveId": 127
+  }
 }

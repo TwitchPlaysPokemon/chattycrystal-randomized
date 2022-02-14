@@ -219,7 +219,7 @@ DragonShrineElder1Script:
 	writetext DragonShrinePlayerReceivedDratiniText
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke GOOMY, 45
+	givepoke TOGEPI, 45
 	checkevent EVENT_ANSWERED_DRAGON_MASTER_QUIZ_WRONG
 	special GiveDratini
 	setevent EVENT_GOT_DRATINI

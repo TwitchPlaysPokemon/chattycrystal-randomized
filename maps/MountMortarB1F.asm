@@ -37,7 +37,7 @@ MountMortarB1FKiyoScript:
 	writetext MountMortarB1F_PlayerGotHitmontopText
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke HITMONTOP, 70
+	givepoke STANTLER, 70
 	setevent EVENT_GOT_HITMONTOP_FROM_KIYO
 .GotTyrogue:
 	writetext BlackbeltKiyoAfterGiftText

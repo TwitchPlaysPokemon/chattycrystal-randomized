@@ -54,7 +54,7 @@ BattleTentGeneratorWoochum:
 	writetext ReceivedWoochumText
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke WOOCHUM, 50
+	givepoke METAPOD, 50
 	setevent EVENT_WOOCHUM_IN_ROCKET_HIDEOUT
 	disappear BATTLETENTGENERATOR_WOOCHUM
 	closetext

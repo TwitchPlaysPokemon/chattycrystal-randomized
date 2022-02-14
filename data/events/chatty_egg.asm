@@ -12,7 +12,7 @@ ChattyMonData:
 	bigdw 0
 	bigdw 0
 	bigdw 0
-	dn 13, 15, 15, 15 ; DVs
+	dn 15, 10, 10, 10 ; DVs
 	db 24 | (3 * PP_UP_ONE), 0, 0, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
@@ -28,7 +28,7 @@ ChattyMonData:
 	db "EGG@@@@@@@@"
 
 	; species
-	dw UNOWN
+	dw DITTO
 
 	; moves
 	dw CHATTY_HP, NO_MOVE, NO_MOVE, NO_MOVE

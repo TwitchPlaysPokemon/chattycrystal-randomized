@@ -104,7 +104,7 @@ RocketHideoutB4FHopporita:
 	writetext ReceivedHopporitaText
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke HOPPORITA, 50
+	givepoke CELEBI, 50
 	setevent EVENT_HOPPORITA_IN_ROCKET_HIDEOUT
 	disappear ROCKETHIDEOUTB4F_HOPPORITA
 	closetext
@@ -125,7 +125,7 @@ RocketHideoutB4FTogekey:
 	writetext ReceivedTogekeyText
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke TOGEKEY, 50
+	givepoke SHELLOS, 50
 	setevent EVENT_TOGEKEY_IN_ROCKET_HIDEOUT
 	disappear ROCKETHIDEOUTB4F_TOGEKEY
 	closetext
