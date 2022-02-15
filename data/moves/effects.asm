@@ -1113,6 +1113,7 @@ Chatter:
 	checkobedience
 	usedmovetext
 	doturn
+	checkchatty
 	chattyassist
 	endturn
 
