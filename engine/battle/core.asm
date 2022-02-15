@@ -7477,6 +7477,8 @@ GiveExperiencePoints:
 	push af
 	ld c, a
 	ld a, [wTempLevel]
+	cp c
+	jr nc, .finished_levels
 	ld b, a
 
 .level_loop
@@ -7490,6 +7492,7 @@ GiveExperiencePoints:
 	ld a, b
 	cp c
 	jr nz, .level_loop
+.finished_levels
 	pop af
 	ld [wCurPartyLevel], a
 	ld hl, wEvolvableFlags
