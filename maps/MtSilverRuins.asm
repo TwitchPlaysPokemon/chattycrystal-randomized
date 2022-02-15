@@ -126,7 +126,7 @@ MtSilverRuinsAzureMiddle:
 	writetext .after_battle_text
 	waitbutton
 	closetext
-	checkcaught PHANCERO
+	checkcaught MEW
 	ifequal 2, MtSilverRuinsStartCredits
 	special HealParty
 	playsound SFX_POTION
@@ -209,16 +209,16 @@ Phancero:
 PhanceroContinue:
 	opentext
 	writetext EllipsisSilenceText
-	cry PHANCERO
+	cry MEW
 	pause 15
 	closetext
-	loadwildmon PHANCERO, 95
+	loadwildmon MEW, 95
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	ifequal 2, PhanceroContinue
 	disappear MTSILVERRUINSB1F_PHANCERO_ALIVE
-	checkcaught PHANCERO
+	checkcaught MEW
 	ifequal 2, MtSilverRuinsStartCredits
 	opentext
 	writetext PhanceroFledText

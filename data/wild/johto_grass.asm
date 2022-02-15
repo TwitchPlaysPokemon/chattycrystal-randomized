@@ -1103,7 +1103,7 @@ JohtoGrassWildMons:
 	; nite
 	dbw 91, MILTANK
 	dbw 88, BELLOSSOM
-	dbw 88, MEW
+	dbw 88, STEELURRET
 	dbw 89, HELIOLISK
 	dbw 85, CLOYSTER
 	dbw 93, CLAWITZER

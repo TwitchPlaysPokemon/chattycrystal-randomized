@@ -387,7 +387,7 @@ KantoGrassWildMons:
 	dbw 63, REMORAID
 	dbw 61, MR__MIME
 	dbw 61, ELECTRIKE
-	dbw 61, PHANCERO
+	dbw 61, DRAGONAIR
 	dbw 62, HOUNDOOM
 	dbw 62, LANTURN
 	; day
@@ -492,7 +492,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 56, HOOTHOOT
-	dbw 56, PHANCERO
+	dbw 56, DRAGONAIR
 	dbw 58, SNORUNT
 	dbw 58, BAGON
 	dbw 60, CLAUNCHER

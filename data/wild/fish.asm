@@ -217,9 +217,9 @@ TimeFishGroups:
 	dbwbw 65, CLEFABLE,   65, SWELLOW    ; 11
 	dbwbw 35, CUTIEFLY,   35, GOLDEEN    ; 12
 	dbwbw 65, MARILL,     65, MARILL     ; 13
-	dbwbw 35, LEAFEON,    35, RAIKOU     ; 14
+	dbwbw 35, LEAFEON,    35, GLACEON    ; 14
 	dbwbw 65, OMASTAR,    65, ZAPDOS     ; 15
-	dbwbw 35, ARON,       35, BELLSPROUT  ; 16
+	dbwbw 35, ARON,       35, BELLSPROUT ; 16
 	dbwbw 65, POLIWAG,    65, NIDORAN_F  ; 17
 	dbwbw 35, MUDKIP,     35, BUDEW      ; 18
 	dbwbw 65, ABRA,       65, DUSKULL    ; 19
