@@ -71,9 +71,10 @@ BattleCommand_Assist:
 	call GetBattleVar
 	cp EFFECT_ASSIST
 	push af
-	call z, .Assist
+	; call z, .Assist
+	call .Assist
 	pop af
-	call nz, .ChattyAssist
+	; call nz, .ChattyAssist
 .nextmove
 	pop bc
 	pop de
@@ -132,89 +133,91 @@ BattleCommand_Assist:
 	ld [wAssistMove], a
 	ret
 
-.ChattyAssist:
-	call GetMoveIndexFromID
-	push de
-	ld de, 2
-	ld hl, ChatterExcepts
-	call IsInHalfwordArray
-	pop de
-	ret c
+; removed, needed space
 
-	; The move is valid. Perform a check for whether we should use it.
-	ld a, BATTLE_VARS_MOVE
-	call GetBattleVarAddr
+; .ChattyAssist:
+; 	call GetMoveIndexFromID
+; 	push de
+; 	ld de, 2
+; 	ld hl, ChatterExcepts
+; 	call IsInHalfwordArray
+; 	pop de
+; 	ret c
 
-	; Store the current move so we can revert it after.
-	ld a, [hl]
-	push af
-	ld a, d
-	ld [hl], a
-	call UpdateMoveData
+; 	; The move is valid. Perform a check for whether we should use it.
+; 	ld a, BATTLE_VARS_MOVE
+; 	call GetBattleVarAddr
 
-	; Is this a damaging move?
-	ld a, BATTLE_VARS_MOVE_POWER
-	call GetBattleVar
-	and a
-	jr z, .chattyassist_done
+; 	; Store the current move so we can revert it after.
+; 	ld a, [hl]
+; 	push af
+; 	ld a, d
+; 	ld [hl], a
+; 	call UpdateMoveData
 
-	; Verify type matchup.
-	call BattleCheckTypeMatchup
-	ld a, [wTypeMatchup]
-	and a
-	jr z, .chattyassist_done
+; 	; Is this a damaging move?
+; 	ld a, BATTLE_VARS_MOVE_POWER
+; 	call GetBattleVar
+; 	and a
+; 	jr z, .chattyassist_done
 
-	; Moves with a special damage formula.
-	ld a, BATTLE_VARS_MOVE_EFFECT
-	call GetBattleVar
-	cp EFFECT_SUPER_FANG
-	jr z, .static
-	cp EFFECT_STATIC_DAMAGE
-	jr z, .static
-	cp EFFECT_LEVEL_DAMAGE
-	jr z, .static
-	cp EFFECT_REVERSAL
-	jr z, .static
-	cp EFFECT_ENDEAVOR
-	jr z, .static
+; 	; Verify type matchup.
+; 	call BattleCheckTypeMatchup
+; 	ld a, [wTypeMatchup]
+; 	and a
+; 	jr z, .chattyassist_done
 
-	; The rest. Note that other dynamic moves (besides the .static ones above)
-	; are unhandled.
-	call AttackDamage
-	call BattleCommand_DamageCalc
-	ld a, EFFECT_REVERSAL
-	and a
-.static
-	push af
-	call z, BattleCommand_ConstantDamage
-	pop af
+; 	; Moves with a special damage formula.
+; 	ld a, BATTLE_VARS_MOVE_EFFECT
+; 	call GetBattleVar
+; 	cp EFFECT_SUPER_FANG
+; 	jr z, .static
+; 	cp EFFECT_STATIC_DAMAGE
+; 	jr z, .static
+; 	cp EFFECT_LEVEL_DAMAGE
+; 	jr z, .static
+; 	cp EFFECT_REVERSAL
+; 	jr z, .static
+; 	cp EFFECT_ENDEAVOR
+; 	jr z, .static
 
-	; Reversal goes through the stab check as well.
-	cp EFFECT_REVERSAL
-	call z, BattleCommand_Stab
+; 	; The rest. Note that other dynamic moves (besides the .static ones above)
+; 	; are unhandled.
+; 	call AttackDamage
+; 	call BattleCommand_DamageCalc
+; 	ld a, EFFECT_REVERSAL
+; 	and a
+; .static
+; 	push af
+; 	call z, BattleCommand_ConstantDamage
+; 	pop af
 
-	ld de, wAssistMaxDamage + 1
-	ld hl, wCurDamage + 1
-	ld a, [de]
-	cp [hl]
-	dec de
-	dec hl
-	ld a, [de]
-	sbc [hl]
-	jr nc, .chattyassist_done
+; 	; Reversal goes through the stab check as well.
+; 	cp EFFECT_REVERSAL
+; 	call z, BattleCommand_Stab
 
-	; Update current most damaging move.
-	ld a, [hli]
-	ld [de], a
-	inc de
-	ld a, [hl]
-	ld [de], a
-	ld a, BATTLE_VARS_MOVE_ANIM
-	call GetBattleVar
-	ld [wAssistMove], a
-.chattyassist_done
-	ld a, BATTLE_VARS_MOVE
-	call GetBattleVarAddr
-	pop af
-	ld [hl], a
-	jp UpdateMoveData
+; 	ld de, wAssistMaxDamage + 1
+; 	ld hl, wCurDamage + 1
+; 	ld a, [de]
+; 	cp [hl]
+; 	dec de
+; 	dec hl
+; 	ld a, [de]
+; 	sbc [hl]
+; 	jr nc, .chattyassist_done
+
+; 	; Update current most damaging move.
+; 	ld a, [hli]
+; 	ld [de], a
+; 	inc de
+; 	ld a, [hl]
+; 	ld [de], a
+; 	ld a, BATTLE_VARS_MOVE_ANIM
+; 	call GetBattleVar
+; 	ld [wAssistMove], a
+; .chattyassist_done
+; 	ld a, BATTLE_VARS_MOVE
+; 	call GetBattleVarAddr
+; 	pop af
+; 	ld [hl], a
+; 	jp UpdateMoveData
