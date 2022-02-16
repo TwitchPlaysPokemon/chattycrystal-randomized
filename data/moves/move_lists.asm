@@ -33,6 +33,7 @@ MetronomeExcepts:
 	dw SLEEP_TALK
 	dw STRUGGLE
 	dw THIEF
+	dw CHATTY_TRANSFORM
 	dw -1
 
 AssistExcepts:
@@ -58,6 +59,7 @@ AssistExcepts:
 	dw STRUGGLE
 	dw THIEF
 	dw TRANSFORM
+	dw CHATTY_TRANSFORM
 	dw WHIRLWIND
 	dw -1
 

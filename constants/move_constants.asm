@@ -357,7 +357,7 @@
 	const ICE_HAMMER   ; 15d
 	const POLLEN_PUFF  ; 15e
 	const POWER_TRIP   ; 15f
-	const CHATTY_HP    ; 160
+	const CHATTY_TRANSFORM ; 160
 	const CRYSTAL_BOLT ; 161
 	const KNOCK_OFF    ; 162
 	const WATER_SPOUT  ; 163
@@ -384,6 +384,8 @@
 	const DRILL_RUN    ; 178
 	const HEX          ; 179
 	const SHADOW_CLAW  ; 17a
+	const CHATTY_HP    ; 17b
+
 
 NUM_ATTACKS EQU const_value + -1
 

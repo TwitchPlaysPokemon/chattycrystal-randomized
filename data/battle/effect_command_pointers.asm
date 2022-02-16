@@ -231,3 +231,4 @@ BattleCommandPointers:
 	effectfn BattleCommand_NonChattyHP
 	effectfn BattleCommand_ChattyAssist
 	effectfn BattleCommand_Hex
+	effectfn BattleCommand_ChattyTransform

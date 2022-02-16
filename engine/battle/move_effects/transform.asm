@@ -1,3 +1,6 @@
+BattleCommand_ChattyTransform:
+;chattytransform
+
 BattleCommand_Transform:
 ; transform
 
@@ -74,6 +77,10 @@ BattleCommand_Transform:
 	pop hl
 	ld bc, wBattleMonStructEnd - wBattleMonStats
 	rst CopyBytes
+	ld a, BATTLE_VARS_MOVE_EFFECT
+	call GetBattleVar
+	cp EFFECT_CHATTY_TRANSFORM
+	jr z, .write_chatty_hp
 ; init the power points
 	ld bc, wBattleMonMoves - wBattleMonStructEnd
 	add hl, bc
@@ -100,6 +107,7 @@ BattleCommand_Transform:
 	ld [hli], a
 	dec b
 	jr nz, .pp_loop
+.moves_finished
 	pop hl
 	ld a, [hl]
 	ld [wNamedObjectIndexBuffer], a
@@ -141,6 +149,24 @@ BattleCommand_Transform:
 .no_substitute
 	ld hl, TransformedText
 	jp StdBattleTextbox
+
+.write_chatty_hp
+	ld hl, CHATTY_HP
+	call GetMoveIDFromIndex
+	ld hl, wBattleMonMoves
+	ld [hli], a
+	xor a
+rept 3
+	ld [hli], a
+endr
+	ld hl, wBattleMonPP
+	ld a, 24 | (3 * PP_UP_ONE)
+	ld [hli], a
+	xor a
+rept 3
+	ld [hli], a
+endr
+	jr z, .moves_finished
 
 BattleSideCopy:
 ; Copy bc bytes from hl to de if it's the player's turn.

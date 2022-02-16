@@ -31,4 +31,4 @@ ChattyMonData:
 	dw DITTO
 
 	; moves
-	dw CHATTY_HP, NO_MOVE, NO_MOVE, NO_MOVE
+	dw CHATTY_TRANSFORM, NO_MOVE, NO_MOVE, NO_MOVE

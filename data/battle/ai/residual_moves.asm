@@ -13,4 +13,5 @@ ResidualMoves:
 	dw CONVERSION
 	dw SUBSTITUTE
 	dw SPIKES
+	dw CHATTY_TRANSFORM
 	dw -1 ; end

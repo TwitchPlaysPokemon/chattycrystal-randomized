@@ -356,7 +356,7 @@ MoveDescriptions1:
 	dw IceHammerDescription
 	dw PollenPuffDescription
 	dw PowerTripDescription
-	dw ChattyHPDescription
+	dw ChattyTransformDescription
 	dw CrystalBoltDescription
 	dw KnockOffDescription
 	dw WaterSpoutDescription
@@ -383,6 +383,7 @@ MoveDescriptions1:
 	dw DrillRunDescription
 	dw HexDescription
 	dw ShadowClawDescription
+	dw ChattyHPDescription
 
 ChatterDescription:
 InvalidMoveDescription:
@@ -1409,6 +1410,7 @@ HiddenPowerDescription:
 	db   "The power varies"
 	next "with the #MON.@"
 
+ChattyTransformDescription:
 TransformDescription:
 	db   "The user assumes"
 	next "the foe's guise.@"

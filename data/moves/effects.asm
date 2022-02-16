@@ -2904,3 +2904,10 @@ Hex:
 	buildopponentrage
 	kingsrock
 	endmove
+
+ChattyTransform:
+	checkobedience
+	usedmovetext
+	doturn
+	chattytransform
+	endmove

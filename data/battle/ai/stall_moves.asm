@@ -34,4 +34,5 @@ StallMoves:
 	dw CONVERSION
 	dw SUBSTITUTE
 	dw FLAME_WHEEL
+	dw CHATTY_TRANSFORM
 	dw -1 ; end

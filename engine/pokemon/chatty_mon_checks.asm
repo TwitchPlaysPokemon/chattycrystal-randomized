@@ -44,6 +44,7 @@ CheckChattyMon:
 	push hl
 	call GetMoveIndexFromID
 	assert HIGH(CHATTER) == HIGH(CHATTY_HP)
+	assert HIGH(CHATTER) == HIGH(CHATTY_TRANSFORM)
 	ld a, h
 	cp HIGH(CHATTER)
 	ld a, l
@@ -52,6 +53,9 @@ CheckChattyMon:
 	; cp LOW(CHATTER)
 	; scf
 	; ret z
+	cp LOW(CHATTY_TRANSFORM)
+	scf
+	ret z
 	cp LOW(CHATTY_HP)
 	scf
 	ret z

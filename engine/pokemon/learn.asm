@@ -223,6 +223,7 @@ MoveIsUnforgettable::
 	dw WHIRLPOOL
 	dw CHATTER
 	dw CHATTY_HP
+	dw CHATTY_TRANSFORM
 	dw -1 ; end
 
 Text_LearnedMove:

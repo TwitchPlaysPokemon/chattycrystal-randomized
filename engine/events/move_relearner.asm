@@ -119,10 +119,10 @@ MoveRelearnerLoad:
 	ld a, b
 	call GetMoveIndexFromID
 	ld a, l
-	cp LOW(CHATTY_HP)
+	cp LOW(CHATTY_TRANSFORM)
 	jr nz, .ok
 	ld a, h
-	assert HIGH(CHATTY_HP) == 1
+	assert HIGH(CHATTY_TRANSFORM) == 1
 	dec h
 .ok
 	pop hl

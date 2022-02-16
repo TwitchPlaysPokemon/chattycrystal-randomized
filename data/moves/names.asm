@@ -350,7 +350,7 @@ MoveNames::
 	db "ICE HAMMER@"
 	db "POLLEN PUFF@"
 	db "POWER TRIP@"
-	db "HIDDEN POWER@"
+	db "TRANSFORM@"
 	db "CRYSTAL BOLT@"
 	db "KNOCK OFF@"
 	db "WATER SPOUT@"
@@ -377,3 +377,4 @@ MoveNames::
 	db "DRILL RUN@"
 	db "HEX@"
 	db "SHADOW CLAW@"
+	db "HIDDEN POWER@"

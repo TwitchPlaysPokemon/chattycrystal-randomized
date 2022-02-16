@@ -2,8 +2,6 @@ LSMoveNames::
 	indirect_table 8, 1
 	indirect_entries BEAT_UP, .original_moves
 	indirect_entries WATER_PULSE, .new_moves_1
-	indirect_entries CHATTY_HP - 1
-	indirect_entries CHATTY_HP, .hidden_power
 	indirect_entries KNOCK_OFF - 1
 	indirect_entries NEEDLE_ARM, .new_moves_2
 	indirect_entries CALM_MIND - 1
@@ -12,6 +10,8 @@ LSMoveNames::
 	indirect_entries HEAT_WAVE, .new_moves_4
 	indirect_entries HYPER_VOICE - 1
 	indirect_entries LEAF_BLADE, .new_moves_5
+	indirect_entries CHATTY_HP - 1
+	indirect_entries CHATTY_HP, .hidden_power
 	indirect_table_end
 
 .new_moves_1

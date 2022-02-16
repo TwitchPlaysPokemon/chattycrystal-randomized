@@ -143,6 +143,7 @@ MoveAnimations1:
 	dw BattleAnim_LeechLife
 	dw BattleAnim_LovelyKiss
 	dw BattleAnim_SkyAttack
+MoveAnimationsChattyTransform:
 	dw BattleAnim_Transform    ;  90
 	dw BattleAnim_Bubble
 	dw BattleAnim_DizzyPunch

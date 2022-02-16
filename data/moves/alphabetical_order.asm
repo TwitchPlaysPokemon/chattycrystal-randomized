@@ -354,6 +354,7 @@ AlphabeticalMoveList::
 	dw TICKLE
 	dw TOXIC
 	dw TRANSFORM
+	dw CHATTY_TRANSFORM ; also TRANSFORM
 	dw TRI_ATTACK
 	dw TRIPLE_KICK
 	dw TRUMP_CARD

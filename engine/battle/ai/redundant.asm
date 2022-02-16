@@ -47,6 +47,7 @@ AI_Redundant:
 	dbw EFFECT_AQUA_RING,    .AquaRing
 	dbw EFFECT_FAKE_OUT,     .FakeOut
 	dbw EFFECT_TAUNT,        .Taunt
+	dbw EFFECT_CHATTY_TRANSFORM,    .Transform
 	db -1
 
 .Swagger:

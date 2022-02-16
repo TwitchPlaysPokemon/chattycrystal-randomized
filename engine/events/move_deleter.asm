@@ -117,6 +117,7 @@ MoveDeletion:
 	call AddNTimes
 	ld a, [hl]
 	call GetMoveIndexFromID
+	assert HIGH(CHATTER) == HIGH(CHATTY_TRANSFORM)
 	assert HIGH(CHATTER) == HIGH(CHATTY_HP)
 	assert HIGH(CHATTER) == 1
 	dec h
@@ -126,6 +127,9 @@ MoveDeletion:
 	scf
 	ret z
 	cp LOW(CHATTY_HP)
+	scf
+	ret z
+	cp LOW(CHATTY_TRANSFORM)
 	scf
 	ret z
 .deletable

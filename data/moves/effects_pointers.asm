@@ -201,3 +201,4 @@ MoveEffectsPointers:
 	dw IceFang
 	dw ThunderFang
 	dw Hex
+	dw ChattyTransform
