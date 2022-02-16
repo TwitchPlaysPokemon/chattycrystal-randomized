@@ -1378,6 +1378,53 @@ URFGroup:
 
 	db -1 ; end
 
+	next_list_item ; AJDNNW2
+	db "AJDNNW@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_NICKNAME
+
+	db 33
+	dw FLYGON
+	db AMULET_COIN
+	dw BITE, FEINT_ATTACK, DRAGONBREATH, SAND_TOMB
+	bigdw $FFFF
+	db "Piiiv@"
+
+	db 34
+	dw BUDEW
+	db NO_ITEM
+	dw ABSORB, GROWTH, STUN_SPORE, NO_MOVE
+	bigdw $0FFF
+	db "HA        @"
+
+	db 35
+	dw STEELURRET
+	db SURF_MAIL
+	dw STRENGTH, SURF, ROCK_THROW, SLAM
+	bigdw $FFFF
+	db "IIIRRRJJS@"
+
+	db 36
+	dw CHATOT
+	db NO_ITEM
+	dw CHATTER, ROOST, PECK, MIRROR_MOVE
+	bigdw $19B5
+	db "IIAAAIig--@"
+
+	db 37
+	dw MEWTWO
+	db POKE_DOLL
+	dw PSYCHIC_M, BARRIER, SWIFT, RECOVER
+	bigdw $FFFF
+	db ",UUCDWWWWW@"
+
+	db 38
+	dw KOFFING
+	db NO_ITEM
+	dw POISON_GAS, SMOG, TACKLE, NO_MOVE
+	bigdw $FFFF
+	db "WWWEEE@"
+
+	db -1 ; end
+
 	next_list_item ; AJDNNW3
 	db "AJDNNW@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_NICKNAME
 
@@ -9584,6 +9631,54 @@ GruntFGroup:
 	end_list_items
 
 KimonoGirlGroup:
+	next_list_item ; KIMONO_GIRL (1)
+	db "NAOKO@", TRAINERTYPE_NORMAL
+	db 32
+	dw CHARIZARD
+	db -1 ; end
+
+	next_list_item ; KIMONO_GIRL (2)
+	db "SAYO@", TRAINERTYPE_NORMAL
+	db 32
+	dw BRONZONG
+	db -1 ; end
+
+	next_list_item ; KIMONO_GIRL (3)
+	db "ZUKI@", TRAINERTYPE_NORMAL
+	db 32
+	dw KROOKODILE
+	db -1 ; end
+
+	next_list_item ; KIMONO_GIRL (4)
+	db "KUNI@", TRAINERTYPE_NORMAL
+	db 32
+	dw GOLDUCK
+	db -1 ; end
+
+	next_list_item ; KIMONO_GIRL (5)
+	db "MIKI@", TRAINERTYPE_NORMAL
+	db 32
+	dw MANECTRIC
+	db -1 ; end
+
+	next_list_item ; KIMONO_GIRL (6)
+	db "LINNEA@", TRAINERTYPE_NORMAL
+	db 32
+	dw MEGANIUM
+	db -1 ; end
+
+	next_list_item ; KIMONO_GIRL (7)
+	db "REA@", TRAINERTYPE_NORMAL
+	db 32
+	dw CLOYSTER
+	db -1 ; end
+
+	next_list_item ; KIMONO_GIRL (8)
+	db "SAKUYA@", TRAINERTYPE_NORMAL
+	db 32
+	dw SCYTHER
+	db -1 ; end
+
 	next_list_item ; KIMONO_GIRL (9)
 	db "DESSA@", TRAINERTYPE_ITEM
 	db 90
