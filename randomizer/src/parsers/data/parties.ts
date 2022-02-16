@@ -116,10 +116,11 @@ export default class TrainerParser extends ReadWriteParser<Trainer[]> {
                             const group = section.slice(firstLine, (lastLine < 0) ? undefined : lastLine);
                             return <ClassGroup>{
                                 label,
-                                trainerConstants: group.filter(l => l.startsWith('	next_list_item ;'))
-                                    .map(l => /next_list_item ;(.+)/.exec(l)[1]).map(constant => {
-                                        const firstLine = section.indexOf(`	next_list_item ;${constant}`);
-                                        const lastLine = section.findIndex((l, i) => i > firstLine && l.startsWith('	next_list_item ;'));
+                                trainerConstants: group.filter(l => l.startsWith('	next_list_item'))
+                                    .map(l => /	next_list_item\s*;\s*(.+)/.exec(l)).map(matches => {
+                                        const constant = matches[1];
+                                        const firstLine = section.indexOf(matches[0]);
+                                        const lastLine = section.findIndex((l, i) => i > firstLine && l.startsWith('	next_list_item'));
                                         const tData = section.slice(firstLine, (lastLine < 0) ? undefined : lastLine);
                                         const [, name, types] = /	db "([^@"]+)@"(?:, )?(.+)?/.exec(tData[1]);
                                         const trainer = {
