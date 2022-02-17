@@ -2222,42 +2222,42 @@ CYRoboredGroup:
 	next_list_item ; X_CHATTYYELLOW3
 	db "x<MN>(?@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_NICKNAME
 
-	db 52
+	db 71
 	dw VENOMOTH
 	db NO_ITEM
 	dw DISABLE, POISONPOWDER, LEECH_LIFE, STUN_SPORE
 	bigdw $FFFF
 	db "AATTVVV@"
 
-	db 53
+	db 72
 	dw QUAGSIRE
 	db TM_RAIN_DANCE
 	dw SURF, MUD_SHOT, AMNESIA, EARTHQUAKE
 	bigdw $0FFF
 	db "UUUUV???@"
 
-	db 54
+	db 73
 	dw BEEDRILL
 	db NO_ITEM
 	dw CUT, TWINEEDLE, HYPER_BEAM, MEGA_DRAIN
 	bigdw $FFFF
 	db "?!♂♂♀AAABa@"
 
-	db 55
+	db 74
 	dw KINGDRA
 	db MYSTIC_WATER
 	dw SURF, ICE_BEAM, BRINE, DRAGON_PULSE
 	bigdw $0FFF
 	db "fish@"
 
-	db 56
+	db 75
 	dw MEOWTH
 	db NO_ITEM
 	dw SCRATCH, GROWL, BITE, NO_MOVE
 	bigdw $FFFF
 	db "aaaaaaakw@"
 
-	db 57
+	db 76
 	dw VIBRAVA
 	db AMULET_COIN
 	dw BITE, FEINT_ATTACK, DRAGONBREATH, SAND_TOMB
@@ -2269,42 +2269,42 @@ CYRoboredGroup:
 	next_list_item ; X_CHATTYYELLOW4
 	db "x<MN>(?@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_NICKNAME
 
-	db 61
+	db 75
 	dw POOCHYENA
 	db NO_ITEM
 	dw SAND_ATTACK, HOWL, TACKLE, NO_MOVE
 	bigdw $0FFF
 	db "BBBC Hbvvv@"
 
-	db 62
+	db 76
 	dw GOLEM
 	db SOFT_SAND
 	dw EXPLOSION, DOUBLE_EDGE, EARTHQUAKE, ROCK_SLIDE
 	bigdw $0FFF
 	db " -5'''7''Y@"
 
-	db 63
+	db 77
 	dw FROSLASS
 	db AMULET_COIN
 	dw ICE_BEAM, WAKE_UP_SLAP, BITE, ICE_SHARD
 	bigdw $0FFF
 	db "00     UU@"
 
-	db 64
+	db 78
 	dw VENUSAUR
 	db LEFTOVERS
 	dw GROWTH, SLUDGE_BOMB, SLEEP_POWDER, PETAL_DANCE
 	bigdw $FFFF
 	db "ul:::utx@"
 
-	db 65
+	db 79
 	dw DIGLETT
 	db NO_ITEM
 	dw FURY_SWIPES, GROWL, MAGNITUDE, DIG
 	bigdw $0FFF
 	db "Diglett@"
 
-	db 66
+	db 80
 	dw PHANCERO
 	db NO_ITEM
 	dw CUT, DIG, STRENGTH, NO_MOVE
@@ -9786,14 +9786,14 @@ KimonoGirlGroup:
 
 	end_list_items
 
-	PTLucasBTGroup:
-	XDMichaelBTGroup:
-	GreenMayBTGroup:
-	BlueMayBTGroup:
-	BlueBrendanBTGroup:
-	BDLucasBTGroup:
-	Wooper2BTGroup:
-	BlueRedGroup:
+PTLucasBTGroup:
+XDMichaelBTGroup:
+GreenMayBTGroup:
+BlueMayBTGroup:
+BlueBrendanBTGroup:
+BDLucasBTGroup:
+Wooper2BTGroup:
+BlueRedGroup:
 	next_list_item ; B
 	db "AAAA@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_STATS | TRAINERTYPE_NICKNAME
 	
@@ -9879,7 +9879,7 @@ KimonoGirlGroup:
 	
 	end_list_items
 	
-	GreenRedGroup:
+GreenRedGroup:
 	next_list_item ; B_RACE
 	db "B@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_STATS | TRAINERTYPE_NICKNAME
         
