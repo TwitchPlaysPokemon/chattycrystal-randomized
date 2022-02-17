@@ -77,3 +77,12 @@ TrainerPicPointers::
 	dba BattlePCPic
 	dba WooperTPic
 	dba URFPic
+	dba LucasPic
+	dba MichaelPic
+	dba GreenMayPic
+	dba URFPic
+	dba BrendanPic
+	dba LucasPic
+	dba WooperTPic
+	dba RedPic
+	dba RedPic
