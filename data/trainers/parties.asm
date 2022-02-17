@@ -3365,6 +3365,89 @@ RedGroup:
 	bigdw 231
 	db "RRQPO:<PK><PK><PK><PK>@"
 	db -1 ; end
+	
+	next_list_item ; AAAAAAA_RACE
+	db "AAAAAAA@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_STATS | TRAINERTYPE_NICKNAME
+        
+	db 46
+	dw JOLTEON
+	db BITTER_BERRY
+	dw PSYCHIC, THUNDERBOLT, NIGHT_SHADE, METRONOME
+	bigdw $0175
+	bigdw 129
+	bigdw 73
+	bigdw 69
+	bigdw 138
+	bigdw 118
+	bigdw 118
+	db "AVIRAGHS@"
+	
+	db 34
+	dw FEAROW
+	db BERRY
+	dw FLY, DRILL_PECK, LEER, FURY_ATTACK
+	bigdw $572C
+	bigdw 101
+	bigdw 75
+	bigdw 59
+	bigdw 80
+	bigdw 60
+	bigdw 60
+	db "Birb@"
+	
+	db 30
+	dw HITMONLEE
+	db BITTER_BERRY
+	dw DOUBLE_KICK, MEDITATE, STRENGTH, NO_MOVE
+	bigdw $A4FF
+	bigdw 72
+	bigdw 83
+	bigdw 40
+	bigdw 66
+	bigdw 35
+	bigdw 35
+	db "JK@"
+	
+	db 56
+	dw BLASTOISE
+	db BITTER_BERRY
+	dw SURF, BITE, ICE_BEAM, DIG
+	bigdw $BC72
+	bigdw 182
+	bigdw 129
+	bigdw 148
+	bigdw 118
+	bigdw 119
+	bigdw 119
+	db "NN@"
+	
+	db 49
+	dw DUGTRIO
+	db GOLD_BERRY
+	dw EARTHQUAKE, SAND_ATTACK, SCRATCH, DIG
+	bigdw $BC1C
+	bigdw 113
+	bigdw 105
+	bigdw 77
+	bigdw 133
+	bigdw 95
+	bigdw 95
+	db "Amy@"
+	
+	db 72
+	dw MEWTWO
+	db BRIGHTPOWDER
+	dw SWIFT, PSYCHIC, BARRIER, RECOVER
+	bigdw $50AC
+	bigdw 252
+	bigdw 177
+	bigdw 140
+	bigdw 213
+	bigdw 251
+	bigdw 251
+	db "Weird Cat@"
+	
+	db -1 ; end
 
 	end_list_items
 
@@ -11911,6 +11994,185 @@ BlueMayGroup:
 	bigdw 189
 	db "KENNNNNNNN@"
 
+	db -1 ; end
+
+	end_list_items
+
+	PTLucasBTGroup:
+	XDMichaelBTGroup:
+	GreenMayBTGroup:
+	BlueMayBTGroup:
+	BlueBrendanBTGroup:
+	BDLucasBTGroup:
+	Wooper2BTGroup:
+	BlueRedGroup:
+	next_list_item ; B
+	db "AAAA@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_STATS | TRAINERTYPE_NICKNAME
+	
+	db 62
+	dw NIDOKING
+	db BITTER_BERRY
+	dw EARTHQUAKE, HORN_DRILL, SURF, ICE_BEAM
+	bigdw $BFC8
+	bigdw 207
+	bigdw 154
+	bigdw 140
+	bigdw 148
+	bigdw 128
+	bigdw 128
+	db "HA@"
+	
+	db 30
+	dw HITMONCHAN
+	db BITTER_BERRY
+	dw DOUBLE_EDGE, AGILITY, COMET_PUNCH, NO_MOVE
+	bigdw $64F9
+	bigdw 72
+	bigdw 72
+	bigdw 55
+	bigdw 60
+	bigdw 32
+	bigdw 32
+	db "FIST!@"
+	
+	db 33
+	dw VENUSAUR
+	db BITTER_BERRY
+	dw CUT, VINE_WHIP, LEECH_SEED, RAZOR_LEAF
+	bigdw $4BF1
+	bigdw 143
+	bigdw 102
+	bigdw 107
+	bigdw 101
+	bigdw 112
+	bigdw 112
+	db "VENUSAUR@"
+	
+	db 34
+	dw GYARADOS
+	db BITTER_BERRY
+	dw DRAGON_RAGE, BLIZZARD, STRENGTH, SURF
+	bigdw $BB75
+	bigdw 123
+	bigdw 102
+	bigdw 71
+	bigdw 69
+	bigdw 81
+	bigdw 81
+	db "FEESH@"
+	
+	db 21
+	dw PIDGEOTTO
+	db BERRY
+	dw FLY, SAND_ATTACK, QUICK_ATTACK, GUST
+	bigdw $7E45
+	bigdw 62
+	bigdw 34
+	bigdw 35
+	bigdw 37
+	bigdw 29
+	bigdw 29
+	db "CAPONE@"
+	
+	db 55
+	dw JOLTEON
+	db BITTER_BERRY
+	dw THUNDER, PIN_MISSILE, TACKLE, QUICK_ATTACK
+	bigdw $7DEB
+	bigdw 162
+	bigdw 96
+	bigdw 97
+	bigdw 174
+	bigdw 150
+	bigdw 150
+	db "SPARK@"
+	
+	db -1 ; end
+	
+	end_list_items
+	
+	GreenRedGroup:
+	next_list_item ; B_RACE
+	db "B@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_STATS | TRAINERTYPE_NICKNAME
+        
+	db 10
+	dw SPEAROW
+	db BERRY
+	dw FLY, TOXIC, LEER, GROWL
+	bigdw $527C
+	bigdw 30
+	bigdw 18
+	bigdw 11
+	bigdw 21
+	bigdw 13
+	bigdw 13
+	db "UaabB@"
+	
+	db 14
+	dw MEOWTH
+	db BERRY
+	dw SCRATCH, BITE, GROWL, NO_MOVE
+	bigdw $884D
+	bigdw 35
+	bigdw 20
+	bigdw 17
+	bigdw 31
+	bigdw 20
+	bigdw 20
+	db "AAAAII@"
+	
+	db 47
+	dw VENUSAUR
+	db BITTER_BERRY
+	dw RAZOR_LEAF, CUT, LEECH_SEED, POISONPOWDER
+	bigdw $8C82
+	bigdw 143
+	bigdw 102
+	bigdw 107
+	bigdw 101
+	bigdw 112
+	bigdw 112
+	db "ABAAABBBBK@"
+	
+	db 15
+	dw LAPRAS
+	db BITTER_BERRY
+	dw SURF, BLIZZARD, WATER_GUN, STRENGTH
+	bigdw $9563
+	bigdw 67
+	bigdw 33
+	bigdw 30
+	bigdw 24
+	bigdw 34
+	bigdw 34
+	db "BB@"
+	
+	db 50
+	dw DUGTRIO
+	db GOLD_BERRY
+	dw EARTHQUAKE, DIG, SLASH, SAND_ATTACK
+	bigdw $EE93
+	bigdw 108
+	bigdw 110
+	bigdw 79
+	bigdw 145
+	bigdw 89
+	bigdw 89
+	db "B!♂@"
+	
+	db 84
+	dw GENGAR
+	db BITTER_BERRY
+	dw PSYCHIC, THUNDERBOLT, NIGHT_SHADE, METRONOME
+	bigdw $9BDF
+	bigdw 246
+	bigdw 147
+	bigdw 152
+	bigdw 238
+	bigdw 275
+	bigdw 275
+	db "HECTOR@"
+	
 	db -1 ; end
 
 	end_list_items
