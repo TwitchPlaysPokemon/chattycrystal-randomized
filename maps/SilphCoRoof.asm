@@ -61,11 +61,11 @@ SilphCoRoofRaikou:
 	faceplayer
 	opentext
 	writetext SilphCoRoofLegendaryText
-	cry RAIKOU
+	cry PORYGON_Z
 	pause 15
 	closetext
 	loadvar VAR_BATTLETYPE, BATTLETYPE_SUICUNE
-	loadwildmon RAIKOU, 75
+	loadwildmon PORYGON_Z, 75
 	startbattle
 	disappear SILPH_CO_RAIKOU
 	reloadmapafterbattle
@@ -83,11 +83,11 @@ SilphCoRoofSuicune:
 	faceplayer
 	opentext
 	writetext SilphCoRoofLegendaryText
-	cry SUICUNE
+	cry AZUMARILL
 	pause 15
 	closetext
 	loadvar VAR_BATTLETYPE, BATTLETYPE_SUICUNE
-	loadwildmon SUICUNE, 75
+	loadwildmon AZUMARILL, 75
 	startbattle
 	disappear SILPH_CO_SUICUNE
 	reloadmapafterbattle

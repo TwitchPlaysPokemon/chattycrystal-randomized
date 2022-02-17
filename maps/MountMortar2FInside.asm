@@ -23,11 +23,11 @@ Kyogre:
 	faceplayer
 	opentext
 	writetext KyogreText
-	cry KYOGRE
+	cry MILOTIC
 	pause 15
 	closetext
 	setevent EVENT_KYOGRE_IN_MOUNT_MORTAR
-	loadwildmon KYOGRE, 75
+	loadwildmon MILOTIC, 75
 	startbattle
 	disappear MOUNTMORTAR2FINSIDE_KYOGRE
 	reloadmapafterbattle

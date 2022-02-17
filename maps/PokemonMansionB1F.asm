@@ -14,11 +14,11 @@ Groudon:
 	faceplayer
 	opentext
 	writetext GroudonText
-	cry GROUDON
+	cry KROOKODILE
 	pause 15
 	closetext
 	setevent EVENT_GROUDON_IN_POKEMON_MANSION
-	loadwildmon GROUDON, 75
+	loadwildmon KROOKODILE, 75
 	startbattle
 	disappear POKEMONMANSIONB1F_GROUDON
 	reloadmapafterbattle

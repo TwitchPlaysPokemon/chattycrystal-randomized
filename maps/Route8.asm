@@ -59,10 +59,10 @@ Route8Snorlax:
 .Awake:
 	writetext Route8SnorlaxAwake
 	pause 15
-	cry SNORLAX
+	cry EXPLOUD
 	closetext
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon SNORLAX, 70
+	loadwildmon EXPLOUD, 70
 	setflag EVENT_ROUTE_8_SNORLAX
 	startbattle
 	disappear ROUTE8_BIG_SNORLAX

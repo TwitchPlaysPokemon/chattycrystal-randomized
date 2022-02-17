@@ -12,12 +12,12 @@ SeafoamIslandsB4FArticuno:
 	faceplayer
 	opentext
 	writetext .Text
-	cry ARTICUNO
+	cry EMPOLEON
 	pause 15
 	closetext
 	setevent EVENT_SEAFOAM_ISLANDS_B4F_ARTICUNO
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon ARTICUNO, 75
+	loadwildmon EMPOLEON, 75
 	startbattle
 	disappear SEAFOAMISLANDSB4F_ARTICUNO
 	reloadmapafterbattle

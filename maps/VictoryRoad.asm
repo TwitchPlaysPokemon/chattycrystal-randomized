@@ -62,11 +62,11 @@ Moltres:
 	faceplayer
 	opentext
 	writetext MoltresText
-	cry MOLTRES
+	cry GROUDON
 	pause 15
 	closetext
 	setevent EVENT_MOLTRES_IN_VICTORY_ROAD
-	loadwildmon MOLTRES, 75
+	loadwildmon GROUDON, 75
 	startbattle
 	disappear VICTORYROAD_MOLTRES
 	reloadmapafterbattle

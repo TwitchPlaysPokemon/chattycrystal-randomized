@@ -41,11 +41,11 @@ Latios:
 	faceplayer
 	opentext
 	writetext LatiosText
-	cry LATIOS
+	cry LUGIA
 	pause 15
 	closetext
 	setevent EVENT_LATIOS_IN_SAFARI_ZONE
-	loadwildmon LATIOS, 65
+	loadwildmon LUGIA, 65
 	startbattle
 	disappear SAFARIZONENORTH_LATIOS
 	reloadmapafterbattle

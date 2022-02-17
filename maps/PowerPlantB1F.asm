@@ -29,7 +29,7 @@ PowerPlantB1FZapdos:
 	closetext
 	setevent EVENT_POWER_PLANT_B1F_ZAPDOS
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon ZAPDOS, 75
+	loadwildmon HO_OH, 75
 	startbattle
 	disappear POWERPLANTB1F_ZAPDOS
 	reloadmapafterbattle
@@ -120,8 +120,8 @@ PowerPlantB1FReloadMap:
 	end
 
 PowerPlantFightElectrode:
-	cry ELECTRODE
-	loadwildmon ELECTRODE, 72
+	cry EELEKTROSS
+	loadwildmon EELEKTROSS, 72
 	startbattle
 	end
 

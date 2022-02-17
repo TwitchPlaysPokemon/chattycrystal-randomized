@@ -45,10 +45,10 @@ VermilionSnorlax:
 .Awake:
 	writetext VermilionCitySnorlaxWokeUpText
 	pause 15
-	cry SNORLAX
+	cry LOPUNNY
 	closetext
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon SNORLAX, 70
+	loadwildmon LOPUNNY, 70
 	startbattle
 	disappear VERMILIONCITY_BIG_SNORLAX
 	setevent EVENT_FOUGHT_SNORLAX

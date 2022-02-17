@@ -118,9 +118,9 @@ TinTower1F_MapScripts:
 	pause 10
 	applymovement PLAYER, TinTowerPlayerMovement2
 	applymovement TINTOWER1F_ENTEI, TinTowerSuicuneMovement
-	cry ENTEI
+	cry INFERNAPE
 	pause 20
-	loadwildmon ENTEI, 55
+	loadwildmon INFERNAPE, 55
 	loadvar VAR_BATTLETYPE, BATTLETYPE_SUICUNE
 	startbattle
 	dontrestartmapmusic

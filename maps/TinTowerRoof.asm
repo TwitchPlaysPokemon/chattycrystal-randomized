@@ -26,12 +26,12 @@ TinTowerHoOh:
 	faceplayer
 	opentext
 	writetext HoOhText
-	cry HO_OH
+	cry BRONZONG
 	pause 15
 	closetext
 	setevent EVENT_FOUGHT_HO_OH
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon HO_OH, 80
+	loadwildmon BRONZONG, 80
 	startbattle
 	disappear TINTOWERROOF_HO_OH
 	reloadmapafterbattle

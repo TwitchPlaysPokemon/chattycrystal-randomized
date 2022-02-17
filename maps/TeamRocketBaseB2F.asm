@@ -191,8 +191,8 @@ TrainerGruntM19:
 	jumptext GruntM19AfterBattleText
 
 RocketElectrode1:
-	cry ELECTRODE
-	loadwildmon ELECTRODE, 50
+	cry TYNAMO
+	loadwildmon TYNAMO, 50
 	startbattle
 	iftrue TeamRocketBaseB2FReloadMap
 	disappear TEAMROCKETBASEB2F_ELECTRODE1
@@ -209,8 +209,8 @@ RocketElectrode1:
 	sjump RocketBaseElectrodeScript
 
 RocketElectrode2:
-	cry ELECTRODE
-	loadwildmon ELECTRODE, 50
+	cry PIKACHU
+	loadwildmon PIKACHU, 50
 	startbattle
 	iftrue TeamRocketBaseB2FReloadMap
 	disappear TEAMROCKETBASEB2F_ELECTRODE2
@@ -227,8 +227,8 @@ RocketElectrode2:
 	sjump RocketBaseElectrodeScript
 
 RocketElectrode3:
-	cry ELECTRODE
-	loadwildmon ELECTRODE, 50
+	cry JOLTEON
+	loadwildmon JOLTEON, 50
 	startbattle
 	iftrue TeamRocketBaseB2FReloadMap
 	disappear TEAMROCKETBASEB2F_ELECTRODE3

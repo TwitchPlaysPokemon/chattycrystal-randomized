@@ -14,12 +14,12 @@ CeruleanCaveB1FMewtwo:
 	faceplayer
 	opentext
 	writetext .Text
-	cry MEWTWO
+	cry GARDEVOIR
 	pause 15
 	closetext
 	setevent EVENT_CERULEAN_CAVE_B1F_MEWTWO
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon MEWTWO, 80
+	loadwildmon GARDEVOIR, 80
 	startbattle
 	disappear CERULEANCAVEB1F_MEWTWO
 	reloadmapafterbattle

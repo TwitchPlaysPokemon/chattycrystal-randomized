@@ -453,7 +453,7 @@ IlexForestShrineScript:
 	clearflag ENGINE_FOREST_IS_RESTLESS
 	special CelebiShrineEvent
 	setevent EVENT_TRIGGERED_CELEBI_EVENT
-	loadwildmon CELEBI, 30
+	loadwildmon SIMISAGE, 30
 	startbattle
 	reloadmapafterbattle
 	pause 20

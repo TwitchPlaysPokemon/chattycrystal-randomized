@@ -10,11 +10,11 @@ Darkrai:
 	faceplayer
 	opentext
 	writetext .text
-	cry DARKRAI
+	cry SABLEYE
 	pause 15
 	closetext
 	setevent EVENT_DARKRAI_IN_POKEMON_TOWER
-	loadwildmon DARKRAI, 70
+	loadwildmon SABLEYE, 70
 	startbattle
 	disappear POKEMONTOWER7F_DARKRAI
 	reloadmapafterbattle
