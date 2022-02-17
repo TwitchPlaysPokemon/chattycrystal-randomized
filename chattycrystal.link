@@ -47,7 +47,6 @@ ROMX $0d
 	"Effect Commands"
 ROMX $0e
 	"Enemy Trainers"
-	"Enemy Trainer Parties 2"
 ROMX $0f
 	"Battle Core"
 ROMX $10
@@ -76,7 +75,6 @@ ROMX $16
 	"Tileset Data 16"
 ROMX $17
 	"Enemy Trainer Parties 1"
-	"Map Scripts 24"
 ROMX $18
 	"Events"
 	"Pics 32"
@@ -344,9 +342,9 @@ ROMX $78
 ROMX $79
 	"Tileset Data 14"
 ROMX $7a
-	; empty
+	"Enemy Trainer Parties 2"
 ROMX $7b
-	; empty
+	"Map Scripts 24"
 ROMX $7c
 	; empty
 ROMX $7d

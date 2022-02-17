@@ -159,7 +159,17 @@ TinTower1F_MapScripts:
 	moveobject TINTOWER1F_SAGE3, 11, 13
 	turnobject PLAYER, RIGHT
 	opentext
-	writetext TinTowerEusineSuicuneText
+	writetext HostSilenceText
+	waitbutton
+	closetext
+	winlosstext HostSilenceText, 0
+	loadtrainer CY_ROBORED, X_CHATTYYELLOW3
+	startbattle
+	dontrestartmapmusic
+	reloadmapafterbattle
+	playmusic MUSIC_MYSTICALMAN_ENCOUNTER
+	opentext
+	writetext HostSilenceText
 	waitbutton
 	closetext
 	applymovement TINTOWER1F_EUSINE, TinTower1F_Movement_EusineDown
@@ -316,63 +326,15 @@ TinTowerEusineSuicuneText:
 	done
 
 TinTower1FSage1Text:
-	text "According to"
-	line "legend…"
-
-	para "When the souls of"
-	line "#MON and humans"
-	para "commune, from the"
-	line "heavens descends a"
-	para "#MON of rainbow"
-	line "colors…"
-
-	para "Could it mean the"
-	line "legendary #MON"
-	para "are testing us"
-	line "humans?"
+	text "..."
 	done
 
 TinTower1FSage2Text:
-	text "When the BRASS"
-	line "TOWER burned down,"
-	para "three nameless"
-	line "#MON were said"
-	para "to have perished."
-	line "It was tragic."
-
-	para "However…"
-
-	para "A rainbow-colored"
-	line "#MON…"
-
-	para "In other words…"
-
-	para "HO-OH descended"
-	line "from the sky and"
-	para "gave new life to"
-	line "the three #MON."
-
-	para "They are…"
-
-	para "SUICUNE, ENTEI and"
-	line "RAIKOU."
-
-	para "That is what they"
-	line "say."
+	text "..."
 	done
 
 TinTower1FSage3Text:
-	text "The two TOWERS are"
-	line "said to have been"
-	para "built to foster"
-	line "friendship and"
-	para "hope between #-"
-	line "MON and people."
-
-	para "That was 700 years"
-	line "ago, but the ideal"
-	para "still remains"
-	line "important today."
+	text "..."
 	done
 
 TinTower1FSage4Text1:
@@ -401,23 +363,7 @@ TinTower1FSage6Text1:
 	done
 
 TinTowerEusineHoOhText:
-	text "I knew it."
-
-	para "I knew you'd get"
-	line "to see the #MON"
-	para "of rainbow colors,"
-	line "<PLAYER>."
-
-	para "It happened just"
-	line "as I envisioned."
-
-	para "My research isn't"
-	line "bad, I might say."
-
-	para "I'm going to keep"
-	line "studying #MON"
-	para "to become a famous"
-	line "#MANIAC!"
+	text "..."
 	done
 
 TinTower1FSage4Text2:
@@ -490,9 +436,9 @@ TinTower1F_MapEvents:
 	object_event  7,  9, SPRITE_RAIKOU, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TIN_TOWER_1F_RAIKOU
 	object_event 12,  9, SPRITE_SUICUNE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TIN_TOWER_1F_ENTEI
 	object_event  8,  3, SPRITE_ROBORED, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTowerEusine, EVENT_TIN_TOWER_1F_EUSINE
-	object_event  5,  9, SPRITE_SAGE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FSage1Script, EVENT_TIN_TOWER_1F_WISE_TRIO_1
-	object_event 11, 11, SPRITE_SAGE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FSage2Script, EVENT_TIN_TOWER_1F_WISE_TRIO_1
-	object_event 14,  6, SPRITE_SAGE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FSage3Script, EVENT_TIN_TOWER_1F_WISE_TRIO_1
+	object_event  5,  9, SPRITE_RED, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FSage1Script, EVENT_TIN_TOWER_1F_WISE_TRIO_1
+	object_event 11, 11, SPRITE_RED, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FSage2Script, EVENT_TIN_TOWER_1F_WISE_TRIO_1
+	object_event 14,  6, SPRITE_RED, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FSage3Script, EVENT_TIN_TOWER_1F_WISE_TRIO_1
 	object_event  4,  2, SPRITE_SAGE, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FSage4Script, EVENT_TIN_TOWER_1F_WISE_TRIO_2
 	object_event  9,  1, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FSage5Script, EVENT_TIN_TOWER_1F_WISE_TRIO_2
 	object_event 14,  2, SPRITE_SAGE, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FSage6Script, EVENT_TIN_TOWER_1F_WISE_TRIO_2
