@@ -510,6 +510,7 @@
 	map_attributes SeafloorCavernRoom5, SEAFLOOR_CAVERN_ROOM_5, $09, 0
 	map_attributes SeafloorCavernRoom8, SEAFLOOR_CAVERN_ROOM_8, $09, 0
 	map_attributes SeafloorCavernRoom9, SEAFLOOR_CAVERN_ROOM_9, $09, 0
+	map_attributes SeafloorCavernCopycat, SEAFLOOR_CAVERN_COPYCAT, $09, 0
 	map_attributes PewterNidoranSpeechHouse, PEWTER_NIDORAN_SPEECH_HOUSE, $00, 0
 	map_attributes PewterGym, PEWTER_GYM, $00, 0
 	map_attributes PewterMart, PEWTER_MART, $00, 0

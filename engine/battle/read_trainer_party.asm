@@ -300,7 +300,50 @@ ReadTrainerPartyPieces:
 	inc de
 	dec b
 	jr nz, .loop_stats
+	jr .stats_done
 .no_stats
+	ld a, [wOtherTrainerType]
+	and TRAINERTYPE_DVS
+	jr z, .stats_done
+
+ ; Set Stat Exp to number of badges so DV trainers get tougher as game progresses
+	push hl
+	ld a, [wOTPartyCount]
+	dec a
+	ld hl, wOTPartyMon1HPExp
+	call GetPartyLocation
+rept 5
+	ld a, [wJohtoBadges]
+	ld [hli], a
+	ld a, [wKantoBadges]
+	ld [hli], a
+endr
+	ld [wCurPartySpecies], a
+	call GetBaseData
+	ld a, [wOTPartyCount]
+	dec a
+	ld hl, wOTPartyMon1MaxHP
+	call GetPartyLocation
+	push hl
+	ld d, h
+	ld e, l
+	ld a, [wOTPartyCount]
+	dec a
+	ld hl, wOTPartyMon1HPExp
+	call GetPartyLocation
+	ld b, TRUE
+	predef CalcMonStats
+	pop hl
+	inc hl
+	ld e, [hl]
+	dec hl
+	ld d, [hl]
+	dec hl
+	ld [hl], e
+	dec hl
+	ld [hl], d
+	pop hl
+.stats_done
 
 	push hl
 	ld a, [wOTPartyCount]

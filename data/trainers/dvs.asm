@@ -85,3 +85,5 @@ TrainerClassDVs:
 	dn 15, 13, 13, 14 ; WOOPER2_BT
 	dn 15, 13, 13, 14 ; BLUE_RED
 	dn 15, 13, 13, 14 ; GREEN_RED
+	dn 15, 15, 15, 15 ; RED_BRENDAN
+	

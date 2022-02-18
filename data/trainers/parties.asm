@@ -9964,3 +9964,77 @@ GreenRedGroup:
 	db -1 ; end
 
 	end_list_items
+
+RedBrendanGroup:
+	next_list_item ; SS
+	db "SS@", TRAINERTYPE_DVS | TRAINERTYPE_STATS | TRAINERTYPE_NICKNAME
+
+	db 100
+	dw PIKACHU
+	bigdw $FFFF
+	bigdw 180
+	bigdw 115
+	bigdw 65
+	bigdw 166
+	bigdw 105
+	bigdw 93
+	db "D@"
+
+	db 100
+	dw SUNKERN
+	bigdw $FFFF
+	bigdw 181
+	bigdw 88
+	bigdw 92
+	bigdw 85
+	bigdw 96
+	bigdw 94
+	db "PPP@"
+
+	db 100
+	dw OMASTAR
+	bigdw $FFFF
+	bigdw 260
+	bigdw 138
+	bigdw 276
+	bigdw 140
+	bigdw 266
+	bigdw 147
+	db "U@"
+
+	db 100
+	dw DEWGONG
+	bigdw $FFFF
+	bigdw 295
+	bigdw 172
+	bigdw 153
+	bigdw 163
+	bigdw 164
+	bigdw 213
+	db "KKKKKK@"
+
+	db 100
+	dw PORYGON2
+	bigdw $FFFF
+	bigdw 280
+	bigdw 188
+	bigdw 182
+	bigdw 138
+	bigdw 222
+	bigdw 208
+	db ",,@"
+
+	db 100
+	dw AERODACTYL
+	bigdw $FFFF
+	bigdw 279
+	bigdw 221
+	bigdw 156
+	bigdw 151
+	bigdw 183
+	bigdw 282
+	db "GMMMMMMMMA@"
+
+	db -1 ; end
+
+	end_list_items

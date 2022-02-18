@@ -86,3 +86,4 @@ TrainerGroups:
 	dba Wooper2BTGroup
 	dba BlueRedGroup
 	dba GreenRedGroup
+	dba RedBrendanGroup

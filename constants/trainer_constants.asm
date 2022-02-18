@@ -897,4 +897,6 @@ KRIS EQU __enum__
 	trainerclass GREEN_RED ; 54
 	trainervalue B_RACE
 	
+	trainerclass RED_BRENDAN
+	trainervalue SS
 NUM_TRAINER_CLASSES EQU __enum__
