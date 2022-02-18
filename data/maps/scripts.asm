@@ -561,6 +561,7 @@ INCLUDE "maps/SeafloorCavernRoom4.asm"
 INCLUDE "maps/SeafloorCavernRoom5.asm"
 INCLUDE "maps/SeafloorCavernRoom8.asm"
 INCLUDE "maps/SeafloorCavernRoom9.asm"
+INCLUDE "maps/SeafloorCavernCopycat.asm"
 
 
 SECTION "Map Scripts National Park Gate", ROMX

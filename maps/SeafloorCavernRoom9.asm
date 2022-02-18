@@ -118,4 +118,4 @@ SeafloorCavernRoom9_MapEvents:
 	db 0 ; bg events
 
 	db 1 ; object events
-	object_event 12,  6, SPRITE_MAY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Marina, EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
+	object_event 12,  6, SPRITE_MAY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Marina, -1

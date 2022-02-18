@@ -352,17 +352,63 @@ CopycatsHouse2FDollText:
 	para "It's only a doll…"
 	done
 
+CopycatsBedScript:
+	checkevent EVENT_BEAT_ELITE_FOUR
+	iffalse .no_event
+	opentext
+	writetext .comfy
+	waitbutton
+	closetext
+	applymovement PLAYER, .enter
+	special FadeOutMusic
+	special FadeBlackQuickly
+	playsound SFX_ENTER_DOOR
+	waitsfx
+	pause 10
+	playsound SFX_SING
+	waitsfx
+	special HealParty
+	pause 10
+	playsound SFX_METRONOME
+	waitsfx
+	warp SEAFLOOR_CAVERN_COPYCAT, 9, 7
+	end
+
+.comfy
+	text "It does look soft"
+	line "and comfy<...>"
+	para "and you are pretty"
+	line "tired<...>"
+
+	para "<...>"
+	done
+
+.enter
+	step LEFT
+	step_end
+
+.no_event
+	jumptext .text
+
+.text
+	text "It's a soft, comfy"
+	line "bed."
+	para "Seems familiar."
+	done
+
 CopycatsHouse2F_MapEvents:
 	db 0, 0 ; filler
 
-	db 1 ; warp events
+	db 2 ; warp events
 	warp_event  3,  0, COPYCATS_HOUSE_1F, 3
-
+	warp_event  0,  5, SEAFLOOR_CAVERN_COPYCAT, 2
 	db 0 ; coord events
 
-	db 2 ; bg events
+	db 4 ; bg events
 	bg_event  0,  1, BGEVENT_READ, CopycatsHouse2FBookshelf
 	bg_event  1,  1, BGEVENT_READ, CopycatsHouse2FBookshelf
+	bg_event  0,  4, BGEVENT_LEFT, CopycatsBedScript
+	bg_event  0,  5, BGEVENT_LEFT, CopycatsBedScript
 
 	db 6 ; object events
 	object_event  4,  3, SPRITE_COPYCAT, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Copycat, EVENT_COPYCAT_1
