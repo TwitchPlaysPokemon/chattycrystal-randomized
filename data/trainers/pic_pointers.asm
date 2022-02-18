@@ -86,3 +86,4 @@ TrainerPicPointers::
 	dba WooperTPic
 	dba RedPic
 	dba RedPic
+	dba BrendanPic

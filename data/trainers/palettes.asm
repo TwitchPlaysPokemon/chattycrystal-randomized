@@ -90,3 +90,4 @@ INCBIN "gfx/trainers/bruno.gbcpal", middle_colors ;BD_LUCAS_BT
 INCBIN "gfx/trainers/wooper.gbcpal", middle_colors ;WOOPER2_BT
 INCBIN "gfx/trainers/falkner.gbcpal", middle_colors ;BLUE_RED
 INCBIN "gfx/trainers/larry.gbcpal", middle_colors ;GREEN_RED
+INCBIN "gfx/trainers/red.gbcpal", middle_colors ;RED_BRENDAN

@@ -1108,3 +1108,6 @@ SeafloorCavernRoom8_Blocks:
 
 SeafloorCavernRoom9_Blocks:
 	INCBIN "maps/SeafloorCavernRoom9.blk"
+
+SeafloorCavernCopycat_Blocks:
+	INCBIN "maps/SeafloorCavernCopycat.blk"

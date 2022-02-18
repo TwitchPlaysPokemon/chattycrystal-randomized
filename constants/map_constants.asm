@@ -326,6 +326,7 @@ ENDM
 	map_const SEAFLOOR_CAVERN_ROOM_5,                      10, 11 ; 10
 	map_const SEAFLOOR_CAVERN_ROOM_8,                       5,  7 ; 11
 	map_const SEAFLOOR_CAVERN_ROOM_9,                      10,  6 ; 12
+	map_const SEAFLOOR_CAVERN_COPYCAT,                    10, 10 ; 13
 
 	newgroup                                                      ; 14
 
