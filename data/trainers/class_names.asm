@@ -84,5 +84,4 @@ TrainerClassNames::
 	db "<PKMN> TRAINER@" ; WOOPER2_BT
 	db "<PKMN> TRAINER@" ; BLUE_RED
 	db "<PKMN> TRAINER@" ; GREEN_RED
-	db "COPYCAT" ; RED_BRENDAN
-	
+	db "COPYCAT@" ; RED_BRENDAN

@@ -93,6 +93,15 @@ SSFight:
 .TentacoolReward
 	givedecoration DECO_TENTACOOL_DOLL
 	setevent EVENT_BEAT_SS
+	special FadeOutMusic
+	special FadeBlackQuickly
+	playsound SFX_ENTER_DOOR
+	waitsfx
+	pause 10
+	playsound SFX_METRONOME
+	waitsfx
+	special HealParty
+	warp COPYCATS_HOUSE_2F, 1, 4
 	end
 
 SeafloorCavernCopycat_MapEvents:
