@@ -312,7 +312,6 @@ INCLUDE "maps/SaffronPokecenter2FBeta.asm"
 INCLUDE "maps/MrPsychicsHouse.asm"
 INCLUDE "maps/SaffronMagnetTrainStation.asm"
 INCLUDE "maps/CopycatsHouse1F.asm"
-INCLUDE "maps/CopycatsHouse2F.asm"
 INCLUDE "maps/Route5UndergroundPathEntrance.asm"
 INCLUDE "maps/Route5SaffronGate.asm"
 INCLUDE "maps/Route5CleanseTagHouse.asm"
@@ -518,7 +517,7 @@ INCLUDE "maps/DiglettsCave.asm"
 SECTION "Map Scripts 24", ROMX
 
 INCLUDE "maps/RadioTower2F.asm"
-
+INCLUDE "maps/CopycatsHouse2F.asm"
 
 
 ; The following sections contain groups of related maps. Don't split them and don't add unrelated maps to them.

@@ -1,9 +1,9 @@
-SeafloorCaverndARK_MapScripts:
+SeafloorCavernCopycat_MapScripts:
 	db 0 ; scene scripts
 
 	db 0 ; callbacks
 
-SeafloorCavernEntrance_Leave:
+SeafloorCavernCopycat_Leave:
 	special FadeOutMusic
 	special FadeBlackQuickly
 	playsound SFX_ENTER_DOOR
@@ -14,7 +14,7 @@ SeafloorCavernEntrance_Leave:
 	warp COPYCATS_HOUSE_2F, 1, 4
 	end
 
-SS:
+SSFight:
 	special FadeOutMusic
 	faceplayer
 	opentext
@@ -95,7 +95,7 @@ SS:
 	setevent EVENT_BEAT_SS
 	end
 
-SeafloorCavernEntrance_MapEvents:
+SeafloorCavernCopycat_MapEvents:
 	db 0, 0 ; filler
 
 	db 0 ; warp events
@@ -106,4 +106,4 @@ SeafloorCavernEntrance_MapEvents:
 	db 0 ; bg events
 
 	db 1 ; object events
-	object_event 9,  2, SPRITE_BRENDAN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SS, -1
+	object_event 9,  2, SPRITE_BRENDAN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SSFight, -1
