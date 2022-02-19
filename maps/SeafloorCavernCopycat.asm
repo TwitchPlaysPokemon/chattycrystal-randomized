@@ -110,7 +110,7 @@ SeafloorCavernCopycat_MapEvents:
 	db 0 ; warp events
 	
 	db 1 ; coord events
-	coord_event  3, 13, SCENE_ALWAYS, SeafloorCavernEntrance_Leave
+	coord_event  3, 13, SCENE_ALWAYS, SeafloorCavernCopycat_Leave
 
 	db 0 ; bg events
 

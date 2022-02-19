@@ -362,15 +362,7 @@ CopycatsBedScript:
 	applymovement PLAYER, .enter
 	special FadeOutMusic
 	special FadeBlackQuickly
-	playsound SFX_ENTER_DOOR
-	waitsfx
-	pause 10
-	playsound SFX_SING
-	waitsfx
-	special HealParty
-	pause 10
 	playsound SFX_METRONOME
-	waitsfx
 	warp SEAFLOOR_CAVERN_COPYCAT, 9, 7
 	end
 
