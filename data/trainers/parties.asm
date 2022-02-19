@@ -2269,7 +2269,7 @@ URFGroup:
 
 GSCHGSSChrisRivalGroup:
 	next_list_item ; AJDNNW1
-	db "AJDNNW@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_STATS | TRAINERTYPE_NICKNAME 
+	db "AJDNNW@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_STATS | TRAINERTYPE_NICKNAME
 	db 9
 	dw TOGEPI
 	db NO_ITEM
@@ -2432,7 +2432,7 @@ GSCHGSSChrisRivalGroup:
 	db -1 ; end
 
 	next_list_item ; AJDNNW3
-	db "AJDNNW@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_STATS | TRAINERTYPE_NICKNAME 
+	db "AJDNNW@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_STATS | TRAINERTYPE_NICKNAME
 
 	db 20
 	dw SHUCKLE
@@ -2515,7 +2515,7 @@ GSCHGSSChrisRivalGroup:
 	db -1
 
 	next_list_item ; AJDNNW4
-	db "AJDNNW@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_STATS | TRAINERTYPE_NICKNAME 
+	db "AJDNNW@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_STATS | TRAINERTYPE_NICKNAME
 
 	db 51
 	dw ESPEON
@@ -3365,14 +3365,14 @@ RedGroup:
 	bigdw 231
 	db "RRQPO:<PK><PK><PK><PK>@"
 	db -1 ; end
-	
+
 	next_list_item ; AAAAAAA_RACE
 	db "AAAAAAA@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_STATS | TRAINERTYPE_NICKNAME
-        
+
 	db 46
 	dw JOLTEON
 	db BITTER_BERRY
-	dw PSYCHIC, THUNDERBOLT, NIGHT_SHADE, METRONOME
+	dw PSYCHIC_M, THUNDERBOLT, NIGHT_SHADE, METRONOME
 	bigdw $0175
 	bigdw 129
 	bigdw 73
@@ -3381,7 +3381,7 @@ RedGroup:
 	bigdw 118
 	bigdw 118
 	db "AVIRAGHS@"
-	
+
 	db 34
 	dw FEAROW
 	db BERRY
@@ -3394,7 +3394,7 @@ RedGroup:
 	bigdw 60
 	bigdw 60
 	db "Birb@"
-	
+
 	db 30
 	dw HITMONLEE
 	db BITTER_BERRY
@@ -3407,7 +3407,7 @@ RedGroup:
 	bigdw 35
 	bigdw 35
 	db "JK@"
-	
+
 	db 56
 	dw BLASTOISE
 	db BITTER_BERRY
@@ -3420,7 +3420,7 @@ RedGroup:
 	bigdw 119
 	bigdw 119
 	db "NN@"
-	
+
 	db 49
 	dw DUGTRIO
 	db GOLD_BERRY
@@ -3433,11 +3433,11 @@ RedGroup:
 	bigdw 95
 	bigdw 95
 	db "Amy@"
-	
+
 	db 72
 	dw MEWTWO
 	db BRIGHTPOWDER
-	dw SWIFT, PSYCHIC, BARRIER, RECOVER
+	dw SWIFT, PSYCHIC_M, BARRIER, RECOVER
 	bigdw $50AC
 	bigdw 252
 	bigdw 177
@@ -3446,7 +3446,7 @@ RedGroup:
 	bigdw 251
 	bigdw 251
 	db "Weird Cat@"
-	
+
 	db -1 ; end
 
 	end_list_items
@@ -12008,7 +12008,7 @@ BlueMayGroup:
 	BlueRedGroup:
 	next_list_item ; B
 	db "AAAA@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_STATS | TRAINERTYPE_NICKNAME
-	
+
 	db 62
 	dw NIDOKING
 	db BITTER_BERRY
@@ -12021,7 +12021,7 @@ BlueMayGroup:
 	bigdw 128
 	bigdw 128
 	db "HA@"
-	
+
 	db 30
 	dw HITMONCHAN
 	db BITTER_BERRY
@@ -12034,7 +12034,7 @@ BlueMayGroup:
 	bigdw 32
 	bigdw 32
 	db "FIST!@"
-	
+
 	db 33
 	dw VENUSAUR
 	db BITTER_BERRY
@@ -12047,7 +12047,7 @@ BlueMayGroup:
 	bigdw 112
 	bigdw 112
 	db "VENUSAUR@"
-	
+
 	db 34
 	dw GYARADOS
 	db BITTER_BERRY
@@ -12060,7 +12060,7 @@ BlueMayGroup:
 	bigdw 81
 	bigdw 81
 	db "FEESH@"
-	
+
 	db 21
 	dw PIDGEOTTO
 	db BERRY
@@ -12073,7 +12073,7 @@ BlueMayGroup:
 	bigdw 29
 	bigdw 29
 	db "CAPONE@"
-	
+
 	db 55
 	dw JOLTEON
 	db BITTER_BERRY
@@ -12086,15 +12086,15 @@ BlueMayGroup:
 	bigdw 150
 	bigdw 150
 	db "SPARK@"
-	
+
 	db -1 ; end
-	
+
 	end_list_items
-	
+
 	GreenRedGroup:
 	next_list_item ; B_RACE
 	db "B@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_STATS | TRAINERTYPE_NICKNAME
-        
+
 	db 10
 	dw SPEAROW
 	db BERRY
@@ -12107,7 +12107,7 @@ BlueMayGroup:
 	bigdw 13
 	bigdw 13
 	db "UaabB@"
-	
+
 	db 14
 	dw MEOWTH
 	db BERRY
@@ -12120,7 +12120,7 @@ BlueMayGroup:
 	bigdw 20
 	bigdw 20
 	db "AAAAII@"
-	
+
 	db 47
 	dw VENUSAUR
 	db BITTER_BERRY
@@ -12133,7 +12133,7 @@ BlueMayGroup:
 	bigdw 112
 	bigdw 112
 	db "ABAAABBBBK@"
-	
+
 	db 15
 	dw LAPRAS
 	db BITTER_BERRY
@@ -12146,7 +12146,7 @@ BlueMayGroup:
 	bigdw 34
 	bigdw 34
 	db "BB@"
-	
+
 	db 50
 	dw DUGTRIO
 	db GOLD_BERRY
@@ -12159,11 +12159,11 @@ BlueMayGroup:
 	bigdw 89
 	bigdw 89
 	db "B!♂@"
-	
+
 	db 84
 	dw GENGAR
 	db BITTER_BERRY
-	dw PSYCHIC, THUNDERBOLT, NIGHT_SHADE, METRONOME
+	dw PSYCHIC_M, THUNDERBOLT, NIGHT_SHADE, METRONOME
 	bigdw $9BDF
 	bigdw 246
 	bigdw 147
@@ -12172,7 +12172,7 @@ BlueMayGroup:
 	bigdw 275
 	bigdw 275
 	db "HECTOR@"
-	
+
 	db -1 ; end
 
 	end_list_items
