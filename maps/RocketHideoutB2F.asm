@@ -42,8 +42,8 @@ TrainerGruntF6:
 
 RocketHideoutB2FChiquirtle:
 	refreshscreen
-	pokepic CHIQUIRTLE
-	cry CHIQUIRTLE
+	pokepic WAILMER
+	cry WAILMER
 	waitbutton
 	closepokepic
 	opentext
@@ -55,7 +55,7 @@ RocketHideoutB2FChiquirtle:
 	writetext ReceivedChiquirtleText
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke EEVEE, 50
+	givepoke WAILMER, 50
 	setevent EVENT_CHIQUIRTLE_IN_ROCKET_HIDEOUT
 	disappear ROCKETHIDEOUTB2F_CHIQUIRTLE
 	closetext
@@ -63,8 +63,8 @@ RocketHideoutB2FChiquirtle:
 
 RocketHideoutB2FHootduo:
 	refreshscreen
-	pokepic HOOTDUO
-	cry HOOTDUO
+	pokepic HO_OH
+	cry HO_OH
 	waitbutton
 	closepokepic
 	opentext

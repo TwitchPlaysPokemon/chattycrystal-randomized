@@ -91,8 +91,8 @@ TrainerGruntM32:
 
 RocketHideoutB4FHopporita:
 	refreshscreen
-	pokepic HOPPORITA
-	cry HOPPORITA
+	pokepic CELEBI
+	cry CELEBI
 	waitbutton
 	closepokepic
 	opentext
@@ -112,8 +112,8 @@ RocketHideoutB4FHopporita:
 
 RocketHideoutB4FTogekey:
 	refreshscreen
-	pokepic TOGEKEY
-	cry TOGEKEY
+	pokepic SYLVEON
+	cry SYLVEON
 	waitbutton
 	closepokepic
 	opentext
@@ -125,7 +125,7 @@ RocketHideoutB4FTogekey:
 	writetext ReceivedTogekeyText
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke SHELLOS, 50
+	givepoke SYLVEON, 50
 	setevent EVENT_TOGEKEY_IN_ROCKET_HIDEOUT
 	disappear ROCKETHIDEOUTB4F_TOGEKEY
 	closetext

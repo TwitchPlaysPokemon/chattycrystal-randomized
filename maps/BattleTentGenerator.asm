@@ -41,8 +41,8 @@ BattleTentGeneratorTMClerk4:
 
 BattleTentGeneratorWoochum:
 	refreshscreen
-	pokepic WOOCHUM
-	cry WOOCHUM
+	pokepic MUDKIP
+	cry MUDKIP
 	waitbutton
 	closepokepic
 	opentext
@@ -54,7 +54,7 @@ BattleTentGeneratorWoochum:
 	writetext ReceivedWoochumText
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke METAPOD, 50
+	givepoke MUDKIP, 50
 	setevent EVENT_WOOCHUM_IN_ROCKET_HIDEOUT
 	disappear BATTLETENTGENERATOR_WOOCHUM
 	closetext

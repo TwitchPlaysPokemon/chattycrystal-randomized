@@ -33,8 +33,8 @@ TrainerGruntM31:
 
 RocketHideoutB1FOnixtret:
 	refreshscreen
-	pokepic ONIXTRET
-	cry ONIXTRET
+	pokepic ZIGZAGOON
+	cry ZIGZAGOON
 	waitbutton
 	closepokepic
 	opentext
@@ -46,7 +46,7 @@ RocketHideoutB1FOnixtret:
 	writetext ReceivedOnixtretText
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke UNOWN, 50
+	givepoke ZIGZAGOON, 50
 	setevent EVENT_ONIXTRET_IN_ROCKET_HIDEOUT
 	disappear ROCKETHIDEOUTB1F_ONIXTRET
 	closetext
