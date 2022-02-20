@@ -1565,7 +1565,7 @@ AzureGroup:
 	bigdw 228
 	bigdw 318
 	db 100
-	dw STARYU
+	dw STARMIE
 	db LEFTOVERS
 	bigdw $FFFF
 	bigdw 463
@@ -1733,25 +1733,31 @@ RedJohtoLeaderGroup:
 
 RedGroup:
 	next_list_item ; GF_RED
-	db "RED@", TRAINERTYPE_ITEM
+	db "RED@", TRAINERTYPE_ITEM  | TRAINERTYPE_DVS
 	db 100
-	dw ELECTRIKE
+	dw MANECTRIC
 	db LIGHT_BALL
+	bigdw $FFFF
 	db 100
 	dw HYPNO
 	db NO_ITEM
+	bigdw $FFFF
 	db 100
 	dw BLISSEY
 	db NO_ITEM
+	bigdw $FFFF
 	db 100
-	dw DRATINI
+	dw TYRANITAR
 	db NO_ITEM
+	bigdw $FFFF
 	db 100
 	dw HO_OH
 	db NO_ITEM
+	bigdw $FFFF
 	db 100
-	dw DRATINI
+	dw DRAGONITE
 	db NO_ITEM
+	bigdw $FFFF
 	db -1 ; end
 
 	next_list_item ; CCC_DUALRED
@@ -3195,25 +3201,31 @@ PKMNTrainerGroup:
 	db -1 ; end
 
 	next_list_item ; CAL (4)
-	db "CAL@", TRAINERTYPE_ITEM
+	db "CAL@", TRAINERTYPE_ITEM | TRAINERTYPE_DVS
 	db 100
 	dw EXEGGUTOR
 	db BRIGHTPOWDER
+	bigdw $FFFF
 	db 100
 	dw GYARADOS
 	db GOLD_BERRY
+	bigdw $FFFF
 	db 100
 	dw ARTICUNO
 	db SCOPE_LENS
+	bigdw $FFFF
 	db 100
 	dw METANG
 	db LEFTOVERS
+	bigdw $FFFF
 	db 100
 	dw METAGROSS
 	db GOLD_BERRY
+	bigdw $FFFF
 	db 100
 	dw LUGIA
 	db FOCUS_BAND
+	bigdw $FFFF
 	db -1 ; end
 
 	next_list_item ; CAL (5)
