@@ -357,6 +357,7 @@ CopycatsBedScript:
 	iffalse .no_event
 	checkevent EVENT_REMATCH_SS
 	iftrue .no_event
+	setevent EVENT_REMATCH_SS
 	opentext
 	writetext .comfy
 	waitbutton

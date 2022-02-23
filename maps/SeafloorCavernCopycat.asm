@@ -31,7 +31,6 @@ SSFight:
 	writetext .SSDefeated
 	waitbutton
 	closetext
-	setevent EVENT_REMATCH_SS
 	checkevent EVENT_BEAT_SS
 	iffalse .TentacoolReward
 	special FadeOutMusic
@@ -83,7 +82,6 @@ SSFight:
 .TentacoolReward
 	givedecoration DECO_TENTACOOL_DOLL
 	setevent EVENT_BEAT_SS
-	setevent EVENT_REMATCH_SS
 	special FadeOutMusic
 	special FadeBlackQuickly
 	playsound SFX_ENTER_DOOR
