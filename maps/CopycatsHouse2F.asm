@@ -198,6 +198,15 @@ CopycatSpinAroundMovementData:
 	turn_head DOWN
 	step_end
 
+CopycatSpookyMovementData:
+	step UP
+	step LEFT
+	step LEFT
+	step LEFT
+	step LEFT
+	step DOWN
+	step_end
+
 CopycatText_Male_1:
 	text "<PLAYER>: Hi! Do"
 	line "you like #MON?"
@@ -365,7 +374,25 @@ CopycatsBedScript:
 	applymovement PLAYER, .enter
 	special FadeOutMusic
 	special FadeBlackQuickly
+	playsound SFX_ENTER_DOOR
+	waitsfx
+	pause 10
+	playsound SFX_SING
+	waitsfx
+	special HealParty
+	pause 10
+	checkflag ENGINE_PLAYER_IS_FEMALE
+	iftrue .movefemale
+	applymovement COPYCATSHOUSE2F_COPYCAT1, CopycatSpookyMovementData
 	playsound SFX_METRONOME
+	waitsfx
+	warp SEAFLOOR_CAVERN_COPYCAT, 9, 7
+	end
+
+.movefemale
+	applymovement COPYCATSHOUSE2F_COPYCAT2, CopycatSpookyMovementData
+	playsound SFX_METRONOME
+	waitsfx
 	warp SEAFLOOR_CAVERN_COPYCAT, 9, 7
 	end
 
