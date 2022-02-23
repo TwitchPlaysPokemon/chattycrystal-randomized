@@ -3,17 +3,6 @@ SeafloorCavernCopycat_MapScripts:
 
 	db 0 ; callbacks
 
-SeafloorCavernCopycat_Leave:
-	special FadeOutMusic
-	special FadeBlackQuickly
-	playsound SFX_ENTER_DOOR
-	waitsfx
-	pause 10
-	playsound SFX_METRONOME
-	waitsfx
-	warp COPYCATS_HOUSE_2F, 1, 4
-	end
-
 SSFight:
 	special FadeOutMusic
 	faceplayer
@@ -111,8 +100,7 @@ SeafloorCavernCopycat_MapEvents:
 
 	db 0 ; warp events
 	
-	db 1 ; coord events
-	coord_event  3, 13, SCENE_ALWAYS, SeafloorCavernCopycat_Leave
+	db 0 ; coord events
 
 	db 0 ; bg events
 
