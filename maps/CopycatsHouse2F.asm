@@ -355,6 +355,8 @@ CopycatsHouse2FDollText:
 CopycatsBedScript:
 	checkevent EVENT_BEAT_ELITE_FOUR
 	iffalse .no_event
+	checkevent EVENT_REMATCH_SS
+	iftrue .no_event
 	opentext
 	writetext .comfy
 	waitbutton

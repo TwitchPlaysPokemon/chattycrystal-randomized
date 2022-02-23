@@ -30,6 +30,7 @@ HallOfFame_MapScripts:
 	setevent EVENT_BEAT_ELITE_FOUR
 	setevent EVENT_RIVAL_SPROUT_TOWER
 	clearevent EVENT_RED_IN_MT_SILVER
+	clearevent EVENT_REMATCH_SS
 	checkevent EVENT_MARINA_DEFEATED
 	iffalse .no_rematch
 	setevent EVENT_BEAT_ELITE_FOUR_REMATCH
