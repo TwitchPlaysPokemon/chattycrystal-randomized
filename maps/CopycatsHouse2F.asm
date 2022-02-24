@@ -198,6 +198,15 @@ CopycatSpinAroundMovementData:
 	turn_head DOWN
 	step_end
 
+CopycatSpookyMovementData:
+	step UP
+	step LEFT
+	step LEFT
+	step LEFT
+	step LEFT
+	step DOWN
+	step_end
+
 CopycatText_Male_1:
 	text "<PLAYER>: Hi! Do"
 	line "you like #MON?"
@@ -355,6 +364,9 @@ CopycatsHouse2FDollText:
 CopycatsBedScript:
 	checkevent EVENT_BEAT_ELITE_FOUR
 	iffalse .no_event
+	checkevent EVENT_REMATCH_SS
+	iftrue .no_event
+	setevent EVENT_REMATCH_SS
 	opentext
 	writetext .comfy
 	waitbutton
@@ -369,6 +381,16 @@ CopycatsBedScript:
 	waitsfx
 	special HealParty
 	pause 10
+	checkflag ENGINE_PLAYER_IS_FEMALE
+	iftrue .movefemale
+	applymovement COPYCATSHOUSE2F_COPYCAT1, CopycatSpookyMovementData
+	playsound SFX_METRONOME
+	waitsfx
+	warp SEAFLOOR_CAVERN_COPYCAT, 9, 7
+	end
+
+.movefemale
+	applymovement COPYCATSHOUSE2F_COPYCAT2, CopycatSpookyMovementData
 	playsound SFX_METRONOME
 	waitsfx
 	warp SEAFLOOR_CAVERN_COPYCAT, 9, 7
