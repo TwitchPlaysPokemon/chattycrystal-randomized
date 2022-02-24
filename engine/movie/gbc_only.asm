@@ -127,7 +127,7 @@ GBCOnlyString:
 	db   "This Game Pak is"
 	next "designed only for"
 	next "use on the"
-	next "Game Boy Roloc.@"
+	next "Game Boy Player.@"
 
 GBCOnlyGFX:
 INCBIN "gfx/sgb/gbc_only.2bpp.lz"
