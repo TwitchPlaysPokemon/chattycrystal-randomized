@@ -165,7 +165,7 @@ BattleTowerRoomMenu_PlacePickLevelMenu:
 	or [hl]
 	ld [hl], a
 	call WaitBGMap2
-	ld a, $1
+	ld a, 10
 	ld [wcd4f], a
 	ld a, $1
 	ldh [rSVBK], a
