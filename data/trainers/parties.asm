@@ -2921,7 +2921,7 @@ XYSerena2Group:
 
 	end_list_items
 
-CyanGroup:
+PCyanGroup:
 	next_list_item ; CYAN
 	db "Cyan@", TRAINERTYPE_ITEM | TRAINERTYPE_MOVES | TRAINERTYPE_DVS | TRAINERTYPE_NICKNAME
 
