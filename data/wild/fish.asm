@@ -57,7 +57,7 @@ FishGroups:
 	dbbw 100 percent,     15, FLAAFFY
 .Lake_Good:
 	dbbw  35 percent,     35, WOOPER
-	dbbw  70 percent,     35, BURMY
+	dbbw  70 percent,     35, KYOGRE
 	dbbw  90 percent + 1, 35, VOLTORB
 	dbbw 100 percent,      4, TIME_GROUP
 .Lake_Super:

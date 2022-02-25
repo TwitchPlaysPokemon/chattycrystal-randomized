@@ -1113,28 +1113,28 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 65, TREECKO
-	dbw 65, ABRA
-	dbw 65, TORCHIC
+	dbw 65, PORYGON
+	dbw 65, DRAGONITE
 	dbw 67, HOUNDOOM
 	dbw 63, KANGASKHAN
-	dbw 62, TENTACRUEL
-	dbw 70, METAGROSS
+	dbw 62, METAGROSS
+	dbw 70, TENTACRUEL
 	; day
 	dbw 65, BUDEW
 	dbw 65, MAREEP
 	dbw 65, CYNDAQUIL
-	dbw 67, POLIWRATH
+	dbw 67, DRAGONITE
 	dbw 63, MEGANIUM
-	dbw 62, SHUCKLE
-	dbw 70, TYRANITAR
+	dbw 62, TYRANITAR
+	dbw 70, SHUCKLE
 	; nite
 	dbw 65, TORCHIC
 	dbw 65, LARVITAR
-	dbw 65, POLIWAG
+	dbw 65, PORYGON
 	dbw 67, SUNFLORA
-	dbw 63, CHANDELURE
+	dbw 63, METAGROSS
 	dbw 62, WIGGLYTUFF
-	dbw 70, METAGROSS
+	dbw 70, CHANDELURE
 
 	map_id POKEMON_MANSION_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite

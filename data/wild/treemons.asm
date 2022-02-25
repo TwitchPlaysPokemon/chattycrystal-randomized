@@ -72,7 +72,7 @@ TreeMonSet_Route:
 TreeMonSet_Kanto:
 ; common
 	dbbw 50, 25, SWABLU
-	dbbw 15, 25, BIDOOF
+	dbbw 15, 25, RIBOMBEE
 	dbbw 15, 25, SENTRET
 	dbbw 10, 25, STUNKY
 	dbbw  5, 25, EEVEE

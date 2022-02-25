@@ -1035,22 +1035,22 @@ JohtoGrassWildMons:
 	dbw 84, EXCADRILL
 	dbw 82, BLISSEY
 	dbw 85, PIDGEOT
-	dbw 85, COMBUSKEN
+	dbw 85, MEWTWO
 	dbw 50, TURTWIG
 	dbw 45, GYARADOS
 	; day
 	dbw 83, SKIPLOOM
 	dbw 84, SLOWKING
 	dbw 82, POLITOED
-	dbw 85, INFERNAPE
+	dbw 85, MEWTWO
 	dbw 85, CHANSEY
 	dbw 50, SPHEAL
-	dbw 45, MEWTWO
+	dbw 45, INFERNAPE
 	; nite
 	dbw 83, METANG
 	dbw 84, CHARIZARD
 	dbw 82, TYPHLOSION
-	dbw 82, CHARMELEON
+	dbw 82, MEWTWO
 	dbw 85, HYPNO
 	dbw 46, WARTORTLE
 	dbw 46, GROTLE
